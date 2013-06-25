@@ -1,6 +1,9 @@
-var http = require('http')
-var port = process.env.PORT || 1337;
-http.createServer(function(req, res) {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello Azure World\n');
-}).listen(port);
+// Just a basic server setup for this site
+var Stack = require('stack'),
+    Creationix = require('creationix'),
+    Http = require('http');
+
+Http.createServer(Stack(
+  Creationix.log(),
+  require('wheat')(process.env.JOYENT ? process.env.HOME + "/howtonode" : __dirname +"/..")
+)).listen(process.env.JOYENT ? 80 : 8080);
