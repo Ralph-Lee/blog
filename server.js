@@ -5,5 +5,5 @@ var Stack = require('stack'),
 
 Http.createServer(Stack(
   Creationix.log(),
-  require('wheat')(process.env.JOYENT ? process.env.HOME + "/howtonode" : __dirname +"/..")
-)).listen(process.env.JOYENT ? 80 : 8080);
+  require('wheat')( __dirname +"/..")
+)).listen(80);
