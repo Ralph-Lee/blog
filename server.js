@@ -5,5 +5,5 @@ var Stack = require('stack'),
 
 Http.createServer(Stack(
   Creationix.log(),
-  require('wheat')()
+  require('wheat')
 )).listen(80);
