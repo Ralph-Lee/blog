@@ -48,7 +48,7 @@ The problem that was that as I passed one of my custom objects to it, I'd get th
 
 Fine, root level ... got it. Let's take a peek at what's actually trying to be loaded.
   <h2>Wait, What The ...?</h2>
-  Here's the kicker: there was a funny null/something character at the beginning of the string, and therefore, my XmlDoc couldn't successfully execute the `LoadXml()` method. Confessional: I scraped this method from the interwebs and its bathroom wall of code. I tweaked it to suit my needs. I figured it was ready for ANY kind of POCO object. Guess not. I have hit the 10% case where it didn't work well. Well, let's fire up the Text Visualizer and figure out why that string isn't loading into an `XmlDocument` properly.
+  Here's the kicker: there was a funny null/something character at the beginning of the string, and therefore, my XmlDoc couldn't successfully execute the `LoadXml()` method. I scraped this method from the interwebs and its bathroom wall of code. I tweaked it to suit my needs. I figured it was ready for ANY kind of POCO object. Guess not. I have hit the 10% case where it didn't work well. Well, let's fire up the Text Visualizer and figure out why that string isn't loading into an `XmlDocument` properly.
   
     
 <img   title="Text Visualizer Visual Studio xml string" src="/blog/img/xmlString.png" border="0" alt="Text Visualizer Visual Studio xml string"   />
