@@ -1,4 +1,4 @@
-<!--Title:"Bing: One Month of Success", PublishedOn:"2009-07-10T07:42:22", Intro:"Bing, You've Done Well.   I don't have any problems with Bing. That sounds like a backhanded complim" -->
+<!--{Title:"Bing: One Month of Success", PublishedOn:"2009-07-10T07:42:22", Intro:"Bing, You've Done Well.   I don't have any problems with Bing. That sounds like a backhanded complim"} -->
 
 <span>
   <h2>Bing, You've Done Well.</h2>

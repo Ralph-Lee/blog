@@ -1,4 +1,4 @@
-<!--Title:"Website Mockups Done Incredibly Easy", PublishedOn:"2009-12-12T07:08:56", Intro:"Recently I found myself with the desire to start a new site. Rather than jumping into Visual Studio " -->
+<!--{Title:"Website Mockups Done Incredibly Easy", PublishedOn:"2009-12-12T07:08:56", Intro:"Recently I found myself with the desire to start a new site. Rather than jumping into Visual Studio "} -->
 
 <span>
   <p>Recently I found myself with the desire to start a new site. Rather than jumping into Visual Studio headfirst, I sat down and thought about how to start. </p>

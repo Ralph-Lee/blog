@@ -1,4 +1,4 @@
-<!--Title:"Visual Studio Through the Years on Channel 9", PublishedOn:"2009-10-14T19:37:00", Intro:"Paul Thurrott posted something that I had missed on Channel 9: A documentary on the evolution of Vis" -->
+<!--{Title:"Visual Studio Through the Years on Channel 9", PublishedOn:"2009-10-14T19:37:00", Intro:"Paul Thurrott posted something that I had missed on Channel 9: A documentary on the evolution of Vis"} -->
 
 <span>
   <p>

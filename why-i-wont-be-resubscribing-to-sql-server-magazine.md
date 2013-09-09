@@ -1,4 +1,4 @@
-<!--Title:"Why I Won’t Be Re-Subscribing to SQL Server Magazine", PublishedOn:"2009-12-29T18:36:32", Intro:"I've had a subscription myself for 2 years now to SqlMag. They're one of many of Penton Media's maga" -->
+<!--{Title:"Why I Won’t Be Re-Subscribing to SQL Server Magazine", PublishedOn:"2009-12-29T18:36:32", Intro:"I've had a subscription myself for 2 years now to SqlMag. They're one of many of Penton Media's maga"} -->
 
 <span>
   <p>

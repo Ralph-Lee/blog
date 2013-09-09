@@ -1,4 +1,4 @@
-<!--Title:"Bing Switchover: One Month or More", PublishedOn:"2009-06-09T23:40:09", Intro:"Like 95% of the searching masses, I use Google as the primary engine in my browser search fields. Su" -->
+<!--{Title:"Bing Switchover: One Month or More", PublishedOn:"2009-06-09T23:40:09", Intro:"Like 95% of the searching masses, I use Google as the primary engine in my browser search fields. Su"} -->
 
 <span>
   <p>Like 95% of the searching masses, I use Google as the primary engine in my browser search fields. Sure, I have installed the usual suspects of other sites that I like to search by. OK, I only ever used Wikipedia once or twice, and Stack Overflow is nice to have. I find it difficult, to switch search engines WITHOUT using the mouse. Maybe it's just me, and there's a magical keyboard shortcut to switch to Next Engine, or something.</p>

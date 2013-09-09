@@ -1,4 +1,4 @@
-<!--Title:"Don’t Call Them Bugs", PublishedOn:"2010-01-18T15:22:28", Intro:"Bugs vs. Defects  I really don't like the word 'bug' when describing a piece of (missing) functional" -->
+<!--{Title:"Don’t Call Them Bugs", PublishedOn:"2010-01-18T15:22:28", Intro:"Bugs vs. Defects  I really don't like the word 'bug' when describing a piece of (missing) functional"} -->
 
 <span>
   <h2>Bugs vs. Defects</h2>

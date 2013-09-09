@@ -1,4 +1,4 @@
-<!--Title:"Mirth: Converting HL7 v2.x to v3", PublishedOn:"2009-06-04T17:28:00", Intro:"The Goal: Have your HL7 v3 converted by Mirth to a specified HL7 v2 message.   The Prerequisites    " -->
+<!--{Title:"Mirth: Converting HL7 v2.x to v3", PublishedOn:"2009-06-04T17:28:00", Intro:"The Goal: Have your HL7 v3 converted by Mirth to a specified HL7 v2 message.   The Prerequisites    "} -->
 
 <span>
   <p>

@@ -1,4 +1,4 @@
-<!--Title:"Source Control - Your Source Isn't Safe. Move Onto .", PublishedOn:"2009-07-10T06:00:44", Intro:"Hi, how are you doing? Have you heard the Olympics are on this year? A sheep was cloned? The Unabomb" -->
+<!--{Title:"Source Control - Your Source Isn't Safe. Move Onto .", PublishedOn:"2009-07-10T06:00:44", Intro:"Hi, how are you doing? Have you heard the Olympics are on this year? A sheep was cloned? The Unabomb"} -->
 
 <span>
   <p>Hi, how are you doing? Have you heard the <a href="http://en.wikipedia.org/wiki/1996_Summer_Olympics">Olympics are on this year</a>? A <a href="http://en.wikipedia.org/wiki/Dolly_the_sheep">sheep was cloned</a>? The <a href="http://www.bing.com/images/search?q=unabomber">Unabomber was arrested</a>? <a href="http://en.wikipedia.org/wiki/Braveheart">Braveheart wins the Oscar for Best Picture</a>? <a href="http://www.cnn.com/WORLD/9705/kasparov.vs.dblue/first.match/index.html">Deep Blue beats Kasparov for the first time</a>? Oh, and <a href="http://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe">1996 called, it wants its version control system back</a>.</p>

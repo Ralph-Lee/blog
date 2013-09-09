@@ -1,4 +1,4 @@
-<!--Title:"Code Blowout", PublishedOn:"2009-04-26T01:23:48", Intro:"Taking the advice of Scott Hanselman today. It's a code garage sale. Everything of worth (you be the" -->
+<!--{Title:"Code Blowout", PublishedOn:"2009-04-26T01:23:48", Intro:"Taking the advice of Scott Hanselman today. It's a code garage sale. Everything of worth (you be the"} -->
 
 <span>
   <p>Taking the <a href="http://www.hanselman.com/blog/SocialNetworkingForDevelopersConferenceTalkVideo.aspx">advice of Scott Hanselman today</a>. It's a code garage sale. Everything of worth (you be the judge!) must be opened up and freed for WAY below cost. </p>

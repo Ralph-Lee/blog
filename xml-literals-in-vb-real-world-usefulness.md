@@ -1,4 +1,4 @@
-<!--Title:"XML Literals in VB – Real World Usefulness?", PublishedOn:"2009-11-28T20:32:11", Intro:"Just a quick recent thought. As I am watching the PDC09 videos made available free online by Microso" -->
+<!--{Title:"XML Literals in VB – Real World Usefulness?", PublishedOn:"2009-11-28T20:32:11", Intro:"Just a quick recent thought. As I am watching the PDC09 videos made available free online by Microso"} -->
 
 <span>
   <p>Just a quick recent thought. As I am watching the <a href="http://microsoftpdc.com/Videos">PDC09 videos made available free online by Microsoft</a>, I got me thinking more about the recent changes/improvements in VB. A new feature for VB 9 in 2008 was <a href="http://msdn.microsoft.com/en-us/library/bb384629.aspx">XML Literals</a>. You know, writing/pasting plain old XML into your source code.  Like this simple example:</p>

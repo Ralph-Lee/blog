@@ -1,4 +1,4 @@
-<!--Title:"Uploading Files To Your ASP.NET MVC Application", PublishedOn:"2010-05-27T03:25:31", Intro:"I've recently had the need in 2 projects where the user needs to upload files to the web application" -->
+<!--{Title:"Uploading Files To Your ASP.NET MVC Application", PublishedOn:"2010-05-27T03:25:31", Intro:"I've recently had the need in 2 projects where the user needs to upload files to the web application"} -->
 
 <span>
   <p>I've recently had the need in 2 projects where the user needs to upload files to the web application. Previous methods in the .NET 1.1 and 2.0 timeframes made this painful. </p>

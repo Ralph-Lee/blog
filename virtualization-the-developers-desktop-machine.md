@@ -1,4 +1,4 @@
-<!--Title:"Virtualization – The Developer’s Desktop Machine", PublishedOn:"2009-10-26T02:24:11", Intro:"As developers, we usually have these things (file most of these under 'duh!'):            well power" -->
+<!--{Title:"Virtualization – The Developer’s Desktop Machine", PublishedOn:"2009-10-26T02:24:11", Intro:"As developers, we usually have these things (file most of these under 'duh!'):            well power"} -->
 
 <span>
   <p>As developers, we usually have these things (file most of these under 'duh!'):</p>

@@ -1,4 +1,4 @@
-<!--Title:"Be a Green IT Hero", PublishedOn:"2009-04-27T06:33:53", Intro:"Got wind of a great idea. Some organizations are making an effort to reduce printing, print devices " -->
+<!--{Title:"Be a Green IT Hero", PublishedOn:"2009-04-27T06:33:53", Intro:"Got wind of a great idea. Some organizations are making an effort to reduce printing, print devices "} -->
 
 <span>
   <p>Got wind of a great idea. Some organizations are making an effort to reduce printing, print devices and printing costs. Please note, this isn't my original idea, and <a href="http://en.wikipedia.org/wiki/IANAL">IANAEA</a> (I am not an Exchange admin). I am just being loud about it, perhaps you'll turn out to be a green hero where you work. This will work for any SMB or large organization.</p>

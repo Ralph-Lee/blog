@@ -1,4 +1,4 @@
-<!--Title:"The Seven Forms of Waste", PublishedOn:"2009-06-10T14:03:46", Intro:"A previous position gave me the chance to learn about Lean Manufacturing. I've learned a small usefu" -->
+<!--{Title:"The Seven Forms of Waste", PublishedOn:"2009-06-10T14:03:46", Intro:"A previous position gave me the chance to learn about Lean Manufacturing. I've learned a small usefu"} -->
 
 <span>
   <p>A previous position gave me the chance to learn about Lean Manufacturing. I've learned a small useful bit of insight about how a company, team or operation <strike>can</strike> should operate to deliver value for its customers. The Lean philosophy is all about identifying and eliminating waste. One of the biggest challenges is for companies to first IDENTIFY the waste in their organization and processes. The biggest target is the shop floor, but all areas of the organization should be heeding this warning. This isn't just a shop-floor solution.</p>
@@ -19,7 +19,10 @@
     <strong>Rework/Defects</strong> – don't make something that isn't what the customer ordered. A defect may be a problem in your product that deviates from the specs, or is actually a hidden flaw. The later in the process that the flaws are discovered, the more expensive it will be to fix. This is totally non-value added, and you don't get paid to fix those defects. Rework is just as wasteful: fixing a processing mistake from an upstream process usually costs more than finding and fixing the problem upstream. Software developers and I.T. workers know this intimately.</p>
   <p>
     <strong>Motion </strong>- the movement of people. If a worker has to travel outside a 6-foot circle (or some other subjective 'reasonable' distance), they likely are spending too much time not working on the product and adding value. This happens also when an often-needed set of files are located across the building. Same would apply to a printer, stockpile of supplies, or other team members!</p>
-  
-<iframe width="640" height="360" src="https://www.youtube.com/embed/jk9vgv7cXjw?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-
+  <object width="425" height="344">
+    <param name="movie" value="http://www.youtube.com/v/jk9vgv7cXjw&amp;color1=0xb1b1b1&amp;color2=0xcfcfcf&amp;feature=player_embedded&amp;fs=1" />
+    <param name="allowFullScreen" value="true" />
+    <param name="allowScriptAccess" value="always" />
+    <embed src="http://www.youtube.com/v/jk9vgv7cXjw&amp;color1=0xb1b1b1&amp;color2=0xcfcfcf&amp;feature=player_embedded&amp;fs=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="425" height="344" />
+  </object>
 </span>

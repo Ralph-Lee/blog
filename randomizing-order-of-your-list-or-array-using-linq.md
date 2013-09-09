@@ -1,4 +1,4 @@
-<!--Title:"Randomizing Order of Your List or Array using LINQ", PublishedOn:"2009-11-05T05:07:34", Intro:"Perhaps you've got a collection of objects that you want ordered/sorted. I recently did. Perhaps you" -->
+<!--{Title:"Randomizing Order of Your List or Array using LINQ", PublishedOn:"2009-11-05T05:07:34", Intro:"Perhaps you've got a collection of objects that you want ordered/sorted. I recently did. Perhaps you"} -->
 
 <span>
   <p>Perhaps you've got a collection of objects that you want ordered/sorted. I recently did. Perhaps you want them displayed in a non-deterministic manner or sorted randomly each time you write to an HTML view or otherwise consume that collection. Indeed, I did. (OK, lame shtick over...)</p>

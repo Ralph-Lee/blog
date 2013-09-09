@@ -1,4 +1,4 @@
-<!--Title:"Podcast Favorites", PublishedOn:"2009-06-14T18:34:00", Intro:"I'd like to share my favorite tech podcasts. These are in no particular order! You probably won't be" -->
+<!--{Title:"Podcast Favorites", PublishedOn:"2009-06-14T18:34:00", Intro:"I'd like to share my favorite tech podcasts. These are in no particular order! You probably won't be"} -->
 
 <span>
   <p>I'd like to share my favorite tech podcasts. These are in no particular order! You probably won't be surprised, it's the list of usual suspects circa 2008/2009. Click on each to go directly to the podcast's main page. You can find the RSS feed there!</p>

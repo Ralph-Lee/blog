@@ -1,4 +1,4 @@
-<!--Title:"Linq To Sql Changes in Visual Studio 2010", PublishedOn:"2009-10-12T05:43:16", Intro:"Damien Guard was nice enough to blog about changes coming to L2S in VS 2010. Rather, the changes are" -->
+<!--{Title:"Linq To Sql Changes in Visual Studio 2010", PublishedOn:"2009-10-12T05:43:16", Intro:"Damien Guard was nice enough to blog about changes coming to L2S in VS 2010. Rather, the changes are"} -->
 
 <span>
   <p>

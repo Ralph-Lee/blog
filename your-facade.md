@@ -1,4 +1,4 @@
-<!--Title:"Your Façade", PublishedOn:"2010-09-07T06:09:53", Intro:"A recent answer at stackoverflow on architecting systems. the question dealt with a system needing t" -->
+<!--{Title:"Your Façade", PublishedOn:"2010-09-07T06:09:53", Intro:"A recent answer at stackoverflow on architecting systems. the question dealt with a system needing t"} -->
 
 <span>
   <p>A recent answer at stackoverflow on architecting systems. the question dealt with a system needing to write and read from a queue. I chimed in with my answer suggesting catching the message with a façade, and sending another message to the internal system.</p>

@@ -1,4 +1,4 @@
-<!--Title:"Subway and the Speed of Production & Communication", PublishedOn:"2009-06-01T03:19:39", Intro:"The Setup  Recently I was involved in a conversation with a co-worker relating to the customer exper" -->
+<!--{Title:"Subway and the Speed of Production & Communication", PublishedOn:"2009-06-01T03:19:39", Intro:"The Setup  Recently I was involved in a conversation with a co-worker relating to the customer exper"} -->
 
 <span>
   <h2>The Setup</h2>

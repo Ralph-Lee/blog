@@ -1,4 +1,4 @@
-<!--Title:"SQL Scripts – Countries, Provinces, States", PublishedOn:"2009-06-17T09:29:38", Intro:"A new project has me writing up the same old Country/State/Province reference tables. My feeling is " -->
+<!--{Title:"SQL Scripts – Countries, Provinces, States", PublishedOn:"2009-06-17T09:29:38", Intro:"A new project has me writing up the same old Country/State/Province reference tables. My feeling is "} -->
 
 <span>
   <p>A new project has me writing up the same old Country/State/Province reference tables. My feeling is that these static (fairly static) entities should be normalized and referenced by foreign key. I had asked a StackOverflow question on whether other developers had this prebuilt set of <a href="http://stackoverflow.com/questions/994539/sql-script-to-create-country-state-tables">country/state/province create scripts</a> in their toolbelt.</p>

@@ -1,4 +1,4 @@
-<!--Title:"Generating Automated Emails – Close your Mail Client During Development", PublishedOn:"2009-06-01T12:25:37", Intro:"So your application needs to send emails to stakeholders/customers/admins/managers. You know the kin" -->
+<!--{Title:"Generating Automated Emails – Close your Mail Client During Development", PublishedOn:"2009-06-01T12:25:37", Intro:"So your application needs to send emails to stakeholders/customers/admins/managers. You know the kin"} -->
 
 <span>
   <p>So your application needs to send emails to stakeholders/customers/admins/managers. You know the kind of emails:</p>

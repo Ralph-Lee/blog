@@ -1,4 +1,4 @@
-<!--Title:"Personal Year in Review 2009", PublishedOn:"2010-01-08T09:52:12", Intro:"2009 was a great year for me professionally. I've focused on continually learning new things and pat" -->
+<!--{Title:"Personal Year in Review 2009", PublishedOn:"2010-01-08T09:52:12", Intro:"2009 was a great year for me professionally. I've focused on continually learning new things and pat"} -->
 
 <span>
   <p>2009 was a great year for me professionally. I've focused on continually learning new things and patterns in software development. There was a fair amount of professional growth, learning, and the realization that <strong>there is so much more to learn</strong>. </p>

@@ -1,4 +1,4 @@
-<!--Title:"Unit Testing –", PublishedOn:"2009-11-19T03:59:45", Intro:"After stumbling upon this outrageous Reddit headline, I almost did a spit-take. Here it was:        " -->
+<!--{Title:"Unit Testing –", PublishedOn:"2009-11-19T03:59:45", Intro:"After stumbling upon this outrageous Reddit headline, I almost did a spit-take. Here it was:        "} -->
 
 <span>
   <p>After stumbling upon this <a href="http://www.reddit.com/r/programming/comments/a0z60/its_ok_not_to_write_unit_tests/">outrageous Reddit headline</a>, I almost did a <a href="http://en.wikipedia.org/wiki/Spit-take">spit-take</a>. Here it was:</p>

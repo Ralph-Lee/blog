@@ -1,4 +1,4 @@
-<!--Title:"Neat Windows 7 Productivity Enhancer – Snipping Tool", PublishedOn:"2009-11-10T04:34:22", Intro:"Usually when jumping into a new OS, I largely disregard the built in programs. My typical thought is" -->
+<!--{Title:"Neat Windows 7 Productivity Enhancer – Snipping Tool", PublishedOn:"2009-11-10T04:34:22", Intro:"Usually when jumping into a new OS, I largely disregard the built in programs. My typical thought is"} -->
 
 <span>
   <p>

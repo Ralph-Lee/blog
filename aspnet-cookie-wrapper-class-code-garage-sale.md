@@ -1,4 +1,4 @@
-<!--Title:"ASP.NET Cookie Wrapper Class – Code Garage Sale", PublishedOn:"2009-12-11T03:06:32", Intro:"Here's a class that'll make your life easier when you want to deal with saving information in cookie" -->
+<!--{Title:"ASP.NET Cookie Wrapper Class – Code Garage Sale", PublishedOn:"2009-12-11T03:06:32", Intro:"Here's a class that'll make your life easier when you want to deal with saving information in cookie"} -->
 
 <span>
   <p>Here's a class that'll make your life easier when you want to deal with saving information in cookies on your user's browser. Everyone needs a wrapper class for all those external data-stores – session, cookies, file system, web.config and app.config, registry, log files, etc. Here's a class usable in ASP.NET Web Forms and ASP.NET MVC.</p>

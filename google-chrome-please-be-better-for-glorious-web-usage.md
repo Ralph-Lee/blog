@@ -1,4 +1,4 @@
-<!--Title:"Google Chrome - Please Be Better For Glorious Web Usage", PublishedOn:"2009-07-25T08:44:04", Intro:"Being a duty-bound software/web developer, you have to keep a working knowledge of the latest browse" -->
+<!--{Title:"Google Chrome - Please Be Better For Glorious Web Usage", PublishedOn:"2009-07-25T08:44:04", Intro:"Being a duty-bound software/web developer, you have to keep a working knowledge of the latest browse"} -->
 
 <span>
   <p>Being a duty-bound software/web developer, you have to keep a working knowledge of the latest browsers. Surf the web too, right?! I've used Firefox exclusively since maybe 2004. I was happy to jump from IE at the time, and I lament having to use it in the corporate environment. It's <strike>astonishing</strike> disheartening to walk to a poor downtrodden co-worker's PC (which is locked-down and managed centrally by the IT dept.), and see <a href="http://www.stoplivinginthepast.com/">IE6 in all its outdated non-tabbiness</a>. I appreciate though, the ability to depend on ONE browser being used in that scenario, and so it makes life a lot easier. </p>

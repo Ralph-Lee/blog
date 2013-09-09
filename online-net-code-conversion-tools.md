@@ -1,4 +1,4 @@
-<!--Title:"Online .NET Code Conversion Tools", PublishedOn:"2009-11-02T01:10:25", Intro:"I recently had the privilege of working on a contract where the main goal of the project was to port" -->
+<!--{Title:"Online .NET Code Conversion Tools", PublishedOn:"2009-11-02T01:10:25", Intro:"I recently had the privilege of working on a contract where the main goal of the project was to port"} -->
 
 <span>
   <p>I recently had the privilege of working on a contract where the main goal of the project was to port/convert the web project and associated assemblies (business and data layers) from one .NET language to another. The other tasks were around fixing a handful of defects, and adding a few bits of functionality. The project was hard-capped at a set quoted number of hours, so there was little room for error. </p>

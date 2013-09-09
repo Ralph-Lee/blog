@@ -1,4 +1,4 @@
-<!--Title:"Count Instances of a Substring in a SQL Varchar Column", PublishedOn:"2010-03-05T15:30:46", Intro:"The Problem  Recently I needed to count how many particular HL7 segments were in a given column. Rat" -->
+<!--{Title:"Count Instances of a Substring in a SQL Varchar Column", PublishedOn:"2010-03-05T15:30:46", Intro:"The Problem  Recently I needed to count how many particular HL7 segments were in a given column. Rat"} -->
 
 <span>
   <h3>The Problem</h3>

@@ -1,4 +1,4 @@
-<!--Title:"Visual Studio keyboard shortcut - Debug Test in Current Context", PublishedOn:"2009-06-10T10:23:52", Intro:"When hammering away at a unit test, I often found myself wanting to test the current unit test and i" -->
+<!--{Title:"Visual Studio keyboard shortcut - Debug Test in Current Context", PublishedOn:"2009-06-10T10:23:52", Intro:"When hammering away at a unit test, I often found myself wanting to test the current unit test and i"} -->
 
 <span>
   <p>When hammering away at a unit test, I often found myself wanting to test the current unit test and its associated code. I of course wanted to use the debugger, break points, inspect values, use the Watch tool, etc.</p>
