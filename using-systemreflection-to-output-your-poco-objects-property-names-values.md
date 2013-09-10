@@ -1,4 +1,4 @@
-<!--Title:"Using System.Reflection to output your POCO object's property names + values", PublishedOn:"2009-08-09T00:29:40", Intro:"On two recent projects, I've had the need to write out the properties of multiple custom entities. T" -->
+<!--{Title:"Using System.Reflection to output your POCO object's property names + values", PublishedOn:"2009-08-09T00:29:40", Intro:"On two recent projects, I've had the need to write out the properties of multiple custom entities. T" }-->
 
 <span>
   <p>On two recent projects, I've had the need to write out the properties of multiple custom entities. The example here will be around the venerable <font face="Courier New">Customer</font> class. Let's pretend that a requirement would be to send an email each time a customer makes an order to a support rep in your company. Yes, we'll be logging the order to the database, but the value-add here is that the recipient of the email will receive a link to the order, plus all the details of the customer and order included in the email.</p>
