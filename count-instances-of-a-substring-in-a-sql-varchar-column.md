@@ -1,27 +1,29 @@
 <!--{Title:"Count Instances of a Substring in a SQL Varchar Column", PublishedOn:"2010-03-05T15:30:46", Intro:"The Problem  Recently I needed to count how many particular HL7 segments were in a given column. Rat"} -->
 
-  <h3>The Problem</h3>
+###The Problem###
 Recently I needed to count how many particular HL7 segments were in a given column. Rather, I wanted to find those with 2+. I needed a solution to find how many occurrences of a substring were in a target column to be searched.
 I was about to post a question on StackOverflow on this, but found the answer myself bit a bit of help from a few SQL related questions that I found while searching (<a title="http://stackoverflow.com/questions/1860457/how-to-count-instances-of-character-in-sql-column/1860478#1860478" href="http://How-to-count-instances-of-character-in-sql-column/1860478#1860478">How to count instances of a character in a SQL column</a>). Funny how SO's 'search' functionality doesn't show the questions related, but when you're composing the question's title, it does a MUCH better job. 
+
 Here's the question I would have posted:
 
-    Consider a varchar column or varchar variable holding a value like this:
+-----------
+Consider a varchar column or varchar variable holding a value like this:
+   
+    ABC123|foo|bar|ABC123|987|ABC123|123|DEF|456|ABC|    
 
-    
-      ABC123|foo|bar|ABC123|987|ABC123|123|DEF|456|ABC|    
-
-
-    The goal is to count the number of times `ABC123|` appears in that given string/column.
+The goal is to count the number of times `ABC123|` appears in that given string/column.
 
 How would you write the algorithm in T-SQL for SQL 2005 and/or 2008?
+-----------
 
 I would suggest that mostly you'd want to take this sort of task to a higher level language, rather than do it at the database level. Sometimes you have no choice, and a customer is asking for this kind of information in a short timeframe.
-  <h3>The Solution</h3>
+ 
+### The Solution  ###
 The solution here is fairly easy. 
 
 * define the substring you want to find. 
 * find the length of the original string 
-* REPLACE that string with a blank 
+* `REPLACE` that string with a blank 
 * subtract the length of the replaced string from the length of the original 
 * the remainder is the number of characters that were removed 
 * the number of substrings found is found by dividing by the length of the substring 
@@ -91,17 +93,15 @@ The solution here is fairly easy.
       <span style="color: #8000ff">@NumInstances</span>
       <span style="color: blue">AS</span> NumInstancesFound </span>
   </code>
-  <h3></h3>
+  
 It'd take a tiny bit of modification to convert the logic to perform the REPLACE/LEN statement on a column, rather than a table.
 
     
       <font color="#0000ff">SELECT  myColumn       <br /><font color="#0000ff">FROM<font color="#800000">myTable<br /><font color="#0000ff">WHERE<font color="#800000">(<font color="#ff00ff"><i>LEN</i><font color="#800000">(<font color="#800000">myColumn<font color="#800000">)<font color="#c0c0c0">-<font color="#ff00ff"><i>LEN</i><font color="#800000">(<font color="#ff00ff"><i>REPLACE</i><font color="#800000">(<font color="#800000">myColumn<font color="#c0c0c0">,<font color="#800000">@mySubstring<font color="#c0c0c0">,<font color="#ff0000">''<font color="#800000">)<font color="#800000">)<font color="#800000">)<font color="#c0c0c0">/<font color="#ff00ff"><i>LEN</i><font color="#800000">(@<font color="#800000">mySubstring<font color="#800000">)<font color="#c0c0c0">><font color="#000000">1<font color="#008000"><i>--where we want to find 2 or more occurrences</i>
 
-  <h3>Any better ways?</h3>
+###Any better ways?###
 Having solved the problem in a fairly string-manipulative way, I wondered if there were any other ways to achieve this in the database layer. The other possibilities:
 
-* 
-  **Write a CLR stored procedure**. Here you could use your .NET Framework features to EASILY bust this out with a simple one-liner: String.Split() and Array.Length(). Better? Perhaps for maintainability or the abstraction of the logic. It's a bit heavy for my tastes. 
-* 
-  **Set-based**. Given that's what SQL is actually for, you could perform some gymnastics on the column/variable, but the amount of code would be much more than the REPLACE/LEN solution above. 
+* **Write a CLR stored procedure**. Here you could use your .NET Framework features to *easily* bust this out with a simple one-liner: `String.Split()` and `Array.Length()`. Better? Perhaps for maintainability or the abstraction of the logic. It's a bit heavy for my tastes. 
+* **Set-based**. Given that's what SQL is actually for, you could perform some gymnastics on the column/variable, but the amount of code would be much more than the REPLACE/LEN solution above. 
 
