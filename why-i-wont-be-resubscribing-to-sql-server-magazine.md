@@ -11,29 +11,23 @@ I've often asked myself if a paper-magazine-delivered-to-your-door makes any sen
 * Yes, they let you into their walled garden of SQL Server content when you're a subscriber, but... 
 * Is the content actually useful to me? 
 
-  <table border="0" cellspacing="0" cellpadding="0" width="601">
+  <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
       <tr>
-        <td valign="top" width="250">
-          <p align="center">
-    **Yays**
-        
+        <td valign="top">**Yays**
         </td>
-        <td valign="top" width="349">
-          <p align="center">
-    **Nays**
-        
+        <td valign="top">**Nays**
         </td>
       </tr>
       <tr>
-        <td valign="top" width="250">
+        <td valign="top" >
         
     * they've got Itzik Ben-Gan 
     * a perception of trust 
     * content is NOT automatically out-of-date on arrival 
         
         </td>
-        <td valign="top" width="349">
+        <td valign="top">
         
     * too many ads &amp; ads are not relevant to me 
     * yes, ads are their business! 
