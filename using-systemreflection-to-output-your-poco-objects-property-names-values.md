@@ -5,11 +5,11 @@ On two recent projects, I've had the need to write out the properties of multipl
 So we need to take an object, iterate through its properties and their values, and put into a string for the body of an email. 
 The first thought might be: "just loop through each property and write it to the email body". That's fine, but as soon as you add a property in the future, you need to remember to change the emailing code. That's not helpful for the developer needing to maintain this application. Let's look at the <a href="http://msdn.microsoft.com/en-us/library/system.reflection.aspx">Reflection namespace in the .NET framework</a>. 
 ###Reflection in .NET###
-Reflection lets you programmatically find out information about types in your assemblies at runtime. Using classes in the `System.Reflection namespace, you can learn details of an class's methods &amp; properties. In the topic at hand, we're interested in the names, values, and datatypes of properties. You could possibly use reflection to get info at runtime about a method's parameters. 
-###Override` Customer.ToString()###
-The `Customer class needs its own `ToString() method overridden. Here's the class: 
-  <p />
-  <p />
+Reflection lets you programmatically find out information about types in your assemblies at runtime. Using classes in the `System.Reflection` namespace, you can learn details of a class's methods &amp; properties. In the topic at hand, we're interested in the names, values, and datatypes of properties. You could possibly use reflection to get info at runtime about a method's parameters. 
+
+###Override Customer.ToString()###
+The `Customer` class needs its own `ToString()` method overridden. Here's the class: 
+  
   <div id="codeSnippetWrapper">
     <div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
       <pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"></pre>
@@ -147,21 +147,20 @@ The `Customer class needs its own `ToString() method overridden. Here's the clas
       
     </div>
   </div>
-######
-###Consider This...###
+
+###Consider This###
 There are a few things to consider with this implementation:
 
 * collections aren't handled well. 
 * complex datatypes aren't either.
-* consider customizing your implementation to include special formatting for `DateTimes.
-* what happens when you want the output to have a well-formatted output for a property like `HomeAddress. We'd probably want it to show as "Home Address".
-* consider handling `null values better than writing "null".
+* consider customizing your implementation to include special formatting for `DateTime`s.
+* what happens when you want the output to have a well-formatted output for a property like `HomeAddress`. We'd probably want it to show as "Home Address".
+* consider handling `null` values better than writing `"null"`.
 
 ###Wrap Up###
 I know this will save developers time in two ways:
-  <ol>
+ 
 * Not having to iterate manually through X properties to build your string for email. That'll scale depending on the number of properties and your adeptness at Ctrl-C, Ctrl-V. 
-* When you add a new simple property, you will NOT have to adjust anything for it to show in the `.toString() method.
-  </ol>
-  <p />
+* When you add a new simple property, you will NOT have to adjust anything for it to show in the `.ToString()` method.
+ 
 How are **you** using `System.Reflection`? </span>
