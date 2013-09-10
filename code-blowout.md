@@ -1,29 +1,29 @@
 <!--{Title:"Code Blowout", PublishedOn:"2009-04-26T01:23:48", Intro:"Taking the advice of Scott Hanselman today. It's a code garage sale. Everything of worth (you be the"} -->
 
-<span>
-  <p>Taking the <a href="http://www.hanselman.com/blog/SocialNetworkingForDevelopersConferenceTalkVideo.aspx">advice of Scott Hanselman today</a>. It's a code garage sale. Everything of worth (you be the judge!) must be opened up and freed for WAY below cost. </p>
+
+Taking the <a href="http://www.hanselman.com/blog/SocialNetworkingForDevelopersConferenceTalkVideo.aspx">advice of Scott Hanselman today</a>. It's a code garage sale. Everything of worth (you be the judge!) must be opened up and freed for WAY below cost. 
   <h4>SQL Server ADO Abstractor/Wrapper</h4>
-  <p>
+
     <em>never write a line of ADO.NET setup code again!</em>
-  </p>
-  <p>The first offering is a .NET class that you can reference in any project that needs to call SQL Server stored procedures. It takes care of spinning up the ADO.NET objects and closing them (mostly) when appropriate. </p>
-  <p>Use it to: </p>
-  <ul>
-    <li>ExecNonQuery </li>
-    <li>ExecScalar </li>
-    <li>ExecDataReader </li>
-    <li>ExecDataSet </li>
-  </ul>
-  <p>All you've got to do is supply it with: </p>
-  <ul>
-    <li>a connection string (as managed by your own datalayer and/or app.config. Hardcode a string into it, go ahead, see if anyone cares), </li>
-    <li>a stored procedure name </li>
-    <li>any parameter names and values that you need. </li>
-  </ul>
-  <p>Another great feature here is that this class implements the IDisposable interface. This means you can use it with the Using statement/construct, and it will go out of scope when execution steps out of the Using statement/construct. This saves you a line or two of code. </p>
-  <p>Here's some sample code showing how to use it:</p>
-  <p>C#</p>
-  <div class="csharpcode">
+
+The first offering is a .NET class that you can reference in any project that needs to call SQL Server stored procedures. It takes care of spinning up the ADO.NET objects and closing them (mostly) when appropriate. 
+Use it to: 
+
+* ExecNonQuery 
+* ExecScalar 
+* ExecDataReader 
+* ExecDataSet 
+
+All you've got to do is supply it with: 
+
+* a connection string (as managed by your own datalayer and/or app.config. Hardcode a string into it, go ahead, see if anyone cares), 
+* a stored procedure name 
+* any parameter names and values that you need. 
+
+Another great feature here is that this class implements the IDisposable interface. This means you can use it with the Using statement/construct, and it will go out of scope when execution steps out of the Using statement/construct. This saves you a line or two of code. 
+Here's some sample code showing how to use it:
+C#
+ 
     <pre class="alt">
       <span class="lnum">   1:  </span>
       <span class="rem">// run a non-query stored procedure</span>
@@ -103,40 +103,8 @@
       <span class="lnum">  29:  </span>
     </pre>
   </div>
-  <style type="text/css">
-//<![CDATA[
-
-
-
-
-
-.csharpcode, .csharpcode pre
-{
-	font-size: small;
-	color: black;
-	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
-	background-color: #ffffff;
-	/*white-space: pre;*/
-}
-.csharpcode pre { margin: 0em; }
-.csharpcode .rem { color: #008000; }
-.csharpcode .kwrd { color: #0000ff; }
-.csharpcode .str { color: #006080; }
-.csharpcode .op { color: #0000c0; }
-.csharpcode .preproc { color: #cc6633; }
-.csharpcode .asp { background-color: #ffff00; }
-.csharpcode .html { color: #800000; }
-.csharpcode .attr { color: #ff0000; }
-.csharpcode .alt 
-{
-	background-color: #f4f4f4;
-	width: 100%;
-	margin: 0em;
-}
-.csharpcode .lnum { color: #606060; }
-//]]>//
-</style>
-  <p>VB</p>
+  
+VB
   <div class="csharpcode">
     <pre class="alt">
       <span class="lnum">   1:  </span>Using help <span class="kwrd">As</span> SqlAdoAbstractor = <span class="kwrd">New</span> SqlAdoAbstractor(someConnectionString)</pre>
@@ -186,37 +154,3 @@
       <span class="lnum">  16:  </span>
       <span class="kwrd">End</span> Using</pre>
   </div>
-  <style type="text/css">
-//<![CDATA[
-
-
-
-
-
-.csharpcode, .csharpcode pre
-{
-	font-size: small;
-	color: black;
-	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
-	background-color: #ffffff;
-	/*white-space: pre;*/
-}
-.csharpcode pre { margin: 0em; }
-.csharpcode .rem { color: #008000; }
-.csharpcode .kwrd { color: #0000ff; }
-.csharpcode .str { color: #006080; }
-.csharpcode .op { color: #0000c0; }
-.csharpcode .preproc { color: #cc6633; }
-.csharpcode .asp { background-color: #ffff00; }
-.csharpcode .html { color: #800000; }
-.csharpcode .attr { color: #ff0000; }
-.csharpcode .alt 
-{
-	background-color: #f4f4f4;
-	width: 100%;
-	margin: 0em;
-}
-.csharpcode .lnum { color: #606060; }
-//]]>//
-</style>
-</span>
