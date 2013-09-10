@@ -4,7 +4,7 @@ I recently had the privilege of working on a contract where the main goal of the
 
 The solution consisted of three .NET 3.5 projects:
 
-*  **ASP.NET web project **– this project had roughly 10 pages and a handful of helper classes in the App_Code directory. This project **already had VB **as its language.
+*  **ASP.NET web project** - this project had roughly 10 pages and a handful of helper classes in the App_Code directory. This project had VB as its language.
 *  **Business Layer Assembly** – 6 classes brokering access to the data layer. Very much pass-through code with not a lot of business logic in between the web layer and data layer. There were moderate amounts of looping and updating of the business object properties.
 *  **Data Layer Assembly** – the DL included the matching DL classes for each of the 6 classes above. The most challenging (code for the converter here was the Linq-To-Sql code.
 
