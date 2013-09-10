@@ -29,7 +29,6 @@ I'd like to share my favorite tech podcasts. These are in no particular order! Y
       </tr>
       <tr>
         <td valign="top">
-  ****
         </td>
         <td valign="top">
   **
