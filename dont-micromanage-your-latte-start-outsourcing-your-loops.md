@@ -1,4 +1,4 @@
-<!--{Title:"Donât Micromanage Your Latte (Start Outsourcing Your Loops)", PublishedOn:"2010-01-12T01:02:11", Intro:"Consider your behaviour and desires as a customer when you visit:          a) your favourite local c"} -->
+<!--{Title:"Don't Micromanage Your Latte (Start Outsourcing Your Loops)", PublishedOn:"2010-01-12T01:02:11", Intro:"Consider your behaviour and desires as a customer when you visit:          a) your favourite local c"} -->
 
 Consider your behaviour and desires as a customer when you visit:   
 
