@@ -1,9 +1,10 @@
 <!--{Title:"ASP.NET Cookie Wrapper Class – Code Garage Sale", PublishedOn:"2009-12-11T03:06:32", Intro:"Here's a class that'll make your life easier when you want to deal with saving information in cookie"} -->
 
 Here's a class that'll make your life easier when you want to deal with saving information in cookies on your user's browser. Everyone needs a wrapper class for all those external data-stores – session, cookies, file system, web.config and app.config, registry, log files, etc. Here's a class usable in ASP.NET Web Forms and ASP.NET MVC.
-Here's a class that'll make your life easier when you want to deal with saving information in cookies on your user's browser. Everyone needs a wrapper class for all those external data-stores – session, cookies, file system, web.config and app.config, registry, log files, etc. Here's a class usable in ASP.NET Web Forms and ASP.NET MVC.
+
 ###Wrapper Class###
 Here's a static class that you can simply include in your web project, and refer to its static properties to get to your cookies. Any and all simple datatypes can be used, and heck, even serialized versions of your POCO objects can be saved/retrieved here. Image if you wanted to save those shopping cart items, a collection of user prefs, or whatever, you could simply override the <font size="2" face="Consolas">.toString() method in your custom class.
+
 ###Just Make Properties###
 The key pattern here is that you <em>purposefully create new properties </em>for each piece of data that you want to save/retrieve. This solves the problem of:
 
@@ -30,71 +31,71 @@ Special thanks to Special-K!
     using System;
     using System.Web;
 
-    public	class Cookies
+    public class Cookies
     {
-		private const string ApplicationName = "MyCoolApplication";
+        private const string ApplicationName = "MyCoolApplication";
 
-		private enum CookieItem
-		{
-			UserGuid,
-			UserFullName,
-			UserLoginExpiry,
-			UserHadForBreakfast,
-			UserTimezone
-		}
+        private enum CookieItem
+	{
+	    UserGuid,
+	    UserFullName,
+            UserLoginExpiry,
+            UserHadForBreakfast,
+            UserTimezone
+        }
  
-	   // All cookie values are accessible by public  static  methods. 
-	   // No typos/duplicates are possible from calling code!
+        // All cookie values are accessible by public  static  methods. 
+        // No typos/duplicates are possible from calling code!
    
 	public static string UserFullName
 	{
-		get { return GetCookieVal(CookieItem.UserFullName); }
-		set { UpdateCookieVal(CookieItem.UserFullName, value, 365); }
+            get { return GetCookieVal(CookieItem.UserFullName); }
+            set { UpdateCookieVal(CookieItem.UserFullName, value, 365); }
 	}
 
 	public static  Guid UserGuid
 	{
-			get { return new Guid(GetCookieVal(CookieItem.UserGuid)); }
-			set { UpdateCookieVal(CookieItem.UserGuid, value.ToString(), 365); }
+            get { return new Guid(GetCookieVal(CookieItem.UserGuid)); }
+            set { UpdateCookieVal(CookieItem.UserGuid, value.ToString(), 365); }
 	}
 
 	public static  DateTime UserLoginExpiry
 	{
-		get { return DateTime.Parse(GetCookieVal(CookieItem.UserLoginExpiry)); }
-		set { UpdateCookieVal(CookieItem.UserLoginExpiry, value.ToString(), 365); }
+            get { return DateTime.Parse(GetCookieVal(CookieItem.UserLoginExpiry)); }
+            set { UpdateCookieVal(CookieItem.UserLoginExpiry, value.ToString(), 365); }
 	}
 
 	public static string UserHadForBreakfast
 	{
-		get { return GetCookieVal(CookieItem.UserHadForBreakfast); }
-		set { UpdateCookieVal(CookieItem.UserHadForBreakfast, value, 1); }
+            get { return GetCookieVal(CookieItem.UserHadForBreakfast); }
+            set { UpdateCookieVal(CookieItem.UserHadForBreakfast, value, 1); }
 	}
 
 	private static string GetCookieVal(CookieItem item)
 	{
-			HttpCookie cookie = GetAppCookie(false); //get the existing cookie
-			return (cookie != null && (cookie.Values[item.ToString()] != null)) //value or empty if doesn't exist
+            HttpCookie cookie = GetAppCookie(false); //get the existing cookie
+            return (cookie != null && (cookie.Values[item.ToString()] != null)) //value or empty if doesn't exist
 				? cookie.Values[item.ToString()]
 				: string.Empty;
 	}
 
 	private static void UpdateCookieVal(CookieItem item, string val, int expireDays)
 	{
-		//get the existing cookie (or new if not exists)
-		HttpCookie cookie = GetAppCookie(true);
+            //get the existing cookie (or new if not exists)
+            HttpCookie cookie = GetAppCookie(true);
 
-		//modify its contents & meta.
-		cookie.Expires = DateTime.Now.AddDays(expireDays);
-		cookie.Values[item.ToString()] = val;
+            //modify its contents & meta.
+            cookie.Expires = DateTime.Now.AddDays(expireDays);
+            cookie.Values[item.ToString()] = val;
 
-		//add back to the http response to send back to the browser
-		HttpContext.Current.Response.Cookies.Add(cookie);
+            //add back to the http response to send back to the browser
+            HttpContext.Current.Response.Cookies.Add(cookie);
 	}
 
 	private static	HttpCookie GetAppCookie(bool createIfDoesntExist)
 	{
-		//get the cookie or a new one if indicated
-		return HttpContext.Current.Request.Cookies[ApplicationName] 
+            //get the cookie or a new one if indicated
+            return HttpContext.Current.Request.Cookies[ApplicationName] 
 			?? ((createIfDoesntExist) ? new HttpCookie(ApplicationName) : null);
-		}
-	}
+        }
+    }
