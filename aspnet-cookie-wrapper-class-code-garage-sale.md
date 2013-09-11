@@ -36,9 +36,9 @@ Special thanks to Special-K!
         private const string ApplicationName = "MyCoolApplication";
 
         private enum CookieItem
-	{
-	    UserGuid,
-	    UserFullName,
+        {
+            UserGuid,
+            UserFullName,
             UserLoginExpiry,
             UserHadForBreakfast,
             UserTimezone
