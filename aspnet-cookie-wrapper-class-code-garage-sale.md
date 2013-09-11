@@ -12,12 +12,13 @@ The key pattern here is that you <em>purposefully create new properties </em>for
 * typos in cookie names. 
 
 Instead, the <strike>data access</strike> cookie-retrieval is done through named properties. This solution solves all those potential problems. Here's a peek at one of these properties.
-  <div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: consolas, &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">
-    <pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
-      <span style="color: #0000ff">public</span>
-      <span style="color: #0000ff">static</span>
-      <span style="color: #0000ff">string</span> UserFullName<br />{<br />    get { <span style="color: #0000ff">return</span> GetCookieVal(CookieItem.UserFullName); }<br />    set { UpdateCookieVal(CookieItem.UserFullName, <span style="color: #0000ff">value</span>, 365); }<br />}</pre>
-  </div>
+
+    public static string UserFullName
+    {
+        get { return GetCookieVal(CookieItem.UserFullName); }
+        set { UpdateCookieVal(CookieItem.UserFullName, value, 365); }
+    }
+
 ###Enums Help###
 With the aforementioned 'remembering strings' problem, the pattern that this class uses relies internally on an enum to handle the naming of the value in the cookie. The enum will boil down to an integer, but really we don't care what the key's is actually stored as in the cookie. We really only care to access/read/save the values constantly and easily from our calling code.
 ###Download###
@@ -25,8 +26,75 @@ With the aforementioned 'remembering strings' problem, the pattern that this cla
 <a href="http://devtxt.com/blog/downloads/cookie/cookie.cs.txt">Download the cookie class</a>, or copy/paste from below. You can see that I pre-loaded it with some amusing properties for your entertainment!
 Be sure to change the ApplicationName const at the top.
 Special thanks to Special-K!
-  <div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: consolas, &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">
-    <pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
-      <span style="color: #0000ff">using</span> System;<br /><span style="color: #0000ff">using</span> System.Web;<br /><br /><span style="color: #0000ff">namespace</span> MyNamespace<br />{<br /><span style="color: #0000ff">public</span><span style="color: #0000ff">class</span> Cookies<br />    {<br /><span style="color: #0000ff">private</span><span style="color: #0000ff">const</span><span style="color: #0000ff">string</span> ApplicationName = <span style="color: #006080">"MyCoolApplication"</span>;<br /><br /><span style="color: #0000ff">private</span><span style="color: #0000ff">enum</span> CookieItem<br />        {<br />            UserGuid,<br />            UserFullName,<br />            UserLoginExpiry,<br />            UserHadForBreakfast,<br />            UserTimezone<br />        }<br /><span style="color: #008000">/**************</span><br /><span style="color: #008000">        All cookie values are accessible by public static methods. </span><br /><span style="color: #008000">        No typos/duplicates are possible from calling code!</span><br /><span style="color: #008000">    **************/</span><br /><br /><span style="color: #0000ff">public</span><span style="color: #0000ff">static</span><span style="color: #0000ff">string</span> UserFullName<br />        {<br />            get { <span style="color: #0000ff">return</span> GetCookieVal(CookieItem.UserFullName); }<br />            set { UpdateCookieVal(CookieItem.UserFullName, <span style="color: #0000ff">value</span>, 365); }<br />        }<br /><br /><span style="color: #0000ff">public</span><span style="color: #0000ff">static</span> Guid UserGuid<br />        {<br />            get { <span style="color: #0000ff">return</span><span style="color: #0000ff">new</span> Guid(GetCookieVal(CookieItem.UserGuid)); }<br />            set { UpdateCookieVal(CookieItem.UserGuid, <span style="color: #0000ff">value</span>.ToString(), 365); }<br />        }<br /><br /><span style="color: #0000ff">public</span><span style="color: #0000ff">static</span> DateTime UserLoginExpiry<br />        {<br />            get { <span style="color: #0000ff">return</span> DateTime.Parse(GetCookieVal(CookieItem.UserLoginExpiry)); }<br />            set { UpdateCookieVal(CookieItem.UserLoginExpiry, <span style="color: #0000ff">value</span>.ToString(), 365); }<br />        }<br /><br /><span style="color: #0000ff">public</span><span style="color: #0000ff">static</span><span style="color: #0000ff">string</span> UserHadForBreakfast<br />        {<br />            get { <span style="color: #0000ff">return</span> GetCookieVal(CookieItem.UserHadForBreakfast); }<br />            set { UpdateCookieVal(CookieItem.UserHadForBreakfast, <span style="color: #0000ff">value</span>, 1); }<br />        }<br /><br /><span style="color: #0000ff">private</span><span style="color: #0000ff">static</span><span style="color: #0000ff">string</span> GetCookieVal(CookieItem item)<br />        {<br />            HttpCookie cookie = GetAppCookie(<span style="color: #0000ff">false</span>); <span style="color: #008000">//get the existing cookie</span><br /><span style="color: #0000ff">return</span> (cookie != <span style="color: #0000ff">null</span> &amp;&amp; (cookie.Values[item.ToString()] != <span style="color: #0000ff">null</span>)) <span style="color: #008000">//value or empty if doesn't exist</span><br />                ? cookie.Values[item.ToString()]<br />                : <span style="color: #0000ff">string</span>.Empty;<br />        }<br /><br /><span style="color: #0000ff">private</span><span style="color: #0000ff">static</span><span style="color: #0000ff">void</span> UpdateCookieVal(CookieItem item, <span style="color: #0000ff">string</span> val, <span style="color: #0000ff">int</span> expireDays)<br />        {<br /><span style="color: #008000">//get the existing cookie (or new if not exists)</span><br />            HttpCookie cookie = GetAppCookie(<span style="color: #0000ff">true</span>);<br /><br /><span style="color: #008000">//modify its contents &amp; meta.</span><br />            cookie.Expires = DateTime.Now.AddDays(expireDays);<br />            cookie.Values[item.ToString()] = val;<br /><br /><span style="color: #008000">//add back to the http response to send back to the browser</span><br />            HttpContext.Current.Response.Cookies.Add(cookie);<br />        }<br /><br /><span style="color: #0000ff">private</span><span style="color: #0000ff">static</span> HttpCookie GetAppCookie(<span style="color: #0000ff">bool</span> createIfDoesntExist)<br />        {<br /><span style="color: #008000">//get the cookie or a new one if indicated</span><br /><span style="color: #0000ff">return</span> HttpContext.Current.Request.Cookies[ApplicationName] ?? ((createIfDoesntExist) ? <span style="color: #0000ff">new</span> HttpCookie(ApplicationName) : <span style="color: #0000ff">null</span>);<br />        }<br /><br />    }<br />}</pre>
-    <br />
-  </div>
+
+    using System;
+    using System.Web;
+
+    public	class Cookies
+    {
+		private const string ApplicationName = "MyCoolApplication";
+
+		private enum CookieItem
+		{
+			UserGuid,
+			UserFullName,
+			UserLoginExpiry,
+			UserHadForBreakfast,
+			UserTimezone
+		}
+ 
+	   // All cookie values are accessible by public  static  methods. 
+	   // No typos/duplicates are possible from calling code!
+   
+	public static string UserFullName
+	{
+		get { return GetCookieVal(CookieItem.UserFullName); }
+		set { UpdateCookieVal(CookieItem.UserFullName, value, 365); }
+	}
+
+	public static  Guid UserGuid
+	{
+			get { return new Guid(GetCookieVal(CookieItem.UserGuid)); }
+			set { UpdateCookieVal(CookieItem.UserGuid, value.ToString(), 365); }
+	}
+
+	public static  DateTime UserLoginExpiry
+	{
+		get { return DateTime.Parse(GetCookieVal(CookieItem.UserLoginExpiry)); }
+		set { UpdateCookieVal(CookieItem.UserLoginExpiry, value.ToString(), 365); }
+	}
+
+	public static string UserHadForBreakfast
+	{
+		get { return GetCookieVal(CookieItem.UserHadForBreakfast); }
+		set { UpdateCookieVal(CookieItem.UserHadForBreakfast, value, 1); }
+	}
+
+	private static string GetCookieVal(CookieItem item)
+	{
+			HttpCookie cookie = GetAppCookie(false); //get the existing cookie
+			return (cookie != null && (cookie.Values[item.ToString()] != null)) //value or empty if doesn't exist
+				? cookie.Values[item.ToString()]
+				: string.Empty;
+	}
+
+	private static void UpdateCookieVal(CookieItem item, string val, int expireDays)
+	{
+		//get the existing cookie (or new if not exists)
+		HttpCookie cookie = GetAppCookie(true);
+
+		//modify its contents & meta.
+		cookie.Expires = DateTime.Now.AddDays(expireDays);
+		cookie.Values[item.ToString()] = val;
+
+		//add back to the http response to send back to the browser
+		HttpContext.Current.Response.Cookies.Add(cookie);
+	}
+
+	private static	HttpCookie GetAppCookie(bool createIfDoesntExist)
+	{
+		//get the cookie or a new one if indicated
+		return HttpContext.Current.Request.Cookies[ApplicationName] 
+			?? ((createIfDoesntExist) ? new HttpCookie(ApplicationName) : null);
+		}
+	}
