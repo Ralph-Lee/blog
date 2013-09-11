@@ -3,10 +3,10 @@
 Here's a class that'll make your life easier when you want to deal with saving information in cookies on your user's browser. Everyone needs a wrapper class for all those external data-stores – session, cookies, file system, web.config and app.config, registry, log files, etc. Here's a class usable in ASP.NET Web Forms and ASP.NET MVC.
 
 ###Wrapper Class###
-Here's a static class that you can simply include in your web project, and refer to its static properties to get to your cookies. Any and all simple datatypes can be used, and heck, even serialized versions of your POCO objects can be saved/retrieved here. Image if you wanted to save those shopping cart items, a collection of user prefs, or whatever, you could simply override the <font size="2" face="Consolas">.toString() method in your custom class.
+Drop thia into your web project, and refer to its static properties to get to your cookies. Any and all simple datatypes can be used, and heck, even serialized versions of your POCO objects can be saved/retrieved here. Image if you wanted to save those shopping cart items, a collection of user prefs, or whatever, you could simply override the `.ToString()` method in your custom class.
 
 ###Just Make Properties###
-The key pattern here is that you <em>purposefully create new properties </em>for each piece of data that you want to save/retrieve. This solves the problem of:
+The key pattern here is that you *create new properties* for each piece of data that you want to save/retrieve. This solves the problem of:
 
 * having to remember strings all over your project. 
 * ensuring no duplicates exist – imagine if multiple developers created a defect by using the same string indexer for their cookie, and ended up stomping each other's value? 
@@ -24,7 +24,7 @@ Instead, the <strike>data access</strike> cookie-retrieval is done through named
 With the aforementioned 'remembering strings' problem, the pattern that this class uses relies internally on an enum to handle the naming of the value in the cookie. The enum will boil down to an integer, but really we don't care what the key's is actually stored as in the cookie. We really only care to access/read/save the values constantly and easily from our calling code.
 ###Download###
 
-<a href="http://devtxt.com/blog/downloads/cookie/cookie.cs.txt">Download the cookie class</a>, or copy/paste from below. You can see that I pre-loaded it with some amusing properties for your entertainment!
+<a href="http://devtxt.com/blog/downloads/cookie/cookie.cs.txt">Download the cookie class</a>, or copy/paste from below. You can see that I pre-loaded it with some amusing properties.
 Be sure to change the ApplicationName const at the top.
 Special thanks to Special-K!
 
