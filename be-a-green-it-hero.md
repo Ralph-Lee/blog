@@ -16,8 +16,7 @@ Some organizations work like this: someone is assigned the fax machine, and part
 ###Level Up###
 Now that you are saving paper, go the extra step. Save some human time. Let's assume you are using Microsoft Exchange and Outlook. Any version will work.
 
-* 
-  <a href="http://support.gfi.com/manuals/en/fax12/fax12manual-1-037.html">Create yourself a new Public Folder</a> - one per fax line that you have. Do you have 'private' fax lines for the HR types, or director types? <a href="http://www.msexchange.org/tutorials/Public-Folder-Basics-Part1.html">Lock it down with Active Directory permissions</a>! Simple stuff! 
+* <a href="http://support.gfi.com/manuals/en/fax12/fax12manual-1-037.html">Create yourself a new Public Folder</a> - one per fax line that you have. Do you have 'private' fax lines for the HR types, or director types? <a href="http://www.msexchange.org/tutorials/Public-Folder-Basics-Part1.html">Lock it down with Active Directory permissions</a>! Simple stuff! 
 * Modify the 'to' email address on the fax machine to send to that new Public Folder. 
 * Direct people to visit that Public Folder when they're expecting a fax. 
 * Build your own set of business rules around when to remove items from this Public Folder. i.e. If the fax is meant for you, and only you, then delete or move it to your personal Inbox as you will. Fwd to anyone concerned is also appropriate. Standard email rules apply here as well (etiquette, attachment size, etc). 

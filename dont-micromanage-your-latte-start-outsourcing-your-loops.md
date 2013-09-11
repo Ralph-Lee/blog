@@ -1,13 +1,12 @@
-<!--{Title:"Don’t Micromanage Your Latte (Start Outsourcing Your Loops)", PublishedOn:"2010-01-12T01:02:11", Intro:"Consider your behaviour and desires as a customer when you visit:          a) your favourite local c"} -->
+<!--{Title:"Donât Micromanage Your Latte (Start Outsourcing Your Loops)", PublishedOn:"2010-01-12T01:02:11", Intro:"Consider your behaviour and desires as a customer when you visit:          a) your favourite local c"} -->
 
 Consider your behaviour and desires as a customer when you visit:   
 
-* your <a href="http://blenz.com/">favourite local coffee shop</a> - you specify **what you'd like**, rather than how it's made. You care about the outcome, but rarely care about the process/sequences/steps that are followed as it's being constructed.
+* your [favourite local coffee shop](blenz.com) - you specify **what you'd like**, rather than how it's made. You care about the outcome, but rarely care about the process/sequences/steps that are followed as it's being constructed.
 * a Subway/Quiznos shop - you care equally about the outcome and the construction. Meats, veg, bread type, order of placement of each, precise amount of mustard, pickles, etc.
 
-<a href="http://devtxt.com/blog/blogimg/DontMicromanageYourLatteStartOutsourcing_E179/barista.png">
-<img style="border-right-width: 0px; margin: 0px 0px 0px 15px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="barista" border="0" alt="barista" align="right" src="http://devtxt.com/blog/blogimg/DontMicromanageYourLatteStartOutsourcing_E179/barista_thumb.png" width="304" height="204" />
-</a>The difference here is: you aren't instructing the coffee barista on how to steam the milk, or when to start brewing the espresso. You don't remind them that their level of ground beans is getting low, or where to store the milk. You are happy to assume they know their job best, and order of operations is properly under their control. They have their efficiencies to care about, and you're happy to let them manage that. 
+<img  title="barista" border="0" alt="barista" align="right" src="img/barista_thumb.png" width="304" height="204" />
+ The difference here is: you aren't instructing the coffee barista on how to steam the milk, or when to start brewing the espresso. You don't remind them that their level of ground beans is getting low, or where to store the milk. You are happy to assume they know their job best, and order of operations is properly under their control. They have their efficiencies to care about, and you're happy to let them manage that. 
 Consider now your desires as a programmer when your task is to find customers with a condition. Let's say we want to use this contrived example:
     
 **Find the customers whose account balance owing is over $5,000. Find the youngest customer in that set.**
@@ -63,4 +62,4 @@ I hate to steal/reblog Eric Lippert's thought on this, but it's worth saying onc
 
 You should be focused on YOUR business logic or end-goals (i.e. eating your sandwich and drinking your coffee), and less on syntax + language constructs. Take advantage of more declarative constructs provided in your language/framework. LINQ is a perfect example of this. 
 
-*this post is a mashup of <a href="http://channel9.msdn.com/pdc2008/TL11">Luca Bolognese's PDC 2008 F# metaphor</a> and <a href="http://blogs.msdn.com/ericlippert/archive/2010/01/11/continuing-to-an-outer-loop.aspx">Eric Lippert's post on loops</a>. Apologies to both!
+*this post is a mashup of [Luca Bolognese's PDC 2008 F# metaphor](http://channel9.msdn.com/pdc2008/TL11) and [Eric Lippert's post on loops](http://blogs.msdn.com/ericlippert/archive/2010/01/11/continuing-to-an-outer-loop.aspx). Apologies to both!
