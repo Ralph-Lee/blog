@@ -2,7 +2,7 @@
 
 After stumbling upon this [outrageous Reddit headline](http://www.reddit.com/r/programming/comments/a0z60/its_ok_not_to_write_unit_tests/), I almost did a [spit-take](http://en.wikipedia.org/wiki/Spit-take). Here it was:
 
-[![Cashto_blog_entry](img/Cashto_blog_entry_thumb.png)](http://devtxt.com/blog/blogimg/UnitTesting_1098A/Cashto_blog_entry.png)
+[![Cashto_blog_entry](img/Cashto_blog_entry_thumb.png)](http://www.reddit.com/r/programming/comments/a0z60/its_ok_not_to_write_unit_tests)
 
 Thoughts running through my head:
 
