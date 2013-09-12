@@ -20,7 +20,7 @@ The key task that lured me in was a fairly simple demo dealing with HTML replace
 * clicking an input button 
 * replacing the innerHTML of a div 
 
-<img src="blogimg/LucianInnerHTML_3.png" width="704" height="315" />
+<img src="img/LucianInnerHTML_3.png" width="704" height="315" />
 
 The great thing I like about this that you don't necessarily have to mess around with `string.Format()` or `string.Concat()` and all those other small speedbumps. i.e.
 

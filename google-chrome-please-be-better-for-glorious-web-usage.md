@@ -15,13 +15,13 @@ Being a duty-bound software/web developer, you have to keep a working knowledge 
       <tr>
         <td valign="top" width="473">input fields glow a nice orange when they've got focus.</td>
         <td valign="top" width="247">
-    <img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="textbox_styled_chrome" border="0" alt="textbox_styled_chrome" src="http://devtxt.com/blog/blogimg/GoogleChromeWantItButPleaseChange_13264/textbox_styled_chrome.png" width="210" height="33" />
+    <img   src="img/textbox_styled_chrome.png" width="210" height="33" />
         </td>
       </tr>
       <tr>
         <td valign="top" width="473">Hovering over a link will cause its URL to show in a smaller status bar below (saving screen real estate). </td>
         <td valign="top" width="247">
-    <img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="linkurl" border="0" alt="linkurl" src="http://devtxt.com/blog/blogimg/GoogleChromeWantItButPleaseChange_13264/linkurl.png" width="289" height="27" />
+    <img   src="img/linkurl.png" width="289" height="27" />
         </td>
       </tr>
     </tbody>
@@ -35,17 +35,16 @@ Being a duty-bound software/web developer, you have to keep a working knowledge 
 
 **Smaller screen footprint** - this was great on the netbook. With a 600ish vertical pixel limitation, you need every half inch you can get. Chrome is very minimal with its menu, address/search bar and favorites bar. Very impressed with this design.
 
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="ChromeHeader" border="0" alt="ChromeHeader" src="http://devtxt.com/blog/blogimg/GoogleChromeWantItButPleaseChange_13264/ChromeHeader.png" width="597" height="93" />
+<img  src="img/ChromeHeader.png" width="597" height="93" />
 
 
 **Search/Address Bar** - this is no real revelation, but the address bar is also the search box. Just type in your query/keywords and be done with it. Yes, the search engine is customizable to your favorite search engine. No, it's not <a href="http://www.wired.com/wired/archive/11.01/google_pr.html">hardcoded to Google for evil reasons</a>. No need for the extra search box. Yes, the same functionality is in Firefox and IE7/8.
 
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="search" border="0" alt="search" src="http://devtxt.com/blog/blogimg/GoogleChromeWantItButPleaseChange_13264/search.png" width="486" height="88" />
-
+<img   src="img/search.png" width="486" height="88" />
 
 **As a developer** - there's the same Firebug-ish functionality to Inspect an Element on a page. It opens the View Source page, and navigates to the element that you've right clicked on. It's presented in a full-screen window, and it takes some wrangling to get the window off to one side. Sure, move it to another monitor, that'll work OK as well. Flip to the Resources view, and you can view Graphs by Time and Size. It looks promising!
 
-**Auto-Updating** - As with Firefox, the user doesn't have to do anything. Sure, you have to visit the About dialog box.<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="Google Chrome Is Up To Date" border="0" alt="Google Chrome Is Up To Date" src="http://devtxt.com/blog/blogimg/GoogleChromeWantItButPleaseChange_13264/GoogleChromeIsUpToDate.png" width="181" height="23" />
+**Auto-Updating** - As with Firefox, the user doesn't have to do anything. Sure, you have to visit the About dialog box.<img   alt="Google Chrome Is Up To Date" src="img/GoogleChromeIsUpToDate.png" width="181" height="23" />
 
   <p />
 ###Why I Cannot Permanently Switch to Use Google Chrome###
@@ -61,9 +60,9 @@ Being a duty-bound software/web developer, you have to keep a working knowledge 
 
 **My Usage Patterns** - clicking with the mouse wheel on a Favorites directory. I am used to having all links within that folder open in new tabs (Firefox and IE8 do this!) Sadly, Chrome does not!
 
-###
+
 **Summary**
-###
+
 The features I am looking for as a user and a web developer aren't comparable to the features of Firefox. It's early days for Google Chrome, and I have no doubt that Google will be adding valuable features to this browser as time goes on.
 Google Chrome - you are fast, but the ad-blocking is a must-have for sanity's sake. I'd love to re-evaluate in the near future! 
 What do YOU think about Chrome vs. your favorite browser?

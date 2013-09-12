@@ -12,7 +12,7 @@ Of course, the term 'bug' is well engrained into our minds and language, and has
 ###Personal Software Process###
 
 <a href="http://devtxt.com/blog/blogimg/DontCallThemBugs_6D7E/PersonalSoftwareProcessWattsSHumphrey.jpg">
-<img style="border-bottom: 0px; border-left: 0px; margin: 0px 0px 0px 20px; display: inline; border-top: 0px; border-right: 0px" title="Personal-Software-Process-Watts-S-Humphrey" border="0" alt="Personal-Software-Process-Watts-S-Humphrey" align="right" src="http://devtxt.com/blog/blogimg/DontCallThemBugs_6D7E/PersonalSoftwareProcessWattsSHumphrey_thumb.jpg" width="164" height="270" />
+<img   align="right" src="img/PersonalSoftwareProcessWattsSHumphrey_thumb.jpg" width="164" height="270" />
 </a> This reminds me of one of the textbooks at BCIT's CST program. It's the <a href="http://en.wikipedia.org/wiki/Personal_Software_Process">Personal Software Process</a> by Watts S. Humphrey. Watts is incredibly focused on software quality. One distinct lesson I got from that particular course was the concept of constantly recording and measuring. Defects per 1000 lines of code (KLOC). The other theme, perhaps in the book, or with that particular instructor, was this idea of 'defects', and not 'bugs'.
 ###Own Your Defects###
 I've come to this conclusion for myself when thinking about flaws in software: 

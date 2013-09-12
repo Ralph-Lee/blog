@@ -12,7 +12,7 @@ The kicker here is that it DOES work, just that you have to set some command lin
     * Find the shortcut properties. 
     * Modify the target: **chrome.exe --in-process-plugins**
     * No quotes are needed here. 
-    * Save and relaunch. Voila!<a href="http://devtxt.com/blog/image.axd?picture=image.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="http://devtxt.com/blog/image.axd?picture=image_thumb.png" width="313" height="432" /></a>
+    * Save and relaunch. Voila!<img  src="img/image_thumb.png" width="313" height="432" />
           </ol>
         </td>
       </tr>
