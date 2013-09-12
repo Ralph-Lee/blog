@@ -32,7 +32,8 @@ I've had the pleasure of taking on two large scale health care applications this
 * large numbers/skills/discipline/remoteness of team members make for interesting and different challenges on each of those attributes
 * scalability will come back to bite you if you haven't prepared!
 
-####Project Successes####  
+####Project Successes####
+
 **Deployment** I was lucky enough to have been a part of a successful software project this year. I developed and deployed a large scale enterprise app that brokers 6000+ messages per day. The important attribute is that humans are directly **waiting** for these messages to cross &amp; acknowledge back to them. It would be nice to be able to be able to publish a high level systems diagram here instead. In this case, success is measured in **user acceptance**, **on-time delivery**, and **stability**.   
 
 **Managing Changes** - A few times I've gotten the call/email or attended a meeting where a *breaking change* was discussed/agreed on. Not to get into a performance review here, but I found myself reacting quickly to those changes, and have breathed a sigh of relief when my implementation handled those changes well. Is it luck?  
@@ -46,7 +47,7 @@ I've had the pleasure of taking on two large scale health care applications this
 
 * **Find A Good Webhost**. I think I've already done this with [SoftSys. Their .NET 3.5 hosting packages](http://www.softsyshosting.com/Win08Hosting.aspx) include SQL Server, which is my #1 requirement for hosting. Goodbye DiscountASP! 
 
-* **Move This Blog to **[**SubText**](http://www.subtextproject.com/) I feel that BlogEngine.NET was an upgrade over DasBlog. Both aren't being actively developed and maintained. After having used SubText for my internal blog, I feel comfortable enough with SubText and *its continued development*! It requires SQL Server 2005 / Express. 
+* **Move This Blog to [SubText](http://www.subtextproject.com/)** I feel that BlogEngine.NET was an upgrade over DasBlog. Both aren't being actively developed and maintained. After having used SubText for my internal blog, I feel comfortable enough with SubText and *its continued development*! It requires SQL Server 2005 / Express. 
 
 * **Do These Things Better**: Document changes. Make more graphs.
 

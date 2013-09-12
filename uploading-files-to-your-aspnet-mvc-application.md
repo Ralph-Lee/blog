@@ -12,18 +12,16 @@ This article will focus on the jQuery plugin [Uploadify](http://www.uploadify.co
         <td valign="top" width="309">Benefits to the User</td>
       </tr>
       <tr>
-        <td valign="top" width="248">
-        
-* event based development 
-* easy to use jQuery 
-* 
-* No typical file type=input 
+        <td valign="top" width="248">        
+- event based development <BR>
+- easy to use jQuery <BR>
+- No typical file type=input 
         
         </td>
         <td valign="top" width="309">
         
-* Instant and realtime feedback on how the upload is performing 
-* No typical file type=input controls 
+- Instant and realtime feedback on how the upload is performing<BR> 
+- No typical file type=input controls 
         </td>
       </tr>
     </tbody>
@@ -143,7 +141,9 @@ In this solution, I've leveraged Uploadify with ASP.NET MVC.  I added in a few o
              });          
          });        
     </script> 
-    ####Any Pictures to Include?####
+ 
+####Any Pictures to Include?####
+
     Include pictures here.     
     <input id="fileInput" name="fileInput" type="file">    
     <div id="uploadedImgs"></div>
