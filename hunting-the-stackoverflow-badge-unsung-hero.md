@@ -1,8 +1,9 @@
 <!--{Title:"Hunting the StackOverflow 'Unsung Hero' Badge", PublishedOn:"2010-08-20T07:17:24", Intro:"Find the StackOverflow questions best suited for you to get the Unsung Hero badge. Recently I'"} -->
 
-[Find the StackOverflow questions best suited for you to get the Unsung Hero badge](http://odata.stackexchange.com/stackoverflow/s/456/uFind the StackOverflow questions best suited for you to get the Unsung Hero badge)
+[Find the StackOverflow questions best suited for you to get the Unsung Hero badge](http://odata.stackexchange.com/stackoverflow/s/456/)
 
 Recently I've been reading/hearing lots regarding the StackOverflow badge 'Unsung Hero'. Its formal description is:
+
 >Zero score accepted answers: more than 10 and 25% of total[![zero_thumb.png](img/zero_thumb.png)](img/zero.png)
   
 So this means, in my estimation:
@@ -27,5 +28,9 @@ You can see what your progress is on the Unsung Hero badge by using this "[How U
 ###The Solution to Getting Unsung Hero###
 Take this query for a spin. I've written this query to determine the question that you're best suited to answer in order to help gain this Unsung Hero badge. The query finds unanswered questions:
 
-* written by people with low reputation (<15). their="" reputation="" is="" such="" that="" they="" can't="" upvote="" your="" answer,="" but="" can="" only="" accept="" it.="" *="" users="" who="" recently="" re-visited="" stackoverflow="" *="" tagged="" with="" tags="" that="" you="" actively="" ask="" and="" answer="" in.="" your="" top="" 25="" tags.="" *="" with="" a="" small="" number="" of="" answers="" already="" given.="" the="" less="" answers="a" better="" chance="" for="" you="" to="" give="" a="" great="" answer.=""></15).>[http://odata.stackexchange.com/stackoverflow/s/456/unsung-hero-hunter](http://odata.stackexchange.com/stackoverflow/s/456/unsung-hero-hunter)
+* written by people with low reputation (<15). their reputation is such that they can't upvote your answer, but can only accept it. 
+* users who recently re-visited stackoverflow 
+* tagged with tags that you actively ask and answer in. your top 25 tags. 
+* with a small number of answers already given. the fewer the answers = better chance for you to give a great answer.
+
 Enjoy! Remember – the Odata StackOverflow is working with the [most recent StackOverflow data dump](http://blog.stackoverflow.com/category/cc-wiki-dump/) – it could be up to 30 days old.
