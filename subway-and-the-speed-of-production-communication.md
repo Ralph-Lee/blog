@@ -19,7 +19,7 @@ Back to the Subway example: Absolutely every detail of the product is in plan vi
 * how long it will be until the goods are received. 
 
 The important part: the customer is always informed, and has the latest information that they need.
-I think about the last time I bought something from an online vendor (eBay, Amazon, <a href="chapters.indigo.ca" target="_blank">Chapters</a>, etc.) The best vendors will show the status of your order, and give you/make available feedback on your order. I know I love seeing my shipment journey its way over to me. I sometimes check a few times a day. Now where are my OCD pills...?
+I think about the last time I bought something from an online vendor (eBay, Amazon, [Chapters](chapters.indigo.ca), etc.) The best vendors will show the status of your order, and give you/make available feedback on your order. I know I love seeing my shipment journey its way over to me. I sometimes check a few times a day. Now where are my OCD pills...?
 
 ###The Takeaway###
 Give your customers feedback. Make it the feedback that you would expect as a consumer. Keep the updates fresh.

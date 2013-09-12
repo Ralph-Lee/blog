@@ -1,51 +1,35 @@
 <!--{Title:"Visual Studio Through the Years on Channel 9", PublishedOn:"2009-10-14T19:37:00", Intro:"Paul Thurrott posted something that I had missed on Channel 9: A documentary on the evolution of Vis"} -->
 
-<span>
+[Paul Thurrott posted](http://community.winsupersite.com/blogs/paul/archive/2009/10/09/visual-studio-documentary.aspx) something that I had missed on Channel 9: A documentary on the evolution of Visual Studio. I took the time on a Sunday night to watch both parts ([Part 1](http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-One/) and [Part 2](http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-Two/))
 
-<a href="http://community.winsupersite.com/blogs/paul/archive/2009/10/09/visual-studio-documentary.aspx">Paul Thurrott posted</a> something that I had missed on Channel 9: A documentary on the evolution of Visual Studio. I took the time on a Sunday night to watch both parts (<a href="http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-One/">Part 1</a> and <a href="http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-Two/">Part 2</a>)
 ###Part One###
-The first part was a look back at the early-mid 80's: MS-DOS, green-screen, OS/2 + IBM, and the arch of Visual Basic from version 1.0 through 5.0. One thing I did NOT know was that <a href="http://en.wikipedia.org/wiki/Alan_Cooper">Alan Cooper's prototype of VB was called Tripod, and later Ruby</a>. Cooper talks about the presentation of Tripod to Microsoft reps., "Gates-clones" as he calls them.
+The first part was a look back at the early-mid 80's: MS-DOS, green-screen, OS/2 + IBM, and the arch of Visual Basic from version 1.0 through 5.0. One thing I did NOT know was that [Alan Cooper's prototype of VB was called Tripod, and later Ruby](http://en.wikipedia.org/wiki/Alan_Cooper). Cooper talks about the presentation of Tripod to Microsoft reps., "Gates-clones" as he calls them.
 
-<a href="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/cooper.png">
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="cooper" border="0" alt="cooper" src="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/cooper_thumb.png" width="404" height="246" />
-</a>
-<a href="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/RubyTripod.png">
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="Ruby-Tripod" border="0" alt="Ruby-Tripod" src="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/RubyTripod_thumb.png" width="244" height="148" />
-</a>
+[![cooper](img/cooper_thumb.png)](http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/cooper.png)
+[![Ruby-Tripod](img/RubyTripod_thumb.png)](http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/RubyTripod.png)
 
 It was interesting to me that he scoffed "... like Microsoft would care about something like this." 
-Some of most interesting bits were around the culture or atmosphere at Microsoft - "pulling more all-nighters at Microsoft than I did at University" was telling. It makes sense - the stakes are much higher, and the environment more professional. It reminded me slightly of <a href="http://www.amazon.com/dp/0805057544">Barbarians Led By Bill Gates</a> by Edstrom and Eller. (great read!)
+Some of most interesting bits were around the culture or atmosphere at Microsoft - "pulling more all-nighters at Microsoft than I did at University" was telling. It makes sense - the stakes are much higher, and the environment more professional. It reminded me slightly of [Barbarians Led By Bill Gates](http://www.amazon.com/dp/0805057544) by Edstrom and Eller. (great read!)
 Microsoft was incredibly focused on building a developer community. I feel they've done an amazing job at this, and they really are unparalleled in this respect. I've seen it first-hand at various DevDays.
 They traced the evolution of Visual Basic from VB3 to VB5. One interesting part for me was the comment that "you could compile an application as an executable, which was a really big deal at the time."
+
 ###Part Two###
 
-<a href="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/hotjava.png">
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="hotjava" border="0" alt="hotjava" src="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/hotjava_thumb.png" width="404" height="246" />
-</a>
+[![hotjava](img/hotjava_thumb.png)](http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/hotjava.png)
 
 The second part was a tracing of the genesis or development of C#. The impetus for the new language was due to Java. In 1996/1997, Java was the hot new kid on the block with the promise of 'write once, run anywhere' on other computing platforms.
 
-<a href="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/csharp.png">
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="csharp" border="0" alt="csharp" src="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/csharp_thumb.png" width="404" height="246" />
-</a>
+[![csharp](img/csharp_thumb.png)](http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/csharp.png)
 
 C# was then conceived from the lawsuit and forced failure of Microsoft's implementation of their own Java VM and Visual J++. The fact that Microsoft had the market-leading Java dev toolset at the time, and then extended further with C# is amazing.
 
-<a href="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/anders.png">
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="anders" border="0" alt="anders" src="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/anders_thumb.png" width="404" height="247" />
-</a>
+[![anders](img/anders_thumb.png)](http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/anders.png)
 
+[![guthrie](img/guthrie_thumb.png)](http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/guthrie.png)
 
-<a href="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/guthrie.png">
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="guthrie" border="0" alt="guthrie" src="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/guthrie_thumb.png" width="404" height="246" />
-</a>
+C# is inarguably the tool that helped win more developers over to the .NET platform from the Java space. Some great shots of the 2000 PDC with Scott Guthrie presenting. It really highlighted the war with Java in the early 2000s, and how Sun just got crushed. I say: "Thank goodness!" I loved the time-to-market and LOC graphs around Microsoft's copy of the [prototypical Java app PetStore](http://java.sun.com/developer/releases/petstore/).
 
-C# is inarguably the tool that helped win more developers over to the .NET platform from the Java space. Some great shots of the 2000 PDC with Scott Guthrie presenting. It really highlighted the war with Java in the early 2000s, and how Sun just got crushed. I say: "Thank goodness!" I loved the time-to-market and LOC graphs around Microsoft's copy of the <a href="http://java.sun.com/developer/releases/petstore/">prototypical Java app PetStore</a>.
-
-<a href="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/petstore.png">
-<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="petstore" border="0" alt="petstore" src="http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/petstore_thumb.png" width="404" height="239" />
-</a>
-
+[![petstore](img/petstore_thumb.png)](http://devtxt.com/blog/blogimg/VisualStudioThroughtheYearsonChannel9_E22E/petstore.png)
 
 The video led into some self-criticism about some Visual Studio attributes like performance, the help system, the Ladybug defect/feature website, etc. Lots of talk about how Microsoft wants to connect with its customers, and wants to be more transparent to its customers.
 Part 2 then devolved, in my mind, into a sales pitch for VS2010, Team Suite, and Azure. I guess I am not too surprised :)
@@ -59,5 +43,4 @@ Some of my favorite lines (Alan Cooper is full of them!):
 
 Overall it wasn't as much a "history" of Visual Studio as I had expected. I had expected to hear more fine-grained details about how the product was built/merged. It's definitely a worthwhile watch. Check it out for yourself!
 
-<a href="http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-One/">Part 1</a> and <a href="http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-Two/">Part 2</a> of The Visual Studio Documentary at Channel 9.
-</span>
+[Part 1](http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-One/) and [Part 2](http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-Two/) of The Visual Studio Documentary at Channel 9.

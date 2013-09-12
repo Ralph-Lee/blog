@@ -1,12 +1,11 @@
 <!--{Title:"Randomizing Order of Your List or Array using LINQ", PublishedOn:"2009-11-05T05:07:34", Intro:"Perhaps you've got a collection of objects that you want ordered/sorted. I recently did. Perhaps you"} -->
 
-
 Perhaps you've got a collection of objects that you want ordered/sorted. I recently did. Perhaps you want them displayed in a non-deterministic manner or sorted randomly each time you write to an HTML view or otherwise consume that collection.  
 
 ###`Randomize()`###
 So imagine we're working with a `List` of Customers.
 
-<img   border="0" alt="data" align="left" src="img/data_thumb.png" width="330" height="135" />
+![data](img/data_thumb.png)
 
 Problem being, we don't really have anything non-deterministic to work with. We could do this in SQL Server:
 
@@ -17,7 +16,7 @@ Problem being, we don't really have anything non-deterministic to work with. We 
   
   
 This though, puts your presentation logic in your data tier. Maybe you don't care, maybe it's not a big price to pay. I wanted to take it up to the presentation tier and do this sorting right before binding or writing these objects to the page.
-Taking the <a href="http://brunosilva.net/list-random-order-in-net-using-linq/534/">lead from Bruno Silva</a>, I immediately realized this was the seed of the algorithm that I was looking for. Here's my modification of Bruno's algorithm:
+Taking the [lead from Bruno Silva](http://brunosilva.net/list-random-order-in-net-using-linq/534/), I immediately realized this was the seed of the algorithm that I was looking for. Here's my modification of Bruno's algorithm:
   
     var r = new Random();
     myCusts.OrderBy(x=>(r.Next())); 
@@ -32,15 +31,13 @@ I haven't written much here about how much I love extension methods in the .NET 
 * return it back to the caller. 
 * caller reassigns the return back into the object that it calls. 
 
-Rather than the above, I've created an extension method that I'll be able to call whenever for any collection that implements `IEnumerable<T>`. It's trivial then to write the extension method for `IQueryable`.
+Rather than the above, I've created an extension method that I'll be able to call whenever for any collection that implements `IEnumerable<t>`. It's trivial then to write the extension method for `IQueryable`.
   
-<a href="http://www.extensionmethod.net">
-<img   title="ExtensionMethod" border="0" alt="ExtensionMethod" align="left" src="img/ExtensionMethod_thumb.png" width="233" height="66" /></a> I've [submitted my `Randomize()` extension method](http://extensionmethod.net/Details.aspx?ID=236) over at [ExtensionMethod.net](http://www.ExtensionMethod.net)</a>. What a great site, by the way, kudos to those guys for taking user submissions and helping grow the use of this feature in .NET.
+[![ExtensionMethod](img/ExtensionMethod_thumb.png)](http://www.extensionmethod.net) I've [submitted my `Randomize()` extension method](http://extensionmethod.net/Details.aspx?ID=236) over at [ExtensionMethod.net](http://www.ExtensionMethod.net). What a great site, by the way, kudos to those guys for taking user submissions and helping grow the use of this feature in .NET.
 
   
-    public static IEnumerable<T> Randomize<T>(this IEnumerable<T> target)      
+    public static IEnumerable<t> Randomize<t>(this IEnumerable<t> target)      
 	 {       
 	     var r = new Random();
         return target.OrderBy(x=>(r.Next()));
-    } 
-  
+    }   

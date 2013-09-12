@@ -1,78 +1,56 @@
 <!--{Title:"Serializing Your POCO Objects to String then to XmlDocument", PublishedOn:"2009-06-23T06:26:00", Intro:"Today's Dreaded Exception: Data at the root level is invalid.  Found a problem recently when seriali"} -->
 
 **Today's Dreaded Exception**: Data at the root level is invalid.
-Found a problem recently when serializing a custom object.  Here's what I was working with. Warning: <a href="http://www.codinghorror.com/blog/archives/001268.html" target="_blank">this is the bathroom wall of code</a> version. Do not copy/paste this into production.
-  <div class="csharpcode">
-    <pre class="alt">
-      <span class="kwrd">public</span>
-      <span class="kwrd">static</span> XmlDocument SerializeToXmlDoc(Object obj) </pre>
-    <pre>{ </pre>
-    <pre class="alt">
-      <span class="kwrd">try</span>
-    </pre>
-    <pre>    { </pre>
-    <pre class="alt">        XmlDocument xmlDoc = <span class="kwrd">new</span> XmlDocument(); </pre>
-    <pre>
-      <span class="kwrd">string</span> xmlString =  SerializeIt(obj);             </pre>
-    <pre class="alt">        xmlDoc.LoadXml(xmlString); </pre>
-    <pre>
-      <span class="kwrd">return</span> xmlDoc; </pre>
-    <pre class="alt">    } </pre>
-    <pre>
-      <span class="kwrd">catch</span> (Exception e) {   <span class="kwrd">return</span><span class="kwrd">null</span>; } </pre>
-    <pre class="alt">} </pre>
-    <pre>&amp;nbsp;</pre>
-    <pre class="alt">
-      <span class="kwrd">public</span>
-      <span class="kwrd">static</span>
-      <span class="kwrd">string</span> SerializeIt(Object obj) </pre>
-    <pre>{ </pre>
-    <pre class="alt">
-      <span class="kwrd">try</span>
-    </pre>
-    <pre>    {     </pre>
-    <pre class="alt">        MemoryStream memoryStream = <span class="kwrd">new</span> MemoryStream(); </pre>
-    <pre>        XmlSerializer xs = <span class="kwrd">new</span> XmlSerializer(obj.GetType()); </pre>
-    <pre class="alt">        XmlTextWriter xmlTextWriter = <span class="kwrd">new</span> XmlTextWriter(memoryStream, Encoding.UTF8); </pre>
-    <pre>        xs.Serialize(xmlTextWriter, obj); </pre>
-    <pre class="alt">&amp;nbsp;</pre>
-    <pre>        memoryStream = (MemoryStream)xmlTextWriter.BaseStream; </pre>
-    <pre class="alt">&amp;nbsp;</pre>
-    <pre>
-      <span class="kwrd">string</span> xmlString = UTF8ByteArrayToString(memoryStream.ToArray()); </pre>
-    <pre class="alt">
-      <span class="kwrd">return</span> xmlString; </pre>
-    <pre>    } </pre>
-    <pre class="alt">
-      <span class="kwrd">catch</span> (Exception e) { <span class="kwrd">return</span><span class="kwrd">null</span>; } </pre>
-    <pre>} </pre>
-    <pre class="alt">&amp;nbsp;</pre>
-    <pre>
-      <span class="kwrd">private</span>
-      <span class="kwrd">static</span>
-      <span class="kwrd">string</span> UTF8ByteArrayToString(<span class="kwrd">byte</span>[] characters) </pre>
-    <pre class="alt">{ </pre>
-    <pre>    UTF8Encoding encoding = <span class="kwrd">new</span> UTF8Encoding(); </pre>
-    <pre class="alt">    String constructedString = encoding.GetString(characters); </pre>
-    <pre>
-      <span class="kwrd">return</span> (constructedString); </pre>
-    <pre class="alt">} </pre>
-  </div>
+Found a problem recently when serializing a custom object.  Here's what I was working with. Warning: [this is the bathroom wall of code](http://www.codinghorror.com/blog/archives/001268.html) version. Please **do not copy/paste** this into production.
+  
 
-   
+    public static XmlDocument SerializeToXmlDoc(Object obj)
+    {
+        try
+        {
+            XmlDocument xmlDoc = new XmlDocument();
+            string xmlString = SerializeIt(obj);
+            xmlDoc.LoadXml(xmlString);
+            return xmlDoc;
+        }
+        catch (Exception e) { return null; }
+    }
+
+    public static string SerializeIt(Object obj)
+    {
+        try
+        {
+            MemoryStream memoryStream = new MemoryStream();
+            XmlSerializer xs = new XmlSerializer(obj.GetType());
+            XmlTextWriter xmlTextWriter = new XmlTextWriter(memoryStream, Encoding.UTF8);
+            xs.Serialize(xmlTextWriter, obj);
+
+            memoryStream = (MemoryStream)xmlTextWriter.BaseStream;
+
+            return UTF8ByteArrayToString(memoryStream.ToArray());                
+        }
+        catch (Exception e) { return null; }
+    }
+
+    private static string UTF8ByteArrayToString(byte[] characters)
+    {                      
+        return new UTF8Encoding().GetString(characters);            
+    }
 
 The problem that was that as I passed one of my custom objects to it, I'd get this exception:    
->**Data at the root level is invalid. Line 1, position 1. **
+
+> Data at the root level is invalid. Line 1, position 1. 
+
 Fine, root level… got it. Let's take a peek at what's actually trying to be loaded.
 
 ###Wait, What The?###
 Here's the kicker: there was a funny null/something character at the beginning of the string, and therefore, my XmlDoc couldn't successfully execute the LoadXml method. Confessional: I scraped this method from the interwebs and its bathroom wall of code. I tweaked it to suit my needs. I figured it was ready for ANY kind of POCO object. Guess not. I have hit the 10% case where it didn't work well. Well, let's fire up the Text Visualizer and figure out why that string isn't loading into an `XmlDocument` properly.
  
-<img  title="Text Visualizer Visual Studio xml string" src="img/xmlString.png" border="0" alt="Text Visualizer Visual Studio xml string" width="335" height="160" />
+![Text Visualizer Visual Studio xml string](img/xmlString.png)
 
 Hmm. That's funny. What is that?! Turning to the Immediate Window didn't give any real answers as to the value of that unknown/bad character.
 
-<img  src="img/immediate.png" border="0" alt="immediate window Visual Studio 2008" width="212" height="72" />
+![immediate window Visual Studio 2008](img/immediate.png)
 
 Hmm. Looks blank. I then copied that value right from the Immediate Window, pasted into Notepad, it comes out as a question mark. Nice! Here's the direct paste:
 
@@ -80,17 +58,18 @@ Hmm. Looks blank. I then copied that value right from the Immediate Window, past
     >"?"
 
 ###Solved!###
-You could go down all kinds of kludgey roads and try to replace the first character if it's not angle bracket "<", or try and trim null chars, etc.
-Turns out that a `StringWriter` will do the job well in this case. No more null character leading to a failed load of the string.    <br />(via the bathroom wall of code at [http://asp.net2.aspfaq.com/xml-serialization/simple-serialization.html](http://asp.net2.aspfaq.com/xml-serialization/simple-serialization.html))
+You could go down all kinds of kludgey roads and try to replace the first character if it's not angle bracket `<`, or try and trim null chars, etc. turns out that a `Stringwriter` will do the job well in this case. No more null character leading to a failed load of the string.
+(via the bathroom wall of code at [http://asp.net2.aspfaq.com/xml-serialization/simple-serialization.html](http://asp.net2.aspfaq.com/xml-serialization/simple-serialization.html))
 
     public static string  SerializeIt(Object obj) 
     { 
         try {             
-             var serializer =  new XmlSerializer(obj.GetType()); 
-             var sw = new StringWriter(); 
-             serializer.Serialize(sw, obj); 
-             sw.Close(); 
-             return sw.GetStringBuilder().ToString(); 
+                var xmlSer = new System.Xml.Serialization.XmlSerializer(obj.GetType());
+                using (var sw = new StringWriter())
+                {
+                    xmlSer.Serialize(sw, obj);                 
+                    return sw.GetStringBuilder().ToString();
+                } 
         }      
         catch (Exception e) {  return null; }      
     } 

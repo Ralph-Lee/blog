@@ -4,7 +4,7 @@ I've recently had the need in 2 projects where the user needs to upload files to
 
 ###Use jQuery Uploadify To Upload Files to Your Web App ###
 
-This article will focus on the jQuery plugin <a href="http://www.uploadify.com/">Uploadify</a>.  It provides: 
+This article will focus on the jQuery plugin [Uploadify](http://www.uploadify.com/).  It provides: 
   <table border="0" cellspacing="0" cellpadding="2" width="559">
     <tbody>
       <tr>
@@ -32,7 +32,7 @@ This article will focus on the jQuery plugin <a href="http://www.uploadify.com/"
 The Uploadify projet site doesn't have samples for ASP.NET MVC, however. For those developing an ASP.NET MVC solution, you might be wondering how to weave in Uploadify to your Views and Controllers. There aren't too many tricks here, but it's a working solution that hopefully you can modify to your needs. 
 In this solution, I've leveraged Uploadify with ASP.NET MVC.  I added in a few other features in this example, but here are the basic steps:
  
-* The user clicks on the  `<input type="file" />`. The Uploadify nicely styles the boring old file input control into a Flash object.
+* The user clicks on the  `<input type="file">`. The Uploadify nicely styles the boring old file input control into a Flash object.
 * The user chooses 1 or more files to upload
 * Each file has its own upload progress bar. The jQuery fade effect is a nice touch.     
 * The `'script'` attribute on the Uploadify element is important. It's the controller method that will be receiving the call. Note that instead of hard-coding the URL, we let the MVC View engine determine the route. `<%=Url.Action( "UploadPhoto","Photo")%>`    
@@ -60,7 +60,7 @@ In this solution, I've leveraged Uploadify with ASP.NET MVC.  I added in a few o
            { 
                 eval("var resp=" + response); //this is critical. You must eval the response into another object. A defect likely. To do with JSON and Uploadify together. 
                 //show the thumbnails as links to the larger pictures for the user.       
-                $("#uploadedImgs").append("<a href='" + resp.NewFile + "' target='_blank' ><img border='0' id='' src='" + resp.Thumb + "'/></a>"); 
+                $("#uploadedImgs").append("[![" + resp.Thumb + "](img/" + resp.Thumb + ")](" + resp.NewFile + ")"); 
            }, 
            'onError': function (e, q, f, o) {
                alert("We had a problem: " + o.info); 
@@ -118,72 +118,8 @@ In this solution, I've leveraged Uploadify with ASP.NET MVC.  I added in a few o
 
         public static Image CreateThumbnail(System.Drawing.Image fullSizeImage, decimal percentage)     
         {      
-            if (percentage < 0) percentage = percentage * 100; //ensure the user passed in a full value greater than one.      
-            percentage = percentage / 100;  //now kick it down to the percentage.      
-            int thumbWidth = Convert.ToInt32((decimal)fullSizeImage.Width * percentage);      
-            int thumbHeight = Convert.ToInt32((decimal)fullSizeImage.Height * percentage);      
-            return fullSizeImage.GetThumbnailImage(thumbWidth, thumbHeight, null, IntPtr.Zero);           
-        }      
-        private static ImageFormat DetermineImageFormat(string fileExtension)      
-        {      
-            ImageFormat iff = null;      
-            switch (fileExtension)      
-            {      
-                case ".png": iff = ImageFormat.Png; break;      
-                case ".jpeg": iff = ImageFormat.Jpeg; break;      
-                case ".jpg": iff = ImageFormat.Jpeg; break;      
-                case ".bmp": iff = ImageFormat.Bmp; break;      
-                case ".gif": iff = ImageFormat.Gif; break;      
-                default: break;      
-            }      
-            return iff;   
-        }      
-        private static string EnsurePathIsWellFormedForServer(string tempPath)      
-        {      
-            if (!tempPath.StartsWith("~"))      
-                tempPath = "~" + tempPath;      
-            if (!tempPath.EndsWith("/"))      
-                tempPath += "/";      
-            return tempPath;      
-        } 
-
-        private void EnsurePathExistsOnDisk(string savepath)     
-        {      
-            if (!Directory.Exists(savepath))      
-                Directory.CreateDirectory(savepath);      
-        } 
-
-        private string EnsureFileNameIsUnique(string filename, string savepath)     
-        {      
-            string tempName = filename;      
-            int newFileNameIndex = 1;      
-            System.IO.FileInfo f = new FileInfo(filename); 
-            string fileNameOnly = f.Name.Replace(f.Extension, string.Empty); 
-            while (System.IO.File.Exists(savepath + "/" + filename))     
-            {      
-                filename = string.Format("{0}-{1}{2}", fileNameOnly, newFileNameIndex, f.Extension);      
-                newFileNameIndex++;      
-            }      
-            return filename;      
-        }      
-        private string SaveLocation      
-        {      
-            get      
-            {      
-                string uploadDir = "/Uploads"; 
-                if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings["CustomerUploadsDirectory"]))     
-                {      
-                    uploadDir = ConfigurationManager.AppSettings["CustomerUploadsDirectory"].ToString();      
-                }      
-                return uploadDir;      
-            }      
-        }
-    }
-
-###View ###
-
-    <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>  
-    <link href="<%=ResolveUrl("~/Scripts/Uploadify/uploadify.css")%>" rel="stylesheet"  type="text/css" />
+            if (percentage < 0)="" percentage="percentage" *="" 100;="" ensure="" the="" user="" passed="" in="" a="" full="" value="" greater="" than="" one.="" percentage="percentage" 100;="" now="" kick="" it="" down="" to="" the="" percentage.="" int="" thumbwidth="Convert.ToInt32((decimal)fullSizeImage.Width" *="" percentage);="" int="" thumbheight="Convert.ToInt32((decimal)fullSizeImage.Height" *="" percentage);="" return="" fullsizeimage.getthumbnailimage(thumbwidth,="" thumbheight,="" null,="" intptr.zero);="" }="" private="" static="" imageformat="" determineimageformat(string="" fileextension)="" {="" imageformat="" iff="null;" switch="" (fileextension)="" {="" case="" ".png":="" iff="ImageFormat.Png;" break;="" case="" ".jpeg":="" iff="ImageFormat.Jpeg;" break;="" case="" ".jpg":="" iff="ImageFormat.Jpeg;" break;="" case="" ".bmp":="" iff="ImageFormat.Bmp;" break;="" case="" ".gif":="" iff="ImageFormat.Gif;" break;="" default:="" break;="" }="" return="" iff;="" }="" private="" static="" string="" ensurepathiswellformedforserver(string="" temppath)="" {="" if="" (!temppath.startswith("~"))="" temppath="~" +="" temppath;="" if="" (!temppath.endswith("/"))="" temppath="" +="/" ;="" return="" temppath;="" }="" private="" void="" ensurepathexistsondisk(string="" savepath)="" {="" if="" (!directory.exists(savepath))="" directory.createdirectory(savepath);="" }="" private="" string="" ensurefilenameisunique(string="" filename,="" string="" savepath)="" {="" string="" tempname="filename;" int="" newfilenameindex="1;" system.io.fileinfo="" f="new" fileinfo(filename);="" string="" filenameonly="f.Name.Replace(f.Extension," string.empty);="" while="" (system.io.file.exists(savepath="" +="" "/"="" +="" filename))="" {="" filename="string.Format(" {0}-{1}{2}","="" filenameonly,="" newfilenameindex,="" f.extension);="" newfilenameindex++;="" }="" return="" filename;="" }="" private="" string="" savelocation="" {="" get="" {="" string="" uploaddir="/Uploads" ;="" if="" (!string.isnullorempty(configurationmanager.appsettings["customeruploadsdirectory"]))="" {="" uploaddir="ConfigurationManager.AppSettings[" customeruploadsdirectory"].tostring();"="" }="" return="" uploaddir;="" }="" }="" }="" ###view="" ###=""><script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>  
+    <link href="<%=ResolveUrl("~/Scripts/Uploadify/uploadify.css")%>" rel="stylesheet" type="text/css">
     <script src="<%=ResolveUrl("~/Scripts/Uploadify/jquery.uploadify.v2.1.0.min.js")%>" type="text/javascript"></script>       
     <script src="<%=ResolveUrl("~/Scripts/Uploadify/swfobject.js")%>" type="text/javascript"></script>
     <script type="text/javascript"> 
@@ -207,7 +143,7 @@ In this solution, I've leveraged Uploadify with ASP.NET MVC.  I added in a few o
              });          
          });        
     </script> 
-    <h3>Any Pictures to Include?</h3>
+    ####Any Pictures to Include?####
     Include pictures here.     
-    <input id="fileInput" name="fileInput" type="file" />    
-    <div id="uploadedImgs" />
+    <input id="fileInput" name="fileInput" type="file">    
+    <div id="uploadedImgs"></div>

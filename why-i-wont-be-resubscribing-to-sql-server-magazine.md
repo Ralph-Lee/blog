@@ -1,10 +1,10 @@
 <!--{Title:"Why I Won’t Be Re-Subscribing to SQL Server Magazine", PublishedOn:"2009-12-29T18:36:32", Intro:"I've had a subscription myself for 2 years now to SqlMag. They're one of many of Penton Media's maga"} -->
 
-<img style="border-bottom: 0px; border-left: 0px; margin: 0px 0px 0px 10px; display: inline; border-top: 0px; border-right: 0px" title="sqlmag" border="0" alt="sqlmag" align="right" src="http://devtxt.com/blog/blogimg/WhyIWontBeReSubscribingtoSQLServerMagazi_14870/sqlmag.jpg" width="304" height="200" />
+![sqlmag](img/sqlmag.jpg)
 
-I've had a subscription myself for 2 years now to <a href="http://www.sqlmag.com/">SqlMag</a>. They're one of many of Penton Media's magazines, along with the Windows IT Pro site. I like paper mags for portability's sake – the beach, roadtrips, etc. The same goes for Code Magazine and MSDN Magazine. 
+I've had a subscription myself for 2 years now to [SqlMag](http://www.sqlmag.com/). They're one of many of Penton Media's magazines, along with the Windows IT Pro site. I like paper mags for portability's sake – the beach, roadtrips, etc. The same goes for Code Magazine and MSDN Magazine. 
 ###Dead Tree Edition?###
-I've often asked myself if a paper-magazine-delivered-to-your-door makes any sense these days. Rather, does it make sense to me? Obviously the magazine industry has been in trouble, along with every other industry, since <a href="http://www.whomovedmycheese.com">the internet moved their cheese</a>. Along with that analysis is the subscription cost of the magazine, and its (perceived) benefits. 
+I've often asked myself if a paper-magazine-delivered-to-your-door makes any sense these days. Rather, does it make sense to me? Obviously the magazine industry has been in trouble, along with every other industry, since [the internet moved their cheese](http://www.whomovedmycheese.com). Along with that analysis is the subscription cost of the magazine, and its (perceived) benefits. 
 
 * Can I get this content, or similar, or better in other places? 
 * Why do I need the paper version? 
@@ -13,13 +13,13 @@ I've often asked myself if a paper-magazine-delivered-to-your-door makes any sen
 
 <table border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td valign="top">**Yays**
+        <td valign="top"><B>Yays</B>
         </td>
-        <td valign="top">**Nays**
+        <td valign="top"><B>Nays</B>
         </td>
       </tr>
       <tr>
-        <td valign="top" >
+        <td valign="top">
 * they've got Itzik Ben-Gan 
 * a perception of trust 
 * content is NOT automatically out-of-date on arrival   
@@ -31,14 +31,14 @@ I've often asked myself if a paper-magazine-delivered-to-your-door makes any sen
 * far too many other free resources on the internet     
         </td>
       </tr>
-    </tbody>
+    
   </table>
 
 ###SqlMag's Top 10 IT Websites – December 2009 edition###
 Flipping through the Dec. 2009 copy, I saw something that had me questioning SqlMag's quality and relevance. The headline was straightforward – Your Top 10 Favourite IT Websites. The "Your" bit seems to indicate that the readers had a vote in it, or... something. The list of sites, though, got me a bit suspicious. **More than a few questionable choices here**, and it was just too much to not say something. Let's take a look:
-<a href="http://devtxt.com/blog/blogimg/WhyIWontBeReSubscribingtoSQLServerMagazi_14870/sqlservermagazinetop10december2009.png"><img style="border-right-width: 0px; margin: 0px 0px 0px 10px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="sql-server-magazine-top-10-december-2009" border="0" alt="sql-server-magazine-top-10-december-2009" align="right" src="http://devtxt.com/blog/blogimg/WhyIWontBeReSubscribingtoSQLServerMagazi_14870/sqlservermagazinetop10december2009_thumb.png" width="404" height="452" /></a> 
+[![sql-server-magazine-top-10-december-2009](img/sqlservermagazinetop10december2009_thumb.png)](http://devtxt.com/blog/blogimg/WhyIWontBeReSubscribingtoSQLServerMagazi_14870/sqlservermagazinetop10december2009.png) 
 
-**10.** Google – this was waaay to obvious to be on anyone's serious list of IT websites. Can you even call this an IT website?! It's certainly got lots of content indexed, but questionable whether it's an actual IT website. If they'd mentioned <a href="http://code.google.com/">Google Code</a>, then I could see where they were headed.
+**10.** Google – this was waaay to obvious to be on anyone's serious list of IT websites. Can you even call this an IT website?! It's certainly got lots of content indexed, but questionable whether it's an actual IT website. If they'd mentioned [Google Code](http://code.google.com/), then I could see where they were headed.
 
 **9.** Major Geeks – this stood out like a sore thumb. Isn't this a shareware/utilities download site? I can't remember the last time I specifically visited the site on my own desire, but it was probably for a copy of WinZip 5.0 in 1998. 
 
@@ -58,17 +58,17 @@ Flipping through the Dec. 2009 copy, I saw something that had me questioning Sql
 
 **1.** Experts Exchange – **ARE YOU FREAKING KIDDING ME?!** You've lost your mind, SqlMag! This site is the absolute scummiest Q&amp;A site on the planet. Their entire business model is built around **CLOAKING** their site, and **TRICKING THEIR VISITORS** into paying. (Yes, you can see the full set of user answers when you scroll 8 pages down!) 
  
-**SqlMag, bad choice for your #1. **Even if this list WAS user-generated, **which I doubt**, any list that includes Experts Exchange loses credibility, in my eyes. When I've asked any developer about their experience in finding good answers from that site, roundly I've heard nothing but bad things. I've even thought this piece was done by an intern, or some writer's little cousin's brother.
+**SqlMag, bad choice for your #1.** Even if this list WAS user-generated, **which I doubt**, any list that includes Experts Exchange loses credibility, in my eyes. When I've asked any developer about their experience in finding good answers from that site, roundly I've heard nothing but bad things. I've even thought this piece was done by an intern, or some writer's little cousin's brother.
 
 ###My Own Top 10 Tech Sites###
 I can't sit and cast my personal judgement on their picks for Top 10. Let's see how hard it will be for me, maybe it's tough! 
 
 * StackOverflow &amp; ServerFault 
-* <a href="http://channel9.msdn.com/">Channel 9</a>
-* <a href="http://www.codeplex.com/">CodePlex</a>
-* Your RSS reader + your fav blogs. Take it to 10+, or as far as you like.  Mine include developers and leaders in the community – <a href="http://haacked.com/">Phil Haack</a>, <a href="http://msmvps.com/blogs/jon_skeet/Default.aspx">Jon Skeet</a>, Scott Hanselman, Scott Gu, <a href="http://www.brentozar.com/">Brent Ozar</a>, and more. 
+* [Channel 9](http://channel9.msdn.com/)
+* [CodePlex](http://www.codeplex.com/)
+* Your RSS reader + your fav blogs. Take it to 10+, or as far as you like.  Mine include developers and leaders in the community – [Phil Haack](http://haacked.com/), [Jon Skeet](http://msmvps.com/blogs/jon_skeet/Default.aspx), Scott Hanselman, Scott Gu, [Brent Ozar](http://www.brentozar.com/), and more. 
  
-You don't need 10 to get a good list. <a href="http://www.stackoverflow.com">StackOverflow is full of excellent questions and answers on EVERYTHING a developer needs</a>. The amount of quality answers and <a href="http://stackoverflow.com/users">quality answerers</a> are enough for a top 50 list.
+You don't need 10 to get a good list. [StackOverflow is full of excellent questions and answers on EVERYTHING a developer needs](http://www.stackoverflow.com). The amount of quality answers and [quality answerers](http://stackoverflow.com/users) are enough for a top 50 list.
 
 ###Online Really Has Moved Their Cheese###
 I can't bring myself to pay any more money for the mag. That really sucks for the people who work on the mag, and that industry in general but they've got incredible opportunities to redirect their efforts on the web. The shift in the print industry has been obvious for years, hopefully they can improve their website to keep users/readers coming back. I believe that established industries need to be more agile or nimble in their ability to change with technology.

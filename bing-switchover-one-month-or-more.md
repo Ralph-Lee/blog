@@ -3,7 +3,7 @@
 
 Like 95% of the searching masses, I use Google as the primary engine in my browser search fields. Sure, I have installed the usual suspects of other sites that I like to search by. OK, I only ever used Wikipedia once or twice, and Stack Overflow is nice to have. I find it difficult, to switch search engines WITHOUT using the mouse. Maybe it's just me, and there's a magical keyboard shortcut to switch to Next Engine, or something.
 
-<img border="0" alt="firefox_search_engines_list" src="img/firefox_search_engines_list_5.png" width="375" height="323" />
+![firefox_search_engines_list](img/firefox_search_engines_list_5.png)
 
 
 ###Bing?!###

@@ -1,4 +1,4 @@
-<!--{Title:"Your Façade", PublishedOn:"2010-09-07T06:09:53", Intro:"A recent answer at stackoverflow on architecting systems. the question dealt with a system needing t"} -->
+<!--{Title:"Your Façade", PublishedOn:"", Intro:"A recent answer at stackoverflow on architecting systems. the question dealt with a system needing t"} -->
 
 
 A recent answer at stackoverflow on architecting systems. the question dealt with a system needing to write and read from a queue. I chimed in with my answer suggesting catching the message with a façade, and sending another message to the internal system.
@@ -11,6 +11,7 @@ If you have an application, you definitely will want to make your app more secur
 
 **Create an abstraction. **Deploy an application that will handle those calls from the users out in the public internet. Have this application call into your business logic deployed on your internal network, the network that the database is on.  The web service application may use a different object model than the façade application. The key to the security here is the parameterization and serialization of the data from the DMZ to the internal web service. 
 Don't blindly trust calls from your DMZ machine.
+
 ###How It Works###
 We have 3 nodes in this setup.
 
@@ -18,7 +19,7 @@ We have 3 nodes in this setup.
 * Internal Web Service – your public-facing application calls into this service. This machine is NOT accessible from the public internet by firewall. The firewall does allow traffic from the DMZ machine to this machine via port 80 only.
 * Database – this machine is also shielded from the public internet by firewall. No traffic should hit this machine from anywhere but the internal network (i.e. the internal web service).
 
-<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px; padding-top: 0px" title="diag" border="0" alt="diag" src="http://devtxt.com/blog/image.axd?picture=diag.png" width="622" height="450" />
+![diag](img/image.axd?picture=diag.png)
 
 ###Applications###
 2 applications are needed here. one is the façade, or public facing service, and the second is the web service actually doing the work.

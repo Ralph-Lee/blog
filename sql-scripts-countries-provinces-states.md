@@ -1,4 +1,4 @@
-<!--{Title:"SQL Scripts â Countries, Provinces, States", PublishedOn:"2009-06-17T09:29:38", Intro:"A new project has me writing up the same old Country/State/Province reference tables. My feeling is "} -->
+<!--{Title:"SQL Scripts - Countries, Provinces, States", PublishedOn:"2009-06-17T09:29:38", Intro:"A new project has me writing up the same old Country/State/Province reference tables. My feeling is "} -->
 
 A new project has me writing up the same old Country/State/Province reference tables. My feeling is that these static (fairly static) entities should be normalized and referenced by foreign key. I had asked a StackOverflow question on whether other developers had this prebuilt set of [country/state/province create scripts](stackoverflow.com/questions/994539/sql-script-to-create-country-state-tables) in their toolbelt.
 This is a code garage sale! Never again worry about creating and loading country and province/state data.
@@ -6,7 +6,7 @@ This is a code garage sale! Never again worry about creating and loading country
 ###Create The Schema###
 Create your Country and State tables with this [CREATE SQL script](http://devtxt.com/blog/downloads/sql/CreateCountryAndState.sql.txt). As always, name the State table whatever you like (ProvState, tblState, whathaveyou).  Some folks don't like table names to be the same as reserved keywords. 
 
-<img   title="country_state_erd" border="0" alt="country_state_erd" src="img/country_state_erd_thumb.png" width="359" height="138" />
+![country_state_erd](img/country_state_erd_thumb.png)
 
 ###Populating ###
 Here is a collection of insert scripts to get the data populated quickly for you.
@@ -18,5 +18,5 @@ Here is a collection of insert scripts to get the data populated quickly for you
 
 ###Have Fun###
 Some developers go further down the normalization path by creating a City table, but I usually pass on that. As always, that decision is largely dependant on the problem domain or task at hand. 
-Yippee for me that'll be fun trying to reconcile data when someone <a href="http://www.epodunk.com/top10/misspelled/index.html" target="_blank">enters their city location incorrectly</a> as "St. Paul" / "Tuscon" / "Pittsburg" instead of Saint Paul / Tucson / Pittsburgh.
+Yippee for me - that'll be fun trying to reconcile data when someone [enters their city location incorrectly](http://www.epodunk.com/top10/misspelled/index.html) as "St. Paul" / "Tuscon" / "Pittsburg" instead of Saint Paul / Tucson / Pittsburgh.
 If you would like to contribute an insert script or two for a country that you would like to see here, just tweet at me with your script!
