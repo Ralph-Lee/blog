@@ -1,32 +1,43 @@
-<!--{Title:"MarkdownPad 2. Windows editor for markdown files", PublishedOn:"", Intro:"If you use Markdown in Windows, consider trying MarkdownPad 2."} -->
+<!--{Title:"MarkdownPad 2. Windows editor for markdown files", PublishedOn:"13/09/2013 12:27:39 PM", Intro:"If you use Markdown in Windows, consider trying MarkdownPad 2."} -->
+ 
+[Scott Hanselman tweeted and called this "The Markdown Editor for Windows"](https://twitter.com/shanselman/status/309193260402888705). Solid endorsement. I was anticipating using Notepad++, as surely it has a syntax-highlighting plugin, but this application simply does all you need when editing Markdown in Windows.
 
-[Scott Hanselman tweeted about "The Markdown Editor for Windows"](https://twitter.com/shanselman/status/309193260402888705). Solid endorsement.
+I downloaded [MarkdownPad 2](http://markdownpad.com), and loved it. Smooth and simple.
 
-I downloaded [MarkdownPad](http://markdownpad.com), and loved it. Smooth.
+I love that the product allows you to use your own CSS in the live preview, and it's got built-in image upload to Imgur that works like a champ; I'm so impressed with this feature.
 
-I love that the product allows you to use your own CSS in the live preview.
+The Pro upgrade is $15 USD. I went and bought the Pro after considering that this is a product built by a single developer, and I'll be getting a lot of use out of it.
 
 ###Feature Suggestions###
 
-Look, feature clutter sucks. Here's my crazy list of features that probably shouldn't be implemented. :) 
+Look, I know, feature clutter kind of sucks. Here's my crazy list of features that probably shouldn't be implemented. :)  
 
 **Saved Snippets**
-I'd like to be able to insert a custom snippet of text. Just one :)
+I'd like to be able to insert a custom snippet of text. I regularly will start a document with an HTML comment at the top, or I want a empty JSON object snippet, or even a table. A toolbar button with a small dropdown allowing me to choose would be great. 
+
+![](img/markdownpad_tables.png)
 
 **Easier Tables?**
-A toolbar icon to quickly insert a table would be handy.
+Rolling your own is kind of a pain. A toolbar icon to quickly insert a pre-formatted 2x3 table would be handy.
 
-**Ribbon instead of a toolbar?**
- 
 **Find and Replace All**
-Implement a Find and Replace dialog (same as you find in Notepad++ and/or Visual Studio). Optionally find all matching tokens, and replace them with another.
+Implement a Find and Replace dialog (same as you find in Notepad++ and/or Visual Studio). Optionally find all matching tokens, and replace them with another. Bonus for doing this operation in all open documents.
 
-**directory browser**
-I'd sometimes like to be able to have a view into a local directory. Click on any given .md file, and it would load into the editor.
+![](img/markdownpad-find-replace-suggestion.png)
 
-**HTML element convert to markdown syntax**
-My use-case was that I had a bunch of HTML files that I was converting to markdown. I had `<a href="">` and `<img>` in a whole bunch of files.
+**Markdown Syntax Help**
+I was expecting a link to a [Markdown syntax cheat sheet](https://gist.github.com/howar31/5963000) or something in the Help menu. 
+
+**HTML element convert to Markdown syntax**
+My use-case was that I had a bunch of HTML files that I was converting to Markdown. I had `<a href="">` and `<img>` in a whole bunch of files.
 What would be nice is the option to right-click on the HTML tag, and have the program convert that to the Markdown equivalent.
 
-**Find in files**
-Search a directory of Markdown files for a given string token.
+**Word Highlighting**
+As in Notepad++, double click a word, and all instances of that word in the current document are highlighted.
+
+**Local directory browser**
+I'd sometimes like to be able to have a view into a local directory. Click on any given .md file, and it would load into the editor.
+
+**Ribbon instead of a toolbar?**
+I love the Office ribbon. I know this would be a lot of work.
+ 
