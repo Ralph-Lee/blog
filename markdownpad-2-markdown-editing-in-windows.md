@@ -17,7 +17,7 @@ I'd like to be able to insert a custom snippet of text. I regularly will start a
 
 ![](img/markdownpad_tables.png)
 
-* **Easier Tables?**
+* **Easy Tables**
 Rolling your own is kind of a pain. A toolbar icon to quickly insert a pre-formatted 2x3 table would be handy.
 
 * **Find and Replace All**
@@ -33,11 +33,11 @@ My use-case was that I had a bunch of HTML files that I was converting to Markdo
 What would be nice is the option to right-click on the HTML tag, and have the program convert that to the Markdown equivalent.
 
 * **Word Highlighting**
-As in Notepad++, double click a word, and all instances of that word in the current document are highlighted.
+Double click a word, and all instances of that word in the current document are highlighted.
 
 * **Local directory browser**
 I'd sometimes like to be able to have a view into a local directory. Click on any given .md file, and it would load into the editor.
 
 * **Ribbon instead of a toolbar?**
-I love the Office ribbon. I know this would be a lot of work.
+I love the Office ribbon; would be nice to see similar in MarkdownPad. I know this would be a lot of work.
  
