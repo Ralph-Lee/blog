@@ -15,7 +15,7 @@ Look, I know, feature clutter kind of sucks. Here's my crazy list of features th
 * **Saved Snippets**
 I'd like to be able to insert a custom snippet of text. I regularly will start a document with an HTML comment at the top, or I want a empty JSON object snippet, or even a table. A toolbar button with a small dropdown allowing me to choose would be great. 
 
-![](img/markdownpad_tables.png)
+    ![](img/markdownpad_tables.png)
 
 * **Easy Tables**
 Rolling your own is kind of a pain. A toolbar icon to quickly insert a pre-formatted 2x3 table would be handy.
@@ -23,7 +23,7 @@ Rolling your own is kind of a pain. A toolbar icon to quickly insert a pre-forma
 * **Find and Replace All**
 Implement a Find and Replace dialog (same as you find in Notepad++ and/or Visual Studio). Optionally find all matching tokens, and replace them with another. Bonus for doing this operation in all open documents.
 
-![](img/markdownpad-find-replace-suggestion.png)
+    ![](img/markdownpad-find-replace-suggestion.png)
 
 * **Markdown Syntax Help**
 I was expecting a link to a [Markdown syntax cheat sheet](https://gist.github.com/howar31/5963000) or something in the Help menu. 
