@@ -1,4 +1,4 @@
-<!--{Title:"MarkdownPad 2. Windows editor for markdown files", PublishedOn:"13/09/2013 12:27:39 PM", Intro:"If you use Markdown in Windows, consider trying MarkdownPad 2."} -->
+<!--{Title:"MarkdownPad 2. Windows editor for markdown files", PublishedOn:"13-Sep-2013 12:46", Intro:"If you use Markdown in Windows, consider trying MarkdownPad 2."} -->
  
 [Scott Hanselman tweeted and called this "The Markdown Editor for Windows"](https://twitter.com/shanselman/status/309193260402888705). Solid endorsement. I was anticipating using Notepad++, as surely it has a syntax-highlighting plugin, but this application simply does all you need when editing Markdown in Windows.
 
