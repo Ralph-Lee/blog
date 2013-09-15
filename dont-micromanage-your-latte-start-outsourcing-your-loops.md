@@ -36,10 +36,22 @@ Consider now your desires as a programmer when your task is to find customers wi
 	   } 
 	
 	   //find the youngest by their age
-	   if (c.Birthdate < youngestbirthdate)="" pretend="" nobody="" has="" the="" same="" birthdate="" ;)="" {="" youngestcust="c;" }="" }="" you="" now="" have="" youngestcust="" populated="" (in="" most="" cases)="" very="" fine-grain="" operations="" are="" explicitly="" laid="" out="" by="" the="" developer,="" and="" execution="" path="" follows="" exactly="" what="" the="" developer="" wrote.="" defects="" and="" all!="" the="" number="" of="" defects="" is="" up="" to="" you!="" ###the="" coffee="" shop="" model="" of="" algorithms="" ###="" consider="" now="" the="" coffee="" shop="" model="" of="" this="" algorithm.="" we'll="" use="" linq.="" var="" youngestcust="myCustomers" .where(c="">c.TotalAmountOwing > 5000)                    
+	   if (c.Birthdate < youngestBirthdate) //pretend nobody has the same birthdate ;)
+	   {
+	      youngestCust = c;
+	   }
+	}
+	//you now have youngestCust populated (in most cases) 
+
+Very fine-grain operations are explicitly laid out by the developer, and execution path follows exactly what the developer wrote. Defects and all! The number of defects is up to you! 
+###The Coffee Shop Model of Algorithms ###
+Consider now the Coffee Shop model of this algorithm. We'll use LINQ. 
+  
+    var youngestCust = myCustomers
+                      .Where(c=>c.TotalAmountOwing > 5000)                    
                       .OrderBy(c=>c.BirthDate)                    
                       .SingleOrDefault(); 
-
+                      
 It should be obvious by now, if it wasn't at the start: the LINQ extension methods are doing all the looping for you, and taking care of all the small bits and housekeeping. **You as the customer, don't want to care about how it's found, but rather, you declare what you want. **
 
 ###Outsource Your Loops ###
