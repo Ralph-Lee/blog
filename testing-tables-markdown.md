@@ -1,4 +1,4 @@
-<!-- Title:"Tables in MarkdownDeep Testing", PublishedOn:"", Intro:"testing for tables" -->
+<!-- {Title:"Tables in MarkdownDeep Testing", PublishedOn:"", Intro:"testing for tables"} -->
 
 Hi, here's a table.
 

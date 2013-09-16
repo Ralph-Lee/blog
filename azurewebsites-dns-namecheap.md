@@ -1,4 +1,4 @@
-<!-- Title:"Configuring DNS at NameCheap For Windows Azure ",PublishedOn:"", Intro:"Having trouble configuring your DNS settings at NameCheap for Windows Azure?"-->
+<!-- {Title:"Configuring DNS at NameCheap For Windows Azure ",PublishedOn:"", Intro:"Having trouble configuring your DNS settings at NameCheap for Windows Azure?"}-->
 
 ##NameCheap DNS Configuration for Windows Azure##
 
@@ -21,8 +21,7 @@ Then, after some time to propogate, Azure will recognize this as valid, but actu
 
 ![](img/dns-azure-succeeded.png)
 
-Finally I went and created the domain CNAMEs:
+Finally I went and created the domain CNAMEs. That finally solved all the issues.
 
-![](azure-cnames-more.png)
+![](img/azure-cnames-more.png)
 
-That finally solved all the issues. 
