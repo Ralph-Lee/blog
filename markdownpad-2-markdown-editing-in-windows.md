@@ -1,16 +1,20 @@
-<!--{Title:"MarkdownPad 2. Windows editor for markdown files", PublishedOn:"13-Sep-2013 12:46", Intro:"If you use Markdown in Windows, consider trying MarkdownPad 2."} -->
+<!--{Title:"MarkdownPad 2. *The* Windows editor for markdown files", PublishedOn:"13-Sep-2013 12:46", Intro:"If you use Markdown in Windows, consider trying MarkdownPad 2."} -->
  
 [Scott Hanselman tweeted and called this "The Markdown Editor for Windows"](https://twitter.com/shanselman/status/309193260402888705). Solid endorsement. I was anticipating using Notepad++, as surely it has a syntax-highlighting plugin, but this application simply does all you need when editing Markdown in Windows.
 
+
 I downloaded [MarkdownPad 2](http://markdownpad.com), and loved it. Smooth and simple.
 
+ 
 I love that the product allows you to use your own CSS in the live preview, and it's got built-in image upload to Imgur that works like a champ; I'm so impressed with this feature.
+
 
 The Pro upgrade is $15 USD. I went and bought the Pro after considering that this is a product built by a single developer, and I'll be getting a lot of use out of it.
 
+
 ###Feature Suggestions###
 
-Look, I know, feature clutter kind of sucks. Here's my crazy list of features that probably shouldn't be implemented. :)  
+Look, I know, feature clutter kind of sucks. Here's my crazy list of features that probably shouldn't be implemented, but I'll throw out there regardless. :)  
 
 * **Saved Snippets**
 I'd like to be able to insert a custom snippet of text. I regularly will start a document with an HTML comment at the top, or I want a empty JSON object snippet, or even a table. A toolbar button with a small dropdown allowing me to choose would be great. 
@@ -36,8 +40,7 @@ What would be nice is the option to right-click on the HTML tag, and have the pr
 Double click a word, and all instances of that word in the current document are highlighted.
 
 * **Local directory browser**
-I'd sometimes like to be able to have a view into a local directory. Click on any given .md file, and it would load into the editor.
+I'd sometimes like to be able to have a view into a local directory. Show me a list of files in a directory, allow me to click on any given .md file, and it would load into the editor.
 
 * **Ribbon instead of a toolbar?**
-I love the Office ribbon; would be nice to see similar in MarkdownPad. I know this would be a lot of work.
- 
+I love the Office ribbon; would be nice to see similar in MarkdownPad. Obviously the effort would be large.
