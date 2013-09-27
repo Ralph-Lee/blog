@@ -29,7 +29,7 @@ Perhaps take it a step further and externalize those snippets if you like. My fi
 
 ###Useful in the Real World?###
 
-There's always the balance of demoware *vs.* actual best practices *vs.* your development standards. I am leery of hardcoding markup in your compiled app. It'll take an application *redeploy* to change that markup to something different. 
+There's always the balance of demoware *vs.* actual best practices *vs.* your development standards. I am leery of hard-coding markup in your compiled app. It'll take an application *redeploy* to change that markup to something different. 
 Of course, in the real world, you'd probably be loading something user-specific here, like a customer's name, shopping cart, etc. where you'd be wanting to `string.Format()` all those details anyway. Heck, you'd even want to iterate through your invoices, tweets, or whatever collection you'd want to start building a simple `<ul>` with your collection of business data in `<li>`. 
 Even if it was a simple replacement of XML, with some business logic around which snippet to insert, consider if you'd had externalized those snippet into an XML resource file(s), you could refer to them easily, although not as simple as strongly typed XML literals **compiled** in a resource file. There's that balance again - ease of coding vs. maintainability in production.
  

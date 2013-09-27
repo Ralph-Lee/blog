@@ -1,4 +1,4 @@
-<!--{Title:"Unit Testing –", PublishedOn:"2009-11-19T03:59:45", Intro:"After stumbling upon this outrageous Reddit headline, I almost did a spit-take. Here it was:        "} -->
+<!--{Title:"Unit Testing", PublishedOn:"2009-11-19T03:59:45", Intro:"After stumbling upon this outrageous Reddit headline, I almost did a spit-take. Here it was:        "} -->
 
 After stumbling upon this [outrageous Reddit headline](http://www.reddit.com/r/programming/comments/a0z60/its_ok_not_to_write_unit_tests/), I almost did a [spit-take](http://en.wikipedia.org/wiki/Spit-take). Here it was:
 
@@ -11,6 +11,7 @@ Thoughts running through my head:
 * it's posted on an MSDN blog? 
 * further, does this guy work at Microsoft? Cashto? Must be the guy's Microsoft userid?
 * Oh, it's *ON*!
+* wait, is he trolling?
 
 I then took 15 minutes to read the article. I was surprised to read a Microsoftie actually advise readers that unit tests are a waste of time, and that they don't add value. Sure, it's the author's opinion, and certainly we all have one. He even took the time to submit his article to Reddit himself. Curious though, that the article was published on his blog on 31-Mar-2009, yet he submitted to Reddit on 4-Nov-2009. The comments, as visible today, start on 4-Nov-2009. Not a popular blog, apparently. Perhaps it was a trolling move to submit to Reddit, I don't know.
 
