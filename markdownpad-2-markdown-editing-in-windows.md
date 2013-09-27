@@ -26,6 +26,9 @@ Implement a Find and Replace dialog (same as you find in Notepad++ and/or Visual
 
     ![](img/markdownpad-find-replace-suggestion.png)
 
+* **Imgur Accounts**
+I'd like image uploads to be under my own Imgur Pro account. This would ensure that the images won't be garbage-collected by Imgur after their 6 month period of inactivity. I can manage files under my account, etc.
+
 * **Markdown Syntax Help**
 I was expecting a link to a [Markdown syntax cheat sheet](https://gist.github.com/howar31/5963000) or something in the Help menu. 
 
