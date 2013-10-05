@@ -18,6 +18,7 @@ Consider backing up to either a smaller internal disk or an external USB disk. A
 
 * Install your 2nd disk in Bay 2.
 * If this 2nd disk is smaller than your 1st disk, then you must create a Basic volume.
+
 ![](img/synology-create-shared-on-2nd-disk.png)
 
 * Create a new backup task
