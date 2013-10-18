@@ -1,6 +1,6 @@
 <!-- {PublishedOn:"Oct 17 2013 20:45", Title:"Changing ALL CAPS Visual Studio 2013 Menu With A One Line Command", Intro:"Change the Visual Studio 2013 menu from ALL CAPS to Title Case with ONE command."}-->
 
-Visual Studio 2013 launched this week, and like its Release Candidate and VS 2012 predecessors, its menu bar is presented in ALL CAPS.
+Visual Studio 2013 was released to the web today, and like its Release Candidate and VS 2012 predecessors, its menu bar is presented in ALL CAPS.
 
 ![](img/vs-2013-all-caps.png)
 
