@@ -1,4 +1,4 @@
-<!--{PublishedOn:"Nov 13 2013",Title:"Install a Windows Service using PowerShell",Intro:"Visual Studio 2012 removed support for Windows Service installer projects. Good riddance. Make your life easier by using PowerShell than that ridiculously complicated installer."}-->
+<!--{PublishedOn:"Nov 13 2013 20:22",Title:"Install a Windows Service using PowerShell",Intro:"Visual Studio 2012 removed support for Windows Service installer projects. Good riddance. Make your life easier by using PowerShell than that ridiculously complicated installer."}-->
 Visual Studio 2012 removed support for Windows Service installer projects (vdproj) as [described by Buck Hodges in this MSDN blog post](http://blogs.msdn.com/b/buckh/archive/2011/03/17/visual-studio-setup-projects-vdproj-will-not-ship-with-future-versions-of-vs.aspx). My usage of this project type was for installing Windows Services. The experience wasn't satisfying, but rather complicated and ponderous.
  
 Make your life easier by using PowerShell. If you're holding onto Visual Studio 2010 because of an installer project for a Windows service, you might consider using PowerShell.
