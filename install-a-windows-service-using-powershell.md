@@ -16,7 +16,7 @@ This script will:
 
 If you experience an error when running this script like `The specified service has been marked for deletion`, I've found that closing any instances of `services.msc` has solved that issue.
 
-**[Download It](http://devtxt.com/files/install-service-example.ps1)**
+**[Download It](http://devtxt.com/files/install-service-example.ps1.txt)**
     
     $serviceName = "My Service Name"
     $exePath = "C:\Program Files\foo\bar.exe"
