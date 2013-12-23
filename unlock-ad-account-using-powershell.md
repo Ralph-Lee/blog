@@ -9,7 +9,7 @@ Active Directory (AD) accounts can become locked; usually this is due to multipl
 
 ###Before And After###
 <table><tr><td>**Account in Locked State**
-![](img/unlock-ad-account-locked.png)
+<img src="img/unlock-ad-account-locked.png" />
 </td><td>**Now Unlocked**
-![](img/unlock-ad-account-now-unlocked.png)
+<img src="img/unlock-ad-account-now-unlocked.png" />
 </td></tr></table>
