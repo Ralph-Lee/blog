@@ -1,4 +1,4 @@
-<!--{Title:"Batch Rename Files To Remove Substring From File Name Using PowerShell",PublishedOn:"Dec 6 2013",Intro:"Test 123"}-->
+<!--{Title:"Batch Rename Files To Remove Substring From File Name Using PowerShell",PublishedOn:"Dec 6 2013",Intro:"SQL Server Management Studio scripts out 'StoredProcedure' in file names. Here's how to remove a substring in many files in a directory with one line of PowerShell."}-->
 
 Use this PowerShell command to rename all the files in the directory to remove the "StoredProcedure" substring. This substring showed up for me when SQL Server Management Studio's Generate Scripts utility wrote the files out to disk. The same suffix is present when scripting out other objects - `View`, `Table`, etc.
  
