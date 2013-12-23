@@ -6,10 +6,10 @@ Use this PowerShell command to rename all the files in the directory to remove t
 
 ###Remove Filename Substrings With PowerShell###
 Open a command prompt, navigate to the directory your files are in, and run this one-liner to remove those substrings.
-```
-PowerShell
-Dir *.StoredProcedure.sql | rename-item -newname { $_.name  -replace ".StoredProcedure","" }
-```
+
+    PowerShell
+    Dir *.StoredProcedure.sql | rename-item -newname { $_.name  -replace ".StoredProcedure","" }
+
 
 ![](img/batch-rename-files-console.png)
 
