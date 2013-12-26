@@ -25,7 +25,7 @@ There's a ripple effect to this as well. As more developers put the modal nag sc
 
 ##App Developers, Avoid This Crappy UX##
 
-<img src=http://i.imgur.com/LuL36Cn.png" title="begging for 5 star ratings in the Apple App Store" style="float:right" />
+<img src="http://i.imgur.com/LuL36Cn.png" title="begging for 5 star ratings in the Apple App Store" style="float:right" />
 
  There are a few notes about this dialog:
  
