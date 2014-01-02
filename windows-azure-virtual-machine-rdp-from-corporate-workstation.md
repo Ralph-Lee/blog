@@ -9,6 +9,7 @@ Click the Connect button. Your browser downloads the .rdp file.
 ![](img/azure-connect-rdp-connect-button.png)
 
 When I used the given .rdp file from Azure, I get a connection error. 
+
 ![Remote Desktop can't connect to the remote computer](img/azure-connect-rdp-unable.png)
 
 It turns out that the corporate network I'm currently on is **whitelisting ports for outbound traffic** (the common ports a typical user would need: 80, 8080, 443, 21, etc.), and the one given by Azure, `49390`, isn't one of them. So the result is that your outbound request to the server is blocked at the firewall.
