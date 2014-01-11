@@ -24,7 +24,7 @@ It's true that there are absolutely ZERO configuration options, and I wish it wo
 * the search and subscribe process was fantastic
 * when you tap into search/add a new podcast, focus is given to the textbox and the keyboard appears immediately
 * when searching, sometimes you're presented with double results, but no explanation as to what the difference between the two are.
-* giving you the choice to configure 3 items - skip interval for reverse and forward, and 
+* giving you the choice to configure 3 items - skip interval for reverse and forward, and playback speed. In the 'simple' vein, the app remembers this setting globally between podcasts.
 * easily remove a podcast from the menu. It's a simple tap and hold to remove.
 
 ###Things I Wish Network Did (Better)###
@@ -32,13 +32,15 @@ It's true that there are absolutely ZERO configuration options, and I wish it wo
 I totally understand that this app was designed to be minimal. I'm not sure if the developer meant minimal features, or present a minimal design. In either case, I was left wanting a few things.
 
 * support remote fast-forward from headphones (when the phone is both locked and unlocked)
-* it's too easy to delete/mark a podcast as listened to. I've swiped an episode a handful of times by accident and have been forced to redownload it.
-* give me visual cues showing me my navigation options.
+* it's too easy to delete/mark a podcast as listened to. I've swiped an episode a handful of times by accident and have been forced to redownload it. By the time it's downloaded, you've forgotten the place you were at.
+* give me visual cues showing me my navigation options. This app's navigation is 50/50 swiping and buttons, and it takes some learning to know when to swipe to do that thing you want. 
 * show cover art on the lock screen
-* allow me to force a refresh/check for new episodes on all podcasts 
-* stop the bouncy effects - mostly noticeable for me between the play screen and the podcasts menu.
+* allow me to force a refresh/check for new episodes on all podcasts on demand.
+* at least tell me when you'll be autochecking my podcast feeds for new episodes.
+* stop the bouncy effects - mostly noticeable for me between the play screen and the podcasts menu. Fine, it's one bounce, but it feels unnecessary.
+* if you deviate your scrubbing from the horizontal line, it won't scrub, but will navigate to the notes page.
 * larger cover art on the podcasts menu. The whitespace (or is it greyspace) on the side seems wasted.
 * when searching, let me browse through the episodes. Sometimes I want a podcast episode without subscribing.
 * remove the "Podcast Completed" robot voice message. It surprised me in a mildly annoying way and I don't like it. As a podcast listening, I know when the episode has ended.
 * support variable speed scrubbing on the play screen
-* support chapters. I know this isn't a featu
+
