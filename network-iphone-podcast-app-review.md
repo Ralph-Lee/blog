@@ -4,7 +4,7 @@ The app description for [Network](http://networkapp.net) is
 
 > Designed exclusively for iOS 7, Network is part of the next generation of iOS applications. Leveraging the best of what iOS 7 has to offer, while keeping the user interface clean, minimal and beautiful. Network strips the podcast app back to it's core components, eschewing complications in order to provide a very simple and efficient user experience.
 
-I think the developer hit the mark on all these points. The app looks super clean, and is very pleasing to look at. The podcast menu screen is exactly what I want; a large scroll list of covers, each with the number of podcasts downloaded. When no episode are waiting for that podcast, the picture is dimmed heavily, and fade away from view.
+I think the developer hit the mark on all these points. The app looks super clean, and is very pleasing to look at. The podcast menu screen is exactly what I want; a large scroll list of cover art, each decorated with the number of new/unlistened podcasts downloaded. When no episodes are waiting for that podcast, the picture is dimmed heavily, and the picture fades away from prominence.
 
 It's true that there are absolutely ZERO configuration options, and I wish it would have some config options available.
 
@@ -12,17 +12,16 @@ It's true that there are absolutely ZERO configuration options, and I wish it wo
 
 * skip forward and back
 * refresh/reload my feed once a day; sometimes in the morning, sometimes in the afternoon.
-
+* skip forward in increments of 30 sec or 2 mins.
 
 ###Things Network Gets Right###
-* the play screen has a large scrubber button
-* the overall look and feel is very iOS 7. It's refreshing. 
-* there are no faux button/textlabels prevelent in iOS 7.
-* the play screen is clean and uncluttered. The podcast shownotes
-* chapters?
+* the play screen has a large scrubber button. It's easy to grab and slide.
+* the overall look and feel is very iOS 7. It's refreshing, and uses the best of iOS 7. Circles, thin fonts and no lines separating sections of the app. The app also sparingly uses faux button/textlabels prevelent in iOS 7.
+* the play screen is clean and uncluttered. The podcast shownotes are on a separate page, just a swipe away.
 * the search and subscribe process was fantastic
 * when you tap into search/add a new podcast, focus is given to the textbox and the keyboard appears immediately
 * sometimes you're presented with double results, but no explanation as to what the difference between the two are.
+* giving you the choice
 
 ###Things I Wish They Did (Better)###
 
@@ -38,3 +37,4 @@ I totally understand that this app was designed to be minimal. I'm not sure if t
 * when searching, let me browse through the episodes. Sometimes I want a podcast episode without subscribing.
 * remove the "Podcast Completed" robot voice message. It surprised me in a mildly annoying way and I don't like it. As a podcast listening, I know when the episode has ended.
 * support variable speed scrubbing on the play screen
+* support chapters. I know this isn't a feature
