@@ -1,6 +1,6 @@
 <!--{PublishedOn:"",Title:"Network Podcast App Review",Intro:"A new podcast app showed up for iPhone and iOS 7. I'm a big podcast listener. Here's my review of this app that's not yet a month old."}-->
 
-I read a semi-sarcastic tweet about how building a podcast app is the new building a Twitter app. The tweet linked to Network, and it's quite new; released less than a month ago in December 2013.
+I read a semi-sarcastic tweet about how building a podcast app is the new building a Twitter app. The tweet linked to Network, and it's quite new; released less than a month ago in December 2013. I love podcasts and podcast apps, so I went and bought it. A modern design was enough to entice me, and it was listed at an incredibly lightweight 1.2MB in the App Store.
 
 The app description for [Network](http://networkapp.net) is
 
@@ -13,17 +13,18 @@ It's true that there are absolutely ZERO configuration options, and I wish it wo
 ###Things I Do When Listening To Podcasts###
 
 * I want the newest/freshest content right now
-* refresh/reload my feed once a day; sometimes in the morning, sometimes in the afternoon.
+* refresh/reload my feed once a day; sometimes in the morning, sometimes in the afternoon.  No matter the time, I want to check on demand.
 * when playing skip forward in increments of 30 sec or 2 mins.
 
 ###Things Network Gets Right###
+* the play screen has a large pause/play button, and easy-to-hit reverse and forward buttons.
 * the play screen has a large scrubber button. It's easy to grab and slide.
-* the overall look and feel is very iOS 7. It's refreshing, and uses the best of iOS 7. Circles, thin fonts and no lines separating sections of the app. The app also sparingly uses faux button/textlabels prevelent in iOS 7.
+* the overall look and feel is very iOS 7. It's refreshing, and uses the best of iOS 7. Circles, thin fonts and no lines separating sections of the app. The app also sparingly uses faux button/textlabels prevalent in iOS 7.
 * the play screen is clean and uncluttered. The podcast shownotes are on a separate page, just a swipe away.
 * the search and subscribe process was fantastic
 * when you tap into search/add a new podcast, focus is given to the textbox and the keyboard appears immediately
-* sometimes you're presented with double results, but no explanation as to what the difference between the two are.
-* giving you the choice
+* when searching, sometimes you're presented with double results, but no explanation as to what the difference between the two are.
+* giving you the choice to configure 3 items - skip interval for reverse and forward, and 
 * easily remove a podcast from the menu. It's a simple tap and hold to remove.
 
 ###Things I Wish Network Did (Better)###
@@ -40,4 +41,4 @@ I totally understand that this app was designed to be minimal. I'm not sure if t
 * when searching, let me browse through the episodes. Sometimes I want a podcast episode without subscribing.
 * remove the "Podcast Completed" robot voice message. It surprised me in a mildly annoying way and I don't like it. As a podcast listening, I know when the episode has ended.
 * support variable speed scrubbing on the play screen
-* support chapters. I know this isn't a feature
+* support chapters. I know this isn't a featu
