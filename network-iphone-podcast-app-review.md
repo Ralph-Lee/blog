@@ -1,6 +1,6 @@
 <!--{PublishedOn:"",Title:"Network Podcast App Review",Intro:"A new podcast app showed up for iPhone and iOS 7. I'm a big podcast listener. Here's my review of this app that's not yet a month old."}-->
 
-I read a humorous tweet about how building a podcast app is the new building a Twitter app. The tweet linked to Network, and it's quite new; released less than a month ago in December 2013. I love podcasts and podcast apps, so I went and bought it. A modern design was enough to entice me, and it was listed at an incredibly lightweight 1.2MB in the App Store.
+I read a humorous tweet about how building a podcast app is the new building a Twitter app. The tweet linked to Network, and it's quite new; released less than a month ago in December 2013. I love podcasts and podcast apps, so I went and bought it. A modern design was enough to entice me, and it was listed at an incredibly lightweight 1.1 MB in the App Store. 1.1 MB, what, how is that even...?!
 
 The app description for [Network](http://networkapp.net) is
 
@@ -10,6 +10,8 @@ The developer hit the mark on all these points. The app looks super clean, and i
 
 It's true that there are absolutely ZERO configuration options, and I wish it would have some config options available.
 
+I'm happy to have found this app, and am looking forward to using it for an extended time.
+
 ###Things I Do When Listening To Podcasts###
 
 The app looks great, but it's got to make listening easy and convenient for me.
@@ -17,13 +19,14 @@ The app looks great, but it's got to make listening easy and convenient for me.
 * I want the newest/freshest content right now
 * refresh/reload my feed once a day; sometimes in the morning, sometimes in the afternoon.  No matter the time, I want to check on demand.
 * when playing, skip forward in increments of 30 sec or 2 mins.
+* search for a new podcast by name
 
 ###Things Network Gets Right###
 * the play screen has a large pause/play button, and easy-to-hit reverse and forward buttons.
 * the play screen has a large scrubber button. It's easy to grab and slide.
 * the overall look and feel is very iOS 7. It's refreshing, and uses the best of iOS 7. Circles, thin fonts and no lines separating sections of the app. The app also sparingly uses faux button/textlabels prevalent in iOS 7.
-* the play screen is clean and uncluttered. The podcast shownotes are on a separate page, just a swipe away.
-* the search and subscribe process was fantastic
+* the play screen is clean and uncluttered. The podcast show description/notes are on a separate page, just a tap or swipe away.
+* the search and subscribe process was fantastic. It found all podcasts I gave it by name, and even brought all podcasts up when searching by publisher - i.e. TWiT and 5by5
 * when you tap into search/add a new podcast, focus is given to the textbox and the keyboard appears immediately
 * when searching, sometimes you're presented with double results, but no explanation as to what the difference between the two are.
 * giving you the choice to configure 3 items - skip interval for reverse and forward, and playback speed. In the 'simple' vein, the app remembers this setting globally between podcasts.
