@@ -4,7 +4,9 @@ The app description for [Network](http://networkapp.net) is
 
 > Designed exclusively for iOS 7, Network is part of the next generation of iOS applications. Leveraging the best of what iOS 7 has to offer, while keeping the user interface clean, minimal and beautiful. Network strips the podcast app back to it's core components, eschewing complications in order to provide a very simple and efficient user experience.
 
-I think the developer hit the mark on all these points. There is absolutely ZERO configuration options, and I wish it would have those options available.
+I think the developer hit the mark on all these points. The app looks super clean, and is very pleasing to look at. The podcast menu screen is exactly what I want; a large scroll list of covers, each with the number of podcasts downloaded. When no episode are waiting for that podcast, the picture is dimmed heavily, and fade away from view.
+
+It's true that there are absolutely ZERO configuration options, and I wish it would have some config options available.
 
 ###Things I Do When Listening To Podcasts###
 
@@ -18,9 +20,12 @@ I think the developer hit the mark on all these points. There is absolutely ZERO
 * the play screen is clean and uncluttered. The podcast shownotes
 * chapters?
 * the search and subscribe process was fantastic
-* 
+* when you tap into search/add a new podcast, focus is given to the textbox and the keyboard appears immediately
+* sometimes you're presented with double results, but no explanation as to what the difference between the two are.
 
 ###Things I Wish They Did (Better)###
+
+I totally understand that this app was designed to be minimal. I'm not sure if the developer meant minimal features, or present a minimal design. In either case, I was left wanting a few things.
 
 * support remote fast-forward from headphones (when the phone is both locked and unlocked)
 * it's too easy to delete/mark a podcast as listened to. I've swiped an episode a handful of times by accident and have been forced to redownload it.
