@@ -2,14 +2,14 @@
 
 The app description for [Network](http://networkapp.net) is
 
-> 
+> Designed exclusively for iOS 7, Network is part of the next generation of iOS applications. Leveraging the best of what iOS 7 has to offer, while keeping the user interface clean, minimal and beautiful. Network strips the podcast app back to it's core components, eschewing complications in order to provide a very simple and efficient user experience.
 
-I think the developer hit the mark on this. There is absolutely ZERO configuration options, and I wish it would have those options available.
+I think the developer hit the mark on all these points. There is absolutely ZERO configuration options, and I wish it would have those options available.
 
 ###Things I Do When Listening To Podcasts###
 
 * skip forward and back
-* refresh/reload my feed once a day; somet
+* refresh/reload my feed once a day; sometimes in the morning, sometimes in the afternoon.
 
 ###Things Network Gets Right###
 * the play screen has a large scrubber button
@@ -26,5 +26,9 @@ I think the developer hit the mark on this. There is absolutely ZERO configurati
 * it's too easy to delete/mark a podcast as listened to. I've swiped an episode a handful of times by accident and have been forced to redownload it.
 * give me visual cues showing me my navigation options.
 * show cover art on the lock screen
+* allow me to force a refresh/check for new episodes on all podcasts 
 * stop the bouncy effects - mostly noticeable for me between the play screen and the podcasts menu.
 * larger cover art on the podcasts menu. The whitespace (or is it greyspace) on the side seems wasted.
+* when searching, let me browse through the episodes. Sometimes I want a podcast episode without subscribing.
+* remove the "Podcast Completed" robot voice message. It surprised me in a mildly annoying way and I don't like it. As a podcast listening, I know when the episode has ended.
+* support variable speed scrubbing on the play screen
