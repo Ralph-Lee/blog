@@ -1,18 +1,20 @@
 <!--{PublishedOn:"",Title:"Network Podcast App Review",Intro:"A new podcast app showed up for iPhone and iOS 7. I'm a big podcast listener. Here's my review of this app that's not yet a month old."}-->
 
+I read a semi-sarcastic tweet about how building a podcast app is the new building a Twitter app. The tweet linked to Network, and it's quite new; released less than a month ago in December 2013.
+
 The app description for [Network](http://networkapp.net) is
 
 > Designed exclusively for iOS 7, Network is part of the next generation of iOS applications. Leveraging the best of what iOS 7 has to offer, while keeping the user interface clean, minimal and beautiful. Network strips the podcast app back to it's core components, eschewing complications in order to provide a very simple and efficient user experience.
 
-I think the developer hit the mark on all these points. The app looks super clean, and is very pleasing to look at. The podcast menu screen is exactly what I want; a large scroll list of cover art, each decorated with the number of new/unlistened podcasts downloaded. When no episodes are waiting for that podcast, the picture is dimmed heavily, and the picture fades away from prominence.
+The developer hit the mark on all these points. The app looks super clean, and is very pleasing to look at. The podcast menu screen is exactly what I want; a large scroll list of cover art, each decorated with the number of new/unlistened podcasts downloaded. When no episodes are waiting for that podcast, the picture is dimmed heavily, and the picture fades away from prominence.
 
 It's true that there are absolutely ZERO configuration options, and I wish it would have some config options available.
 
 ###Things I Do When Listening To Podcasts###
 
-* skip forward and back
+* I want the newest/freshest content right now
 * refresh/reload my feed once a day; sometimes in the morning, sometimes in the afternoon.
-* skip forward in increments of 30 sec or 2 mins.
+* when playing skip forward in increments of 30 sec or 2 mins.
 
 ###Things Network Gets Right###
 * the play screen has a large scrubber button. It's easy to grab and slide.
@@ -22,8 +24,9 @@ It's true that there are absolutely ZERO configuration options, and I wish it wo
 * when you tap into search/add a new podcast, focus is given to the textbox and the keyboard appears immediately
 * sometimes you're presented with double results, but no explanation as to what the difference between the two are.
 * giving you the choice
+* easily remove a podcast from the menu. It's a simple tap and hold to remove.
 
-###Things I Wish They Did (Better)###
+###Things I Wish Network Did (Better)###
 
 I totally understand that this app was designed to be minimal. I'm not sure if the developer meant minimal features, or present a minimal design. In either case, I was left wanting a few things.
 
