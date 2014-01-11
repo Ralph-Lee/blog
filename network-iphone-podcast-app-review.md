@@ -13,6 +13,7 @@ It's true that there are absolutely ZERO configuration options, and I wish it wo
 * skip forward and back
 * refresh/reload my feed once a day; sometimes in the morning, sometimes in the afternoon.
 
+
 ###Things Network Gets Right###
 * the play screen has a large scrubber button
 * the overall look and feel is very iOS 7. It's refreshing. 
