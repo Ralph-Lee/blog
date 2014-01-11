@@ -1,6 +1,6 @@
 <!--{PublishedOn:"",Title:"Network Podcast App Review",Intro:"A new podcast app showed up for iPhone and iOS 7. I'm a big podcast listener. Here's my review of this app that's not yet a month old."}-->
 
-I read a semi-sarcastic tweet about how building a podcast app is the new building a Twitter app. The tweet linked to Network, and it's quite new; released less than a month ago in December 2013. I love podcasts and podcast apps, so I went and bought it. A modern design was enough to entice me, and it was listed at an incredibly lightweight 1.2MB in the App Store.
+I read a humorous tweet about how building a podcast app is the new building a Twitter app. The tweet linked to Network, and it's quite new; released less than a month ago in December 2013. I love podcasts and podcast apps, so I went and bought it. A modern design was enough to entice me, and it was listed at an incredibly lightweight 1.2MB in the App Store.
 
 The app description for [Network](http://networkapp.net) is
 
@@ -12,9 +12,11 @@ It's true that there are absolutely ZERO configuration options, and I wish it wo
 
 ###Things I Do When Listening To Podcasts###
 
+The app looks great, but it's got to make listening easy and convenient for me.
+
 * I want the newest/freshest content right now
 * refresh/reload my feed once a day; sometimes in the morning, sometimes in the afternoon.  No matter the time, I want to check on demand.
-* when playing skip forward in increments of 30 sec or 2 mins.
+* when playing, skip forward in increments of 30 sec or 2 mins.
 
 ###Things Network Gets Right###
 * the play screen has a large pause/play button, and easy-to-hit reverse and forward buttons.
