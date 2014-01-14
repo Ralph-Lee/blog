@@ -40,7 +40,7 @@ The app looks great, but a podcasting app has got to make listening easy and con
 
 I totally understand that this app was designed to be minimal. I'm not sure if the developer meant minimal features, or present a minimal design. In either case, I felt wanting a few things.
 
-* support for remote fast-forward from headphones (when the phone is both locked and unlocked).
+* support for remote fast-forward from headphones (when the phone is both locked and unlocked). Headphone buttons have the double-tap and hold to fast-foward the podcast at 2x speed.
 * remove the "Podcast Completed" robot voice message at the end of an episode. It surprised me in a mildly annoying way and I don't like it. It seems like one of those features that are cool to implement, but it doesn't fit with the modern theme of this app.
 * it's too easy to delete/mark a podcast as 'listened to' when in the [episode list](http://i.imgur.com/t5Y4UUgl.jpg). I've swiped an episode a handful of times by accident and have been forced to redownload it. By the time it's redownloaded, I've forgotten the place I was at.
 * give me visual cues showing me my navigation options. This app's navigation is 50/50 swiping and buttons, and it takes some learning to know when to swipe to do that thing you want. 
