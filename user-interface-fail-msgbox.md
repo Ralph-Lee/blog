@@ -8,9 +8,9 @@ Message Boxes are so full of fail. Here's one from an application that thousands
 
 
 ####1. Using A Message Box####
-  This is a desktop application. My biggest annoyance with this is that the application interrupts what the user. It forces the user to navigate to its only button - the stylish `Close` button. So it rewards me with the required action of basically making no choices. My acknowledgment of the problem actually means nothing.
+This is a desktop application. My biggest annoyance with this is that the application interrupts what the user. It forces the user to navigate to its only button - the stylish `Close` button. So it rewards me with the required action of basically making no choices. My acknowledgment of the problem actually means nothing.
   
-  **Fix:** implement and promote a *status bar* where information is presented. Flash up new information. Keep history. Fade away.
+**Fix:** implement and promote a *status bar* where information is presented. Flash up new information. Keep history. Fade away.
  
 
 ####2. Mixed or Confusing Message####
@@ -49,3 +49,7 @@ I want to improve in this aspect myself, so here's my new list for creating mess
  * Someone has been alerted at *datetimestamp*.
  * You should retry when (admins let you know/etc.). 
 1. Update the status area when we can detect that the problem has been solved. 
+
+###Bonus Alert###
+
+![](img/user-messaging-fail-functional.png)
