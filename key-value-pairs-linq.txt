@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+namespace ConsoleApplication1
+{
+    public class Program
+    {
+        public static void Main()
+        {
+            string contents = "Foo=\" \" OrderDate=\"1/9/2014 6:30:03 AM\" OrderNumber=\"090181809\" OrderAmount=\"50404.04\" BillTo=\"Customer Foo\" BillToAddr1=\"123 BAR DRIVE\" BillToAddr2=\"PO BOX 111\" BillToAddr3=\"\" BillToCity=\"NEW YORK\" BillToState=\"NY\" BillToPostalCode=\"42002\" BillToCntry=\"US\" BillToLat=\"39.99\" BillToLong=\"-34.73\" ShipTo=\"BAR\" ShipToAddr1=\"123 BAR LANE\"  ShipDate=\"1/9/2015\" ForeignDuty=\"True\" MixNuts=\"False\"  ";
+            foreach (var item in CreatePairs(contents))
+            {
+                Console.WriteLine(item.Key + ":'" + item.Val + "'");
+            }
+            Console.ReadLine();
+        }
+        
+        public static IEnumerable<Pair> CreatePairs(string contents)
+        {
+            contents = contents.Replace("\" ", "\"|").Replace("=\"|\"", "=\" \"");           
+            foreach (var item in contents.Split('|').Where(x=>x.Trim().Length>0))
+            {
+                var vals = item.Split('=');
+                yield return new Pair { Key = vals[0].Trim(), Val = vals[1].TrimStart('"').TrimEnd('"') };
+            }
+        }
+    }
+    public class Pair
+    {
+        public string Key{get;set;}
+        public string Val{get;set;}
+    }
+}

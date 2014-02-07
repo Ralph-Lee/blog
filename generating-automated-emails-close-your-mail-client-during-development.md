@@ -1,4 +1,4 @@
-<!-- {Title:"Generating Automated Emails – Close your Mail Client During Development", PublishedOn:"2009-06-01T12:25:37", Intro:"So your application needs to send emails to stakeholders/customers/admins/managers. You know the kin"} -->
+<!-- {Title:"Generating Automated Emails – Close your Mail Client During Development", PublishedOn:"2009-06-01T12:25:37", Intro:"So your application needs to send emails to stakeholders/customers/admins/managers. You know the kind"} -->
 
 Yep, this StackOverflow question keeps on giving! [Hidden features of ASP.NET](http://stackoverflow.com/questions/54929/hidden-features-of-asp-net)
 
@@ -35,5 +35,5 @@ While testing, you can have emails sent to a directory instead of being sent to 
 ###So What?###
 
   So how much time does it really save you? It's negligible, really, when your mail server is on the LAN. If you are working with an SMTP server that is unreliable, slow, or keeping accounting on mail count/charging for bandwidth, the seconds per sent email can add up.
-  No matter about SMTP servers... good, bad or ugly. You could [monitor a directory with the .NET `FileSystemWatcher`](http://articles.techrepublic.com.com/5100-10878_11-6165137.html) to watch for newly dropped email files, and then open them automatically! 
+  No matter about SMTP servers... good, bad or ugly. You could [monitor a directory with the .NET `FileSystemWatcher`](http://articles.techrepublic.com/5100-10878_11-6165137.html) to watch for newly dropped email files, and then open them automatically! 
   Imagine, your unit or integration tests create a new email to be sent, and another dev tool (using `FileSystemWatcher`) can automatically `ShellExecute` it for you. That saves you the time of switching to the directory, double clicking the newly created email, and then getting on with the work of checking for correctness.
