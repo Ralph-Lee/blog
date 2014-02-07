@@ -6,4 +6,4 @@ Within, there's the tacit acknowledgment that slow and old are negative/undesire
 
 Ironically, the Windows and Office versions they're promising to deliver are both a generation old.
  
-<img src="http://i.imgur.com/M9GS9dy.png" alt="poster" title="poster" border="1" />
+<img src="http://i.imgur.com/2T6sgUH.png" alt="poster" title="poster"  />
