@@ -16,8 +16,8 @@ In the OpenID section, all the various and sundry OpenID providers are listed, *
 
 <table class="imgholder2">
 <tr>
-<td><a href="http://i.imgur.com/SRalJ62.png"><img src="http://i.imgur.com/SRalJ62m.png"/></a></td>
-<td><a href="http://i.imgur.com/5zpdmHr.png"><img src="http://i.imgur.com/5zpdmHrm.png"/></a></td>
+<td><a href="http://i.imgur.com/SRalJ62.png"><img src="http://i.imgur.com/SRalJ62l.png"/></a></td>
+<td><a href="http://i.imgur.com/5zpdmHr.png"><img src="http://i.imgur.com/5zpdmHrl.png"/></a></td>
 </tr>
 </table>
 
@@ -52,6 +52,7 @@ The main feed is the main StackExchange feed, which shows you an interesting mix
 The mailbox icon on the top right takes you, naturally to your [inbox of answers and comments](http://i.imgur.com/IO7QQxNl.png).
 
 When you're in the list, you can [tap on a tag, and browse that tag's feed](http://i.imgur.com/tfzX5sul.png). Excellent feature.
+<div style="clear:both"/>
 
 
 
