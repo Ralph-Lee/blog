@@ -33,7 +33,7 @@ Then you can move onto entering your SE OpenID credentials.
 
 <table class="imgholder2">
 <tr>
-<td><img src="http://i.imgur.com/KxRr3an.png"/></td>
+<td><img src="http://i.imgur.com/c2Tsljpl.png"/></td>
 <td><img src="http://i.imgur.com/YYxHWB8l.png" /></td>
 </tr>
 </table>
