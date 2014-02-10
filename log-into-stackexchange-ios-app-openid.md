@@ -1,7 +1,6 @@
 <!--{Title:"Log Into The StackExchange iPhone App Using Your StackExchange OpenID Credentials", PublishedOn:"Feb 10 2014", Intro:"The option to use StackExchange as an OpenID provider is curiously missing, and wasn't obvious in how to use your SE OpenID "}-->
 <style>
 table{  margin-left:auto;    margin-right:auto;}
-table.imgholder3 tr td{width:33%; text-align:center; vertical-align:top;}
 table.imgholder2 tr td{width:50%; text-align:center; vertical-align:top;}
 </style>
 <img src="http://i.imgur.com/dKsdDJ2.png" style="float:right"/>
@@ -17,8 +16,8 @@ In the OpenID section, all the various and sundry OpenID providers are listed, *
 
 <table class="imgholder2">
 <tr>
-<td><img src="http://i.imgur.com/SRalJ62m.png"/></td>
-<td><img src="http://i.imgur.com/5zpdmHrm.png"/></td>
+<td><a href="http://i.imgur.com/SRalJ62.png"><img src="http://i.imgur.com/SRalJ62m.png"/></a></td>
+<td><a href="http://i.imgur.com/5zpdmHr.png"><img src="http://i.imgur.com/5zpdmHrm.png"/></a></td>
 </tr>
 </table>
 
@@ -32,11 +31,10 @@ If provider, when what's the format of what you need? Give me an example or hint
 Turns out, it needs to be in format **`openid.stackexchange.com`**. So basically you have to type or paste that into that dialog box. SE Dev Team, just make StackExchange an option in your [login options](http://i.imgur.com/5zpdmHrm.png) page.
 Then you can move onto entering your SE OpenID credentials.
 
-<table class="imgholder3">
+<table class="imgholder2">
 <tr>
-<td><img src="http://i.imgur.com/93kwmzil.png" style="float:right"/></td>
 <td><img src="http://i.imgur.com/KxRr3an.png"/></td>
-<td><img src="http://i.imgur.com/YYxHWB8m.png" /></td>
+<td><img src="http://i.imgur.com/YYxHWB8l.png" /></td>
 </tr>
 </table>
 
@@ -44,7 +42,7 @@ Then you can move onto entering your SE OpenID credentials.
 
 ###Nice UI###
 
-<img src="http://i.imgur.com/4wPP5O7m.png" style="float:right"/>
+<img src="http://i.imgur.com/4wPP5O7l.png" style="float:right"/>
 
 Once that small hurdle was jumped, the app works really well for an alpha.
 The main feed is the main StackExchange feed, which shows you an interesting mix of questions from all over the SE network. You can navigate use the top left button to a sidebar, where you can jump to other sites (conveniently sorting your most active SE sites to the top).
