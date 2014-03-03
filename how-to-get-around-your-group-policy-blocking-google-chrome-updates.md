@@ -50,15 +50,13 @@ Inspect and use this Registry editor file - [GoogleChromeUpdateEnable.reg](files
 As per Google's [Update fails due to inconsistent Google Update Group Policy settings](https://support.google.com/a/answer/1385049), you should verify that your configuration is updated correctly:
 
 >Start > Run > regedit
-Find and open `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update\`
-Verify that the following **new** group policy setting is present:
-
+>Find and open `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update\`
+>Verify that the following **new** group policy setting is present:
 >Update{4DC8B4CA-1BDA-483E-B5FA-D3C12E15B62D}
+>**Delete** these values in `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update` :
 
->Delete these values in HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update :
-
-> Update{8A69D345-D564-463C-AFF1-A69D9E530F96}
-Update{8BA986DA-5100-405E-AA35-86F34A02ACBF}
+> `Update{8A69D345-D564-463C-AFF1-A69D9E530F96}`
+> `Update{8BA986DA-5100-405E-AA35-86F34A02ACBF}`
 
 ###Policy Sidestepped###
 
