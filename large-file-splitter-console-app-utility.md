@@ -1,4 +1,4 @@
-<!--{Title:"",PublishedOn:"Mar 21 2014",Intro:"Someone asked me to split a large file. I wrote a small utility and published it to GitHub."}-->
+<!--{Title:"A Small Utility App For Splitting Large Text Files",PublishedOn:"Mar 21 2014",Intro:"Someone asked me to split a large file. I wrote a small utility and published it to GitHub."}-->
 
 <a href="https://github.com/philoushka/LargeFileSplitter"><img src="http://i.imgur.com/dl0lyrx.png" style="float:right"/></a>
 ###Utility App For Splitting Large Files###
