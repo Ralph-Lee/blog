@@ -1,4 +1,4 @@
-<!-- {PublishedOn:"May 7 2014",Title:"They Just Emailed Me My Own Password", Description:"A log of the time an HR careers-job application tracking software vendor emailed me my own password."} -->
+<!-- {PublishedOn:"May 7 2014",Title:"They Just Emailed Me My Own Password", Intro:"A log of the time an HR careers-job application tracking software vendor emailed me my own password."} -->
 <style>img{border: 1px solid black}.floatr{float:right;}</style>
 
 ### Yet Another Account ###
