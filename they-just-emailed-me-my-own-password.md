@@ -28,7 +28,7 @@ There are at least 4 things wrong with passwords being emailed:
 1. **You know my password** - you shouldn't know it. You should only know a hash of it. **Stop storing your user's/customer's passwords in your database tables.** I don't care if it was encrypted or stored in plaintext. There's no reason to. Your database tables are now full of all your customers' users' [PII](https://en.wikipedia.org/wiki/Personally_identifiable_information), and alongside sit their email address and password. A future security breach will end up with all these details leaked for the public to see. Your users will be [pwned](http://haveibeenpwned.com). 
 1. **Normal people re-use passwords**: same passwords all over the web with the same unique identifier - their email address. When your data is leaked, your poor security practice is contributing to the damage that each of your users' customers' will feel. With those leaked customer credentials in hand, crackers are likely to find success in accessing other unrelated services.    
 1. **You transmitted the password in the clear** - SMTP isn't encrypted, and the contents of email are available to anyone listening along the path from your server to my email inbox. 
-1.** I didn't ask for this** information. Don't send it.
+1. ** I didn't ask for this** information. Don't send it.
 
 **Ironically, AHS or HRSmart has included this gem in their fine-print**:
 
