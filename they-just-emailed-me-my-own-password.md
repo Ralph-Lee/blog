@@ -3,7 +3,7 @@
 
 ### Yet Another Account ###
  
-<img src="http://i.imgur.com/eGlDUBq.png" class="floatr" />
+<a href="https://albertahealthservices.ats.hrsmart.com/cgi-bin/a/editprofile.cgi"><img src="http://i.imgur.com/eGlDUBq.png" class="floatr" /></a>
 
 We've all been forced to create an account at some web application. If you're lucky, the service has identity integration with the popular providers - Facebook, Twitter, Google, Microsoft, and they're only storing authentication tokens from the 3rd party.
 
