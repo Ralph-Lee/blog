@@ -27,5 +27,7 @@ These are mostly a sense of the things I feel, read, and hear around .NET lately
 
 - the entire StackOverflow team and all the work and contributions they have made and shared. 
 
+- the [MVP program](http://mvp.microsoft.com/en-US/default.aspx): rewards people in the community for their efforts in the community.
+
 - Satya Nadella's appoinment as CEO has injected a sense of excitement for the company into the community like never before.
 
