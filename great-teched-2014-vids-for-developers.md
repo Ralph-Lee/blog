@@ -1,5 +1,8 @@
 <!--{PublishedOn:"May 21 2014", Title:"Favorite and Recommended Videos From TechEd 2014 Houston", Intro:"My roundup of the best or most interesting videos from TechEd 2014 as a web and ASP.NET developer."}-->
-
+<style>
+  .vidCategory {padding-top: 40px;}
+   h3 {padding-top:10px;}
+</style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript">
 
@@ -27,7 +30,7 @@
 
         $.each(vids, function (index, vid) {
             var ch9Embed = "<iframe src='http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/" + vid.id + "/player?h=540&w=960' style='height:540px;width:960px;' allowFullScreen frameBorder='0' scrolling='no'></iframe>";
-            var vidItemHtml = "<h3>" + vid.title + "</h3><BR/>" + ch9Embed;
+            var vidItemHtml = "<h3>" + vid.title + "</h3>" + ch9Embed  ;
             $("#"+vid.category+"List").append(vidItemHtml);
         });
     });
@@ -40,6 +43,6 @@ These are my recommended web devs from TechEd 2014. This seems like a ridiculous
 <div id="langList" class="vidCategory"></div>
 <div id="vsList" class="vidCategory"></div>
 <div id="cloudList" class="vidCategory"></div>
-<div id="typescriptList" class="vidCategory">Looking forward to being able to use TypeScript in an application.</div>
+<div id="typescriptList" class="vidCategory"></div>
 <div id="sqlList" class="vidCategory"></div>
     
