@@ -38,21 +38,24 @@ a img {border: 0;}
                 { imgSlug: "vice", comment: "Interviewing a guest about news or politics.", title: "Vice Media", url: "http://www.vice.com/tag/The+VICE+Podcast+Show" },
                 { imgSlug: "what-the-tech", comment: "Discussion of tech topics. Good banter from hosts Andrew Zarian and Paul Thurrott.", title: "What The Tech", url: "http://www.gfqnetwork.com/showsongfq/what-the-tech/" },
                 { imgSlug: "windows-weekly", comment: "News and discussion of Microsoft-centric issues of the day. Insights from Mary Jo Foley and Paul Thurrott.", title: "Windows Weekly", url: "http://twit.tv/ww" }
-            ];
-
+            ];            
             $.each(podcasts, function (index, podcast) {
 
                 var podcastItemHtml = "<a href='" + podcast.url + "'><h3>" + podcast.title + "</h3></a>";
                 podcastItemHtml += "<p class='comment'>" + podcast.comment + "</p>";
                 podcastItemHtml += "<a href='" + podcast.url + "'><img src='img/podcasts-" + podcast.imgSlug + ".png' alt='" + podcast.title + "'></a>";
                 
-                var boxClass = (index % 2) ? "box1" : "box0";
+                var boxClass = ((index % 2)==0) ? "box0" : "box1";
                 var podcastBox = "<div class='box " + boxClass + "'>" + podcastItemHtml + "</div>";
                 $("#podcastList").append(podcastBox);
             });
+            if((podcasts.length % 2)==1)
+            {
+                $("#podcastList").append("<div class='box box1'></div>");
+            }
         });
 </script>
 <p>
-    I love listening to podcasts. Here's my heavy rotation. I love trying podcast clients. Of the handful I've used on iOS, I keep coming back to <a href="http://downcastapp.com/">Downcast</a>. There's lots to tweak, if you want to
+    I love listening to podcasts. Here's my heavy rotation. I love trying podcast clients. Of the handful I've used on iOS, I keep coming back to <a href="http://downcastapp.com/">Downcast</a>. It's tweakable.
 </p>
 <div id="podcastList"></div>
