@@ -6,7 +6,7 @@ a img {border: 0;}
 .box {width: 50%;height: 350px;}
 .box0 {float: left;}
 .box1 {float: right;}
-.comment {width:80%;height:40px;}
+.comment {width:90%;}
 </style>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
