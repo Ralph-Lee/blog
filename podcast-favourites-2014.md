@@ -1,16 +1,16 @@
   <!--{PublishedOn:"June 4 2014", Title:"Podcast Round-Up 2014", Intro:"A collection of podcasts I listen to and recommend."}-->
-    <style>
-      #podcastList {padding-top: 40px;width: 800px;}
-      h3 {padding-top: 10px;}
-      a img {border: 0;}
-      .box {width: 50%;height: 350px;}
-      .box0 {float: left;}
-      .box1 {float: right;}
-      .comment {width:80%;height:40px;}
-    </style>
+<style>
+#podcastList {padding-top: 40px;width: 800px;}
+h3 {padding-top: 10px;}
+a img {border: 0;}
+.box {width: 50%;height: 350px;}
+.box0 {float: left;}
+.box1 {float: right;}
+.comment {width:80%;height:40px;}
+</style>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
         $(function () {
             var podcasts = [
                 { imgSlug: "dotnet-rocks", comment: "Long running, well respected in the .NET dev community. 2 or 3 shows a week. Incredible. Hosts Carl Franklin and Richard Campbell.", title: ".NET Rocks", url: "http://dotnetrocks.com" },
@@ -51,7 +51,7 @@
                 $("#podcastList").append(podcastBox);
             });
         });
-    </script>
+</script>
 <p>
     I love listening to podcasts. Here's my heavy rotation. I love trying podcast clients. Of the handful I've used on iOS, I keep coming back to <a href="http://downcastapp.com/">Downcast</a>. There's lots to tweak, if you want to
 </p>
