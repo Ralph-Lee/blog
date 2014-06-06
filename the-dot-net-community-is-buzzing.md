@@ -1,4 +1,4 @@
-<!--{PublishedOn:"5/18/2014", Title:"The .NET Community Is Buzzing", Intro:"A small response to a podcaster who was very 'meh' about .NET community."}-->
+<!--{PublishedOn:"18-May-2014", Title:"The .NET Community Is Buzzing", Intro:"A small response to a podcaster who was very 'meh' about .NET community."}-->
 I was listening to a [podcast episode](http://atp.fm/episodes/65 "timestamp 117:20") this weekend where [one of the hosts](https://twitter.com/caseyliss "Who the hell is Casey?"), a .NET developer, said loosely "I don't *love* the .NET community." 
 
 I was puzzled and kind of recoiled a bit. Today is **the best time** to be a .NET dev since .NET's launch, and the community is buzzing with excitement and positivity. 
