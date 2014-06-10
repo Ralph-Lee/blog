@@ -1,7 +1,7 @@
 <!--{Title:"Tech Partisanship Is Stupid", Intro:"So you prefer iPhone over Android? Linux over OS X? Are you loud about it?", PublishedOn:"10-Jun-2014 20:30"}-->
 
 ###Tech Partisanship###
-It's time to stop with the partisanship in tech. It's a silly and fruitless activity that doesn't get us anywhere. 
+It's time to stop with the partisanship in tech. It's a silly and fruitless activity that doesn't get us anywhere. It either reinforces your beliefs, or alienates others.
 
 I've observed a few interactions with techy people (enthusiasts, developers, IT pros) recently, and over the span of years, where the discussion revolved around mobile phones, their operating systems, computer operating systems, cloud services, etc. I hear things like:
 
