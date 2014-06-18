@@ -1,4 +1,4 @@
-<!--{Title:"Upgrading to Mirth Connect 3",Intro:"How to upgrade your Mirth Connect to Version 3.",PublishedOn:""} -->
+<!--{Title:"Upgrading to Mirth Connect 3",Intro:"How to upgrade your Mirth Connect to Version 3.",PublishedOn:"18-Jun-2014 12:13"} -->
 
 I recently migrated a Mirth Connect 1.8.2 system (from 2009!) to a more recent Mirth Connect 3.0.3. You **cannot** perform a straight forward and easy system backup and restore into 3.0. Here's how to upgrade Mirth Connect to v 3.0.3.
 
