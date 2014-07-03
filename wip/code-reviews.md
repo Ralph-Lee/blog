@@ -18,14 +18,14 @@ What are we even here for? It's great that we got into the meeting room with the
 
 Beforehand, the team together should all put in the 2 things they want to get out of the code review. Jason might like reading others' code in order to learn, whereas Jenny is new to the team, and wants to see the interactions of the team. The dev lead might want to ensure things aren't off the rails (but dev lead guy, it's too late for that). 
 
-
-
-Everyone has larger shared goals - solving the business problem, security, maintainability.
-
+Compile the list of goals, collate, and sort by popularity, and discuss all the goals submitted. There aren't any wrong answers, but the most common goals should be used and agreed upon. Do it by paper, Excel, email, SurveyMonkey, whatever.
 
 
 #### Chest Thumping / Territory Marking
 
+Someone in the group shared that they were on a team where the dev lead was fairly new to the role, and was using the code review as a way to influence *my way* into the team's culture and practices. There were phrases used like "that's wrong", or "I don't think that's how we wanna do that" or "I'm using executive decision on this, it needs to be changed to something else".
+
+This is a tough one because in the case of a dev lead, the team members individually really aren't in a position to push back against this behaviour.  
 
 
 #### No Follow-up
