@@ -1,7 +1,9 @@
 <!--{Title:"",Intro:"",PublishedOn:""}-->
 
 I attended a user group recently, and a bunch of .NET developers were sharing stories about code reviews at their workplaces. The group had a few good experiences to share, but a lot of common complaints or shared negative experiences.
-I've recently read articles and watched a few videos dealing with [approaches to improve your code reviews.](#better)
+The discussion was around the large formal code reviews.
+
+Following these bad experiences are a few [approaches to improve your code reviews.](#better)
 
 #### Too Little Structure
 
@@ -14,7 +16,13 @@ An idea worth exploring: if there are many members of the team, get them engaged
 
 #### No Goals
 
-What are we even here for? It's great that we got into the meeting room with the glass table and all, but what's the end goal? Why are we here [meeting about this solution's code](http://stackoverflow.com/q/968406/23199)?
+What are we even here for? It's great that we got into the meeting room with the glass table and all, but what's the end goal? Why are we here [meeting about this solution's code](http://stackoverflow.com/q/968406/23199)?  Is it:
+
+- an initial design review? 
+- an introduction about the code/project that Bob's been working on, and is about to go into production? 
+- a defect-finding review?
+- just look at how Bob writes code as an FYI?
+- that we should all get familiar with this code so that we can support it in the future?
 
 Beforehand, the team together should all put in the 2 things they want to get out of the code review. Jason might like reading others' code in order to learn, whereas Jenny is new to the team, and wants to see the interactions of the team. The dev lead might want to ensure things aren't off the rails (but dev lead guy, it's too late for that). 
 
@@ -25,18 +33,25 @@ Compile the list of goals, collate, and sort by popularity, and discuss all the 
 
 Someone in the group shared that they were on a team where the dev lead was fairly new to the role, and was using the code review as a way to influence *my way* into the team's culture and practices. There were phrases used like "that's wrong", or "I don't think that's how we wanna do that" or "I'm using executive decision on this, it needs to be changed to something else".
 
-This is a tough one because in the case of a dev lead, the team members individually really aren't in a position to push back against this behaviour.  
-
-
-#### No Follow-up
-
+This is a tough one because in the case of a dev lead, the team members individually really aren't in a position to push back against this behaviour. The only thing they can do is collectively stand up and protest together. 
 
 
 #### Too Infrequent
 
+If a team's code reviews are rare, expectations will be out of sync, and team members will be out of practice.
+
+Poll the team: how often would you like your code reviewed, and how oftern would you like to review others? Maintain a *more regular* schedule of reading others' code and everyone will be leveling up incrementally together.
 
 
 #### One-Way Conversations
+
+One member of the group told a story about an [Expert Beginner](http://www.daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner) type who ran a "code review". The air quotes are deserved as the review turned out to be a meeting whereby the reviewer had previously reviewed the code and had come armed and prepared with a list of items to fix. The review was an hour of items that needed 'correcting', as the items had contravined the documented coding conventions (missing hungarian prefixing, namespacing, JavaScript file naming conventions, etc) and the reviewer's personal choices. The reviewer took the team on a tour of all the low points that needed fixing to come into compliance. There were no chances for discussion by the team. The team members each got bugs filed in their names to be fixed quickly thereafter.
+
+#### No Follow-up
+
+If any action items are created as a result of the code review, when will those items be expected for completion? Exactly who will be researching the benefits of `IDisposable`, and who will be presenting that at the next lunch-and-learn? It's less effective to say "we should all research the foo pattern for the future" beacuse it's not likely to happen.
+
+Give dev team members deliverables with a reasonable timeline. Follow up in the next regular code review, or in a stand-up, in a lunch session, etc.
 
 
 #### Focus On Irrelevant/Religion
