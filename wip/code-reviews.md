@@ -9,7 +9,7 @@ Following these bad experiences are a few [approaches to improve your code revie
 
 Before you enter a code review, do you have a mental picture of how the session will unfold, or a sense of the general steps you'll go through? Will you be asking and taking questions throughout the session, or will questions be saved until the end? Who's driving the keyboard and mouse? Will there be a handoff at some point? Am I expected to give criticisms as an attendee or just sit and be mildly entertained with tales of changed requirements midstream?
 
-Avoid this by setting guidelines beforehand. Suzie will:
+Avoid this by **setting guidelines** beforehand. Suzie will:
 
 - start by giving a 5 minute high level intro to the solution for anyone unaware of the app, 
 - be presenting her code for 30 minutes and allow questions. She'll answer in-line or defer to later.
