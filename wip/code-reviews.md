@@ -29,8 +29,8 @@ What are we even here for? It's great that we got into the meeting room with the
 - a defect-finding review?
 - just look at how Bob writes code as an FYI?
 - that we should all get familiar with this code so that we can support it in the future?
-
-
+- the *whole* app we're going through, or are we slicing this review into 3 sessions each covering distinct features?
+ 
 Beforehand, the team together should all put in the 2 things they want to get out of the code review. Jason might like reading others' code in order to learn, whereas Jenny is new to the team, and wants to see the interactions of the team. The dev lead might want to ensure things aren't off the rails (but dev lead guy, it's too late for that). 
 
 Compile the list of goals, collate, and sort by popularity, and discuss all the goals submitted. There aren't any wrong answers, but the most common goals should be used and agreed upon. Do it by paper, Excel, email, SurveyMonkey, whatever.
