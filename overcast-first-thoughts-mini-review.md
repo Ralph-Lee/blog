@@ -7,7 +7,7 @@ img.inUl{margin-left:20px;margin-bottom:5px;}
 </style>
 
 <img src="img/overcast/overcast-play-screen.png" class="fr" />
-[Marco Arment](https://twitter.com/marcoarment) released a podcast player iPhone app - Overcast. [Marco has had his own podcast on 5by5 (Build And Analyze)](http://5by5.tv/buildanalyze), and now shares on [Accidental Tech Podcast](http://atp.fm/), and is passionate about the podcasting industry. [Marco blogged about Overcast's release](http://www.marco.org/2014/07/16/overcast).
+[Marco Arment](https://twitter.com/marcoarment) released a podcast player [iPhone app - Overcast](https://itunes.apple.com/us/app/overcast-podcast-player/id888422857). Marco has had his own podcast on [5by5 (Build And Analyze)](http://5by5.tv/buildanalyze), and now is part of [Accidental Tech Podcast](http://atp.fm/). Clearly he's passionate about the podcasting industry. [Marco blogged about Overcast's release](http://www.marco.org/2014/07/16/overcast).
 
 I loved this app immediately. It gets so many details right. 
 
