@@ -38,7 +38,7 @@ I loved this app immediately. It gets so many details right.
 
 - the mini player is visible at the bottom ALL THE TIME. Nice.
 
-![](img/overcast/overcast-mini-player.png)
+   ![](img/overcast/overcast-mini-player.png)
 
 - instead of buttons, you can swipe from the left, and it's much quicker than the back buttons are.
 
