@@ -21,11 +21,11 @@ I loved this app immediately. It gets so many details right.
 
 - each podcast can have its own playback speed. This is available in most advanced podcast apps.
  
-- on the play screen, I accidentally [scrolled the artwork up](![](img/overcast/overcast-show-notes.png), and the notes appeared. Hooray. It wasn't immediately obvious, and I frequently use show notes.
+- on the play screen, I accidentally <a href="img/overcast/overcast-show-notes.png">scrolled the artwork up</a>, and the notes appeared. Hooray. It wasn't immediately obvious, and I frequently use show notes.
 
 - the smart speed feature appears to minimize gaps of silence. The number keeps changing even as I hear people talk. I would love to hear more about what's going on underneath.
  
-- both the [lock screen and control center](![](img/overcast/overcast-lock.png) show your configured forward and reverse skip times. This isn't default behaviour on iOS - the developer has to explicitly include this, and I've seen devs/apps screw up the lock screen displays & controls. Nice touch.
+- both the <a href="img/overcast/overcast-lock.png">lock screen and control center</a> show your configured forward and reverse skip times. This isn't default behaviour on iOS - the developer has to explicitly include this, and I've seen devs/apps screw up the lock screen displays & controls. Nice touch.
 
 - notably missing is a volume slider. I sometimes use the volume slider on Downcast, but I'm sure I'll get used to the physical buttons on the phone.
 
@@ -37,6 +37,7 @@ I loved this app immediately. It gets so many details right.
 - the main podcasts list screen has a perfect balance of album art and meta info. I prefer to see the art as my main navigational cue, and 
 
 - the mini player is visible at the bottom ALL THE TIME. Nice.
+
 ![](img/overcast/overcast-mini-player.png)
 
 - instead of buttons, you can swipe from the left, and it's much quicker than the back buttons are.
@@ -45,7 +46,7 @@ I loved this app immediately. It gets so many details right.
 
 - settings are in the right place where you need them. Allow Cellular Downloads is on the downloads page, not buried in the settings page. 
  
-- The [podcast episodes list includes *both* sort-by directions](![](img/overcast/overcast-podcast-episode-list.png)). Useful for finding as mnay older episodes as the podcast's RSS feed provides.
+- The <a href="img/overcast/overcast-podcast-episode-list.png">podcast episodes list includes *both* sort-by directions</a>. Useful for finding as many older episodes as the podcast's RSS feed provides.
  
 <div class="clr"/>
 <img src="img/overcast/overcast-discover.png" class="fr" />
