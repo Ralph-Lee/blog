@@ -4,6 +4,7 @@
 img{border:1px solid #d3d3d3; }
 div.clr{clear:both;}
 .fr{float:right;}
+img.inUl{padding:20px;}
 </style>
 
 <img src="img/overcast/overcast-play-screen.png" class="fr" />
@@ -38,7 +39,7 @@ I loved this app immediately. It gets so many details right.
 
 - the mini player is visible at the bottom ALL THE TIME. Nice.
 
-   ![](img/overcast/overcast-mini-player.png)
+<img src="img/overcast/overcast-mini-player.png" class="inUl" />
 
 - instead of buttons, you can swipe from the left, and it's much quicker than the back buttons are.
 
