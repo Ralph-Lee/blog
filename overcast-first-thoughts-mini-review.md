@@ -1,5 +1,4 @@
 <!--{Title:"Overcast First Thoughts / Mini Review",Intro:"I love podcast apps. This one hits a home run on day 1.",PublishedOn:"16-Jul-2014"}-->
-
 <style>
 img{border:1px solid #d3d3d3; }
 div.clr{clear:both;}
@@ -62,7 +61,7 @@ I loved this app immediately. It gets so many details right.
 ### Other Benefits
 
 You can manage and play your podcast playlist on the [Overcast website](https://overcast.fm/podcasts) too. Here's where the account creation is important. 
-Episodes retain their play position. O_O The level of integration and details taken care of on v1 are impressive. 
+Episodes retain their play position. The level of integration and details taken care of on v1 are impressive. 
 
 I've uninstalled Downcast already after 5 mins of using Overcast. Sorry not sorry, Downcast. It was still stuck in the iOS 6 shiny textured look and feel, and is super-cluttered.
 
