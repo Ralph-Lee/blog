@@ -4,7 +4,7 @@
 img{border:1px solid #d3d3d3; }
 div.clr{clear:both;}
 .fr{float:right;}
-img.inUl{padding:20px;}
+img.inUl{margin-left:20px;margin-bottom:5px;}
 </style>
 
 <img src="img/overcast/overcast-play-screen.png" class="fr" />
