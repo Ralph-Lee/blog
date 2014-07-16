@@ -19,11 +19,11 @@ I loved this app immediately. It gets so many details right.
 
 - an EQ display in 3 places lets you know what's playing: in the main podcast list view, in the podcast details view, and in the now-playing view. I first considered it eye candy, but realized that it was important feedback in drawing your attention to the currently playing podcast. 
 
-- each podcast can have its own playback speed. This is available in most advanced podcast apps.
+- each podcast can have its own playback speed, and I use this feature. It's available in most advanced podcast apps, and I'm happy to see it here.
  
 - on the play screen, I accidentally <a href="img/overcast/overcast-show-notes.png">scrolled the artwork up</a>, and the notes appeared. Hooray. It wasn't immediately obvious, and I frequently use show notes.
 
-- the smart speed feature appears to minimize gaps of silence. The number keeps changing even as I hear people talk. I would love to hear more about what's going on underneath.
+- the <a href="/img/overcast/smart-speed.png">smart speed feature</a> appears to minimize gaps of silence. The number keeps changing even as I hear people talk. I would love to hear more about what's going on underneath.
  
 - both the <a href="img/overcast/overcast-lock.png">lock screen and control center</a> show your configured forward and reverse skip times. This isn't default behaviour on iOS - the developer has to explicitly include this, and I've seen devs/apps screw up the lock screen displays & controls. Nice touch.
 
@@ -34,7 +34,7 @@ I loved this app immediately. It gets so many details right.
 
 ### Navigation
 
-- the main podcasts list screen has a perfect balance of album art and meta info. I prefer to see the art as my main navigational cue, and 
+- the <a href="img/overcast/front-screen.png">main podcasts list screen</a> has a perfect balance of album art and meta info. I prefer to see the art as my main navigational cue, and 
 
 - the mini player is visible at the bottom ALL THE TIME. Nice.
 
@@ -61,11 +61,11 @@ I loved this app immediately. It gets so many details right.
 ### Other Benefits
 
 You can manage and play your podcast playlist on the [Overcast website](https://overcast.fm/podcasts) too. Here's where the account creation is important. 
-Episodes retain their play position. The level of integration and details taken care of on v1 are impressive. 
+Episodes retain their play position. The level of integration and details taken care of on v1 are impressive. It's unbelievably well polished, and sets a really high bar for ease of use. All the other podcast apps look instantly dated and fugly. 
 
-I've uninstalled Downcast already after 5 mins of using Overcast. Sorry not sorry, Downcast. It was still stuck in the iOS 6 shiny textured look and feel, and is super-cluttered.
+I've uninstalled Downcast already after 5 mins of using Overcast. #SorryNotSorry, Downcast. Today your app is stuck in the iOS 6 shiny textured look and feel, and is super-cluttered.
 
-If you're already using an existing podcast app, Overcast can read OPML files from those apps. You won't have to spend 20 minutes doing the wasteful search/re-subscribing to podcast feeds in Overcast.
+If you're already using an existing podcast app, Overcast can read OPML files from those apps. You won't have to spend 20 minutes doing the wasteful search/re-subscribing to podcast feeds in Overcast. No question the best experience I've had transitioning from an old to a new podcast app.
 
 ### Background on Overcast
 
