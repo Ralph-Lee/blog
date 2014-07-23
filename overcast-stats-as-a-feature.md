@@ -1,4 +1,4 @@
-<!--{Title:"Overcast: Stats As A Feature",Intro:"Podcast stats would be neat.", PublishedOn:"23-Jul-2014 13:55"}-->
+<!--{Title:"Overcast: Stats As A Feature",Intro:"Podcast stats would be neat.", PublishedOn:"23-Jul-2014"}-->
 
 This tweet got me thinking about data and stats.
 
