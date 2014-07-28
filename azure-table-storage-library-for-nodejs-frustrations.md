@@ -1,4 +1,4 @@
-<!--{Title:"Azure Node SDK Library Table Storage Is Frustrating",PublishedOn:"27-Jul-2014",Intro:"I'm moving from blob storage to table storage and finding that the table storage APIs are just frustrata-bad."}-->
+<!--{Title:"Azure Node SDK Library Table Storage Is Frustrating",PublishedOn:"",Intro:"I'm moving from blob storage to table storage and finding that the table storage APIs are just frustrata-bad."}-->
 <style>img{border:1px solid black;}</style>
 I'm working on a small personal project, and decided on a combo of Node.js, Azure PaaS, [Azure Table Storage](http://azure.microsoft.com/en-us/documentation/articles/storage-nodejs-how-to-use-table-storage/#what-is), and [Visual Studio Online 'Monaco'](http://i.imgur.com/JRGTL5O.png) as my IDE. All these technologies fit together nicely. The Azure team has exposed a REST API, and a [Node package](https://www.npmjs.org/package/azure-storage) to make it easy to access Table Storage via APIs in Node. I love the idea of Azure providing and supporting a nearly infinitely scalable NoSQL storage layer. 
 
