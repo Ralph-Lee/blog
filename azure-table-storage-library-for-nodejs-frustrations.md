@@ -1,6 +1,6 @@
 <!--{Title:"Azure Node SDK Library Table Storage Is Frustrating",PublishedOn:"",Intro:"I'm moving from blob storage to table storage and finding that the table storage APIs are just frustrata-bad."}-->
 <style>img{border:1px solid black;}</style>
-I'm working on a small personal project, and decided on a combo of Node.js, Azure PaaS, [Azure Table Storage](http://azure.microsoft.com/en-us/documentation/articles/storage-nodejs-how-to-use-table-storage/#what-is), and [Visual Studio Online 'Monaco'](http://i.imgur.com/JRGTL5O.png) as my IDE. All these technologies fit together nicely. The Azure team has exposed a REST API, and a [Node package](https://www.npmjs.org/package/azure-storage) to make it easy to access Table Storage via APIs in Node. I love the idea of Azure providing and supporting a nearly infinitely scalable NoSQL storage layer. 
+I'm working on a small personal project, and decided on a combo of Node.js, Azure PaaS, [Azure Table Storage](http://azure.microsoft.com/en-us/documentation/articles/storage-nodejs-how-to-use-table-storage/#what-is), and [Visual Studio Online 'Monaco'](http://i.imgur.com/JRGTL5O.png) as my IDE. All these technologies fit together nicely. The Azure team has exposed a REST API, and a [Node package](https://www.npmjs.org/package/azure-storage) to make it easy to access Table Storage via APIs in Node. I love the idea of Azure providing and supporting a nearly infinitely scalable NoSQL storage layer. There's no schema enforced at the storage layer.
 
 The **Microsoft Azure Storage Client Library for Node.js** is [open source on GitHub](https://github.com/Azure/azure-storage-node), but don't confuse it with the [**older library**](https://www.npmjs.org/package/azure).
 
@@ -21,9 +21,15 @@ Here's where it starts to smell a bit.  Note the `entity` on line 4 in this imag
 
 ![the docs for insertEntity showing how you need to wrap with a call to entGen](http://i.imgur.com/7Yn1q17.png)
 
-The `insertEntity` method **requires your entity to have any properties that you wish to be saved run through an this `entityGenerator` method**. You simply specify its type, and supply the value. Seems simple.
+The `insertEntity` method **requires your entity to have any properties that you wish to be saved run through an this `entityGenerator` method**. You simply specify its type, and supply the value. Seems simple, right? Here are a few thoughts:
 
-This is poor implementation on the API for 2 reasons:
+- You must specify each property. This is a problem if you're expecting to be using a dynamically typed language, and or simply create new properties on the fly. This scheme forces you to:
+  - decide/declare the datatype of the property
+  - incur code maintenance overhead when adding/removing/renaming/retyping properties on your entities. This leads to increased complexity. 
+- The `PartitionKey` and `RowKey` are Table Storage specific properties,  
+
+
+This is poor API design/implementation with the mandatory `entityGenerator` for 2 reasons:
 
 1. This shouldn't be forced on the consuming developer. Obviously if the OData implementation requires type information, types need to be given here. However, the developer shouldn't be **forced** to provide this information. The library should simply interpret any property that is *not* run though an `entityGenerator` as a string type, and represented on the OData side as such. A non-`entGen`'d property shouldn't simply be dropped. I'd call that *dev-hostile*.
  
@@ -31,27 +37,18 @@ This is poor implementation on the API for 2 reasons:
 	- is OK with `entGen` littered throughout their code whereever they add or modify properties.
 	- will work around
 
-I'm not saying that the usage of an API should necessarily not cause you to write more code, but it should do its best to help you avoid writing unnecessary code. Layering code. Translating code. Converting code.  
+With the usage of an API, you should have a reasonable expectation to write a bit more code. However, the API should do its best to help you *avoid writing unnecessary code*: layering/translating/converting code that's there only to accommodate the API.  
 
 
 #### Working Around Bad Its Implementation
 
-The likely reason for the odd format due to Table Storage being accessible by OData. The Azure Storage team wants to be able to provide types for properties.
+OK, look, I'm reasonable. I can work around this, and I appreciate the reasons behind the API's current state with its `entityGenerator`. The likely reason for the odd format due to Table Storage being accessible by OData. The Azure Storage team wants to be able to provide types for properties.
 
+For the curious, here's [the JSON that is sent to Azure Table Storage](http://i.imgur.com/GriiDft.png) after it is `entGen`'d. It's verbose, but it doesn't impact me as the user at all. 
 
-This presents problems.
+The big picture is now that entity that is to be sent to Table Storage needs to be `entGen`'d. So in the interest of DRY, instead of going to each method all throughout my codebase where I'm creating entities (pulled from form elements, constructed from Ajax calls, etc), and littering it with `entGen.String()` all over the place, I wrote a method to translate my objects to a state suitable for Table Storeage. This method lives down in my AzureTableStorage.js where all the storage related code lives. Basically I can code my application as per normal, but anytime the object is sent to Table Storage, it goes through a cleansing function.
 
-- You must specify each property. This is a problem if you're expecting to be using a dynamically typed language, and or simply create new properties on the fly. This scheme forces you to
-  - decide/declare the datatype of the property
-  - incur code maintenance overhead when adding/removing/renaming/retyping properties on your entities. 
-- You must now use this `entityGenerator` on your entities.
-- The `PartitionKey` and `RowKey` 
-
-For the curious, here's [the JSON that is sent to Azure Table Storage](http://i.imgur.com/GriiDft.png). It's verbose, but it really doesn't impact me as the user at all. 
-
-Instead of going to each method where I'm creating entities (pulled from form elements, constructed from Ajax calls, etc), and littering it with `entGen` all over the place, I wrote a method to transfer all properties. This method lives down in my AzureTableStorage.js where all the storage related code lives. 
-
-This function basically takes any object given to it, and makes a new Azure Table specific version of it. The fucntion creates a new object, and doesn't modify the object passed to it. The new object gets the Azure-required properties `PartitionKey` and `RowKey`, and then all the properties in the object you pass in. EAch property is typed as a `String`, for simplicity's sake.
+This function basically takes *any object* given to it, and makes a new Azure Table specific version of it. The function creates a new object, and doesn't modify the object passed to it. The new object gets the Azure-required properties `PartitionKey` and `RowKey`, and then all the properties in the object you pass in. EAch property is typed as a `String`, for simplicity's sake.
 
 	function applyAzureProperties(obj) {
 	  var entGen = azure.TableUtilities.entityGenerator;
@@ -61,23 +58,25 @@ This function basically takes any object given to it, and makes a new Azure Tabl
 	  };
 	  //iterate all properties on the object, and
 	  //create on the Azure entity, with its value as String type.
-	  for (var propertyName in obj) {
-	    azureObj[propertyName] = entGen.String(obj[propertyName]);
+	  for (var propertyName in obj) {        
+	    azureObj[propertyName] = entGen.String(obj[propertyName]);        
 	  }
 	  return azureObj;
 	}
 
-**Note: this is problematic for arrays**, which the Azure Table Storage docs don't even address.
+**Note: this is problematic for arrays**, which the Azure Table Storage docs don't even address. Some discussion on this [TechNet forum thread](http://social.technet.microsoft.com/Forums/sharepoint/en-US/7d53baac-a074-4074-8fff-f47ae926ea45/storing-json-in-windows-azure-tables?forum=windowsazuredata).
 
 #### Retrieving Data
 
-The workaround does the reverse. It loops through all the properties on the Azure Table 'row' entity, and gives you back every property and value that was on the object when you'd saved it to Table Storage.you'd previously specified.
+The workaround does the reverse. It loops through all the properties on the Azure Table row entity, and gives you back every property and value that was on the object when you'd saved it to Table Storage.
 
 	function convertObjectForAzure(azureTableEntity) 
 	{
 	  var obj = {};
 	  for (var propertyName in azureTableEntity) {
-	    obj[propertyName] = azureTableEntity[propertyName]["_"];
+        if(["PartitionKey","RowKey"].indexOf(propertyName)==-1){
+	       obj[propertyName] = azureTableEntity[propertyName]["_"];
+        }
 	  }
 	  return obj;
 	}
