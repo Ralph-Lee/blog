@@ -31,18 +31,17 @@ The `insertEntity` method **requires your entity to have any properties that you
 
 This is poor API design/implementation with the mandatory `entityGenerator` for 2 reasons:
 
-1. This shouldn't be forced on the consuming developer. Obviously if the OData implementation requires type information, types need to be given here. However, the developer shouldn't be **forced** to provide this information. The library should simply interpret any property that is *not* run though an `entityGenerator` as a string type, and represented on the OData side as such. A non-`entGen`'d property shouldn't simply be dropped. I'd call that *dev-hostile*.
+1. This shouldn't be forced on the consuming developer. Obviously if the OData implementation requires type information, types need to be given here. However, the developer shouldn't be **forced** to provide this information. The library should simply interpret any property that is *not* run though an `entityGenerator` as a string type, and represented on the OData side as such. A non-`entGen`'d property shouldn't simply be dropped. I'd call that *dev-hostile* or at least *sub-optimal*.
  
 2. The resulting overhead. For a developer to use Azure Table Storage using this library, they have to take on some overhead and code around this feature. The library is attractive, for the reasons above, and it's worth keeping. The library dev has, I'm assuming, made other assumptions about the dev using this library. They think that the dev:
-	- is OK with `entGen` littered throughout their code whereever they add or modify properties.
+	- is OK with `entGen` littered throughout their code wherever they add or modify properties.
 	- will happily work around this.
 
 With the usage of an API, you should have a reasonable expectation to write a bit more code. However, the API should do its best to help you *avoid writing unnecessary code*: layering/translating/converting code that's there only to accommodate the API.  
 
-
 #### Working Around Bad Its Implementation
 
-OK, look, I'm reasonable. This is a fairly new API, and I can work around this. I appreciate the reasons behind the API's current state with its `entityGenerator`. The likely reason for the odd format due to Table Storage being accessible by OData, but I'm not 100% sure on that. Regardless, the Azure Storage team developed the API this way to be able to provide types for properties regardless of the client who's consuming, and from what language they're using. We're using the REST API, whereas there's a .NET API, and others as wel.
+OK, look, I'm reasonable. This is a fairly new API, and I can work around this. I appreciate the reasons behind the API's current state with its `entityGenerator`. The likely reason for the odd format due to Table Storage being accessible by OData, but I'm not 100% sure on that. Regardless, the Azure Storage team developed the API this way to be able to provide types for properties regardless of the client who's consuming, and from what language they're using. We're using the REST API, whereas there's a .NET API, and others as well.
 
 For the curious, here's [the JSON that is sent to Azure Table Storage](http://i.imgur.com/GriiDft.png) after it is `entGen`'d. It's verbose, but it doesn't impact me as the user at all, but it's interesting to see. 
 
