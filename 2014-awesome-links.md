@@ -44,4 +44,4 @@ These are awesome things I found during the year. Learning, watching, etc. These
 
 August
 
-- 
+- [Erik Dietrich's ChessTDD series](http://www.daedtech.com/tag/chesstdd). He screencasts the process of writing unit tests and refactoring an app.
