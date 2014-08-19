@@ -1,8 +1,10 @@
 <!--{Title:"How To Pick Your Reactions To Mildly Offensive Things In The Workplace", Intro:"I received an email at work with mildly sexist content. Reacting to it with care.", PublishedOn:"19-Aug-2014"}-->
 
-Recently I had an opportunity to choose how I reacted to something I found mildly offensive at work. An email landed in my workplace inbox with the subject ***How to pick your woman using engineering logic*.**
+Recently I had an opportunity to choose how I reacted to something I found mildly offensive at work. An email landed in my workplace inbox with the subject:
 
-This was to a group of software developers, **all whom are male**.
+ ***How to pick your woman using engineering logic*.**
+
+This email was addressed to a group of software developers, **all whom are male**.
  
 So immediately we know we're going to be talking about women. With the subject line, the premise is set that women should be 'picked', [as if waiting to be chosen](https://en.wikipedia.org/wiki/Binders_full_of_women).  The body of the email was only a link to a YouTube video that went on to [describe the hot/crazy scale](http://i.imgur.com/GcL7FpD.jpg), and the attributes of women that fall in those zones. I wouldn't go so far as to call the content [misogynistic](https://en.wikipedia.org/wiki/Misogeny), but certainly has sexist overtones and definitely puts women up to be judged on a scale with 2 metrics. I see that the video linked was labeled as comedic and tried to be funny, but I found that it failed in that. Some things just aren't funny.
 
