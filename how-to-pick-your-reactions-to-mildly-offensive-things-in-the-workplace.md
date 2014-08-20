@@ -1,4 +1,4 @@
-<!--{Title:"How To Pick Your Reactions To Mildly Offensive Things In The Workplace", Intro:"I received an email at work with mildly sexist content. Reacting to it with care.", PublishedOn:"19-Aug-2014"}-->
+<!--{Title:"How To Pick Your Reactions To Mildly Offensive Things In The Workplace", Intro:"I received an email at work with mildly sexist content. Reacting to it with care.", PublishedOn:"21-Aug-2014"}-->
 
 Recently I had an opportunity to choose how I reacted to something I found mildly offensive at work. An email landed in my workplace inbox with the subject:
 
