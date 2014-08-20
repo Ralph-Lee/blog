@@ -1,20 +1,22 @@
-<!--{Title:"How To Pick Your Reactions To Mildly Offensive Things In The Workplace", Intro:"I received an email at work with mildly sexist content. Reacting to it with care.", PublishedOn:"21-Aug-2014"}-->
+<!--{Title:"How To Pick Your Reactions To Mildly Offensive Things In A Professional Environment", Intro:"I received an email with mildly sexist content. Reacting to it with care.", PublishedOn:"21-Aug-2014"}-->
 
-*This isn't about laying blame or shaming anyone. It's about choosing your reaction.*
+<img src="http://i.imgur.com/vOYCEuw.png" style="float:right" />
+*This isn't about laying blame or shaming anyone. It's about feelings and choosing your reaction.*
 
 I've noticed a handful of sexism-in-tech stories recently:
 
 - Mar 2013 [Forking repos and dongle jokes at PyCon](http://arstechnica.com/tech-policy/2013/03/how-dongle-jokes-got-two-people-fired-and-led-to-ddos-attacks/)
 - Mar 2014 [Inside the GitHub scandal: is sexism part of the Valley's DNA?](http://www.theverge.com/2014/3/19/5526574/github-sexism-scandal-julie-ann-horvath)
+- June 2014 [Atlassian presents: Maven is my girlfriend at AtlasCamp](http://www.bkmag.com/2014/06/06/your-slide-show-is-offensive-dude-why-sexism-in-tech-needs-to-stop/) 
 - Aug 2014 [On sexual harassment in the tech industry](http://thenextweb.com/voice/2014/08/20/sexual-harrassment-tech-industry/)
 - Aug 2014 [Sexism at a hackathon - "who are the hottest girls at the hackathon?"](https://medium.com/hackers-and-hacking/a-hacking-hiatus-4844ae073d4)
+- GoDaddy. Enough said.
 
+<div style="clear:both"/>
 <img src="http://i.imgur.com/uPyswMh.png" style="float:right" />
-Another example landed in my inbox recently, and I had the opportunity to **choose how I reacted** to something I found mildly offensive at work.  
-
-This email was addressed to a group of software developers, all whom are male, in a business setting.
+Another example landed in my inbox recently, and I had the opportunity to **choose how I reacted** to something I found mildly offensive and uncomfortable in a professional setting.  
  
-So immediately I felt we're going to be **talking about women**. With the subject line, the premise is set that women should be 'picked', [as if waiting to be chosen](https://en.wikipedia.org/wiki/Binders_full_of_women).  It basically contained a [hot/crazy scale](http://i.imgur.com/GcL7FpD.jpg), and the attributes of women that fall in those zones. 
+So immediately I felt we're going to be **talking about women**... in a professional environment. With the subject line, the premise is set that women should be 'picked', [as if waiting to be chosen](https://en.wikipedia.org/wiki/Binders_full_of_women).  It basically contained a [hot/crazy scale](http://i.imgur.com/GcL7FpD.jpg), and the attributes of women that fall in those zones. 
 
 I wouldn't go so far as to call the content [misogynistic](https://en.wikipedia.org/wiki/Misogeny), but certainly has sexist overtones and definitely objectifies women to be judged on a scale with 2 metrics - hot and crazy. I see that the video linked was labeled as comedic and tried to be funny, but I found that it failed in that. Some things just aren't funny.
 
