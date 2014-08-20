@@ -42,13 +42,14 @@ Here are a few approaches that I considered:
 
 - **take it to HR** - well, that's [one option](https://en.wikipedia.org/wiki/Nuclear_option). 
 
-#### Encouraging Diversity In Tech
+
+### Encouraging Diversity In Tech
 
 It's no secret in the IT world that we're a largely male-populated industry. We should want to become more diverse in all kinds of way. We should all keep an open mind of the biases that the things we write and share with people contain. 
 
 People make mistakes, and I believe the people involved in my personal example wouldn't have sent this if there were a female team member. I hope they wouldn't, anyway.
 
-#### More Discussion On Diversity
+### More Discussion On Diversity
 
 Here's a snippet of a podcast episode with on women in tech.
 
