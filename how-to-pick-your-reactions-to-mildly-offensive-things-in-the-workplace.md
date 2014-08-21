@@ -51,8 +51,6 @@ People make mistakes, and I believe the people involved in my personal example w
 
 ### More Discussion On Diversity
 
-Here's a snippet of a podcast episode with on women in tech.
-
-<audio id="audioplayer" controls="" data-start-time="1536"><source src="http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-097.mp3#t=1536" type="audio/mpeg"></audio>
+Here's a snippet of a [podcast episode with on sexism, women in tech and geek culture](https://overcast.fm/podcasts/episode/9510342119668#t=1536).
 
 Tweet me your thoughts or opinions on this.
