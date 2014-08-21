@@ -10,7 +10,7 @@ I've noticed a handful of sexism-in-tech stories recently:
 - June 2014 [Atlassian presents: Maven is my girlfriend at AtlasCamp](http://www.bkmag.com/2014/06/06/your-slide-show-is-offensive-dude-why-sexism-in-tech-needs-to-stop/) 
 - Aug 2014 [On sexual harassment in the tech industry](http://thenextweb.com/voice/2014/08/20/sexual-harrassment-tech-industry/)
 - Aug 2014 [Sexism at a hackathon - "who are the hottest girls at the hackathon?"](https://medium.com/hackers-and-hacking/a-hacking-hiatus-4844ae073d4)
-- GoDaddy. Enough said.
+- GoDaddy. 
 
 <div style="clear:both"/>
 <img src="http://i.imgur.com/uPyswMh.png" style="float:right" />
@@ -53,8 +53,6 @@ People make mistakes, and I believe the people involved in my personal example w
 
 Here's a snippet of a podcast episode with on women in tech.
 
-<audio id="audioplayer" controls="" data-start-time="1536"  >
-<source src="http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-097.mp3#t=1536" type="audio/mpeg">
-</audio>
+<audio id="audioplayer" controls="" data-start-time="1536"><source src="http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-097.mp3#t=1536" type="audio/mpeg"></audio>
 
 Tweet me your thoughts or opinions on this.
