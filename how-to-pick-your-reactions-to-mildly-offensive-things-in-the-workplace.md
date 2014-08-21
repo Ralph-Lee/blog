@@ -5,12 +5,12 @@
 
 I've noticed a handful of sexism-in-tech stories recently:
 
-- Mar 2013 [Forking repos and dongle jokes at PyCon](http://arstechnica.com/tech-policy/2013/03/how-dongle-jokes-got-two-people-fired-and-led-to-ddos-attacks/)
-- Mar 2014 [Inside the GitHub scandal: is sexism part of the Valley's DNA?](http://www.theverge.com/2014/3/19/5526574/github-sexism-scandal-julie-ann-horvath)
-- June 2014 [Atlassian presents: Maven is my girlfriend at AtlasCamp](http://www.bkmag.com/2014/06/06/your-slide-show-is-offensive-dude-why-sexism-in-tech-needs-to-stop/) 
-- Aug 2014 [On sexual harassment in the tech industry](http://thenextweb.com/voice/2014/08/20/sexual-harrassment-tech-industry/)
-- Aug 2014 [Sexism at a hackathon - "who are the hottest girls at the hackathon?"](https://medium.com/hackers-and-hacking/a-hacking-hiatus-4844ae073d4)
-- GoDaddy. 
+- Mar 2013: [Forking repos and dongle jokes at PyCon](http://arstechnica.com/tech-policy/2013/03/how-dongle-jokes-got-two-people-fired-and-led-to-ddos-attacks/)
+- Mar 2014: [Inside the GitHub scandal: is sexism part of the Valley's DNA?](http://www.theverge.com/2014/3/19/5526574/github-sexism-scandal-julie-ann-horvath)
+- June 2014: [Atlassian presents: Maven is my girlfriend at AtlasCamp](http://www.bkmag.com/2014/06/06/your-slide-show-is-offensive-dude-why-sexism-in-tech-needs-to-stop/) 
+- Aug 2014: [On sexual harassment in the tech industry](http://thenextweb.com/voice/2014/08/20/sexual-harrassment-tech-industry/)
+- Aug 2014: [Sexism at a hackathon - "who are the hottest girls at the hackathon?"](https://medium.com/hackers-and-hacking/a-hacking-hiatus-4844ae073d4)
+- Ongoing & Forever: GoDaddy. 
 <div style="clear:both;"/>
 
 All of these items had actions and reactions, and the results mixed. Above all, they all can serve as a lesson or at least a data point on how we should treat each other. 
