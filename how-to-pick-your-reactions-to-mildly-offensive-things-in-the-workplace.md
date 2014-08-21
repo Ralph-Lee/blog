@@ -13,7 +13,8 @@ I've noticed a handful of sexism-in-tech stories recently:
 - GoDaddy. 
 
 <div style="clear:both"/>
-<img src="http://i.imgur.com/9343wqs.png" style="display: block;margin-left: auto;margin-right: auto" />
+
+<img src="http://i.imgur.com/9343wqs.png" style="float:right" />
 
 Another example landed via email recently, and I had the opportunity to **choose how I reacted** to something I found mildly offensive and uncomfortable in a professional setting.  
  
