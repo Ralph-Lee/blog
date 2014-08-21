@@ -12,8 +12,8 @@ I've noticed a handful of sexism-in-tech stories recently:
 - Aug 2014 [Sexism at a hackathon - "who are the hottest girls at the hackathon?"](https://medium.com/hackers-and-hacking/a-hacking-hiatus-4844ae073d4)
 - GoDaddy. 
 
-<div style="clear:both"/>
-
+<div style="clear:both"><p></p></div>
+<p></p>
 <img src="http://i.imgur.com/9343wqs.png" style="float:right" />
 
 Another example landed via email recently, and I had the opportunity to **choose how I reacted** to something I found mildly offensive and uncomfortable in a professional setting.  
