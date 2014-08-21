@@ -13,14 +13,15 @@ I've noticed a handful of sexism-in-tech stories recently:
 - GoDaddy. 
 
 <div style="clear:both"/>
-<img src="http://i.imgur.com/uPyswMh.png" style="float:right" />
-Another example landed in my inbox recently, and I had the opportunity to **choose how I reacted** to something I found mildly offensive and uncomfortable in a professional setting.  
+<img src="http://i.imgur.com/9343wqs.png" style="display: block;margin-left: auto;margin-right: auto" />
+
+Another example landed via email recently, and I had the opportunity to **choose how I reacted** to something I found mildly offensive and uncomfortable in a professional setting.  
  
-So immediately I felt we're going to be **talking about women**... in a professional environment. With the subject line, the premise is set that women should be 'picked', [as if waiting to be chosen](https://en.wikipedia.org/wiki/Binders_full_of_women).  It basically contained a [hot/crazy scale](http://i.imgur.com/GcL7FpD.jpg), and the attributes of women that fall in those zones. 
+Immediately I felt we're going to be **talking about women**... in a professional environment. With the subject line, the premise is set that women should be 'picked', [as if waiting to be chosen](https://en.wikipedia.org/wiki/Binders_full_of_women).  It basically contained a [hot/crazy scale](http://i.imgur.com/GcL7FpD.jpg), and the attributes of women that fall in those zones. 
 
 I wouldn't go so far as to call the content [misogynistic](https://en.wikipedia.org/wiki/Misogeny), but certainly has sexist overtones and definitely objectifies women to be judged on a scale with 2 metrics - hot and crazy. I see that the video linked was labeled as comedic and tried to be funny, but I found that it failed in that. Some things just aren't funny.
 
-My first reaction was to feel bad. I'm engaged as a viewer in something I find wrong. My second thought was that the content sends a bad message to our daughters and young women, primarily. The message is: **women fall onto a scale that men get to judge you on** and laugh about. I picked up on it as I'm in the midst of raising a daughter, and see the incredible challenges ahead: media perception, body image issues everywhere, etc.  
+My first reaction was to feel bad. I'm engaged as a viewer in something I find wrong. My second thought was that the content sends a bad message to our daughters and young women, primarily. The message is: **women fall onto a scale that men get to judge you on** and laugh about. I picked up on it as I'm in the midst of raising a daughter, and see the incredible challenges ahead: mass-media minefield, body image issues, gender pay gaps,  etc.  
 
 The secondary implication I read for males is that it's OK to continue speaking about women like this. 
 
@@ -46,8 +47,7 @@ Here are a few approaches that I considered:
 ### Encouraging Diversity In Tech
 
 It's no secret in the IT world that we're a largely male-populated industry. We should want to become more diverse in all kinds of way. We should all keep an open mind of the biases that the things we write and share with people contain. 
-
-People make mistakes, and I believe the people involved in my personal example wouldn't have sent this if there were a female team member. I hope they wouldn't, anyway.
+ 
 
 ### More Discussion On Diversity
 
