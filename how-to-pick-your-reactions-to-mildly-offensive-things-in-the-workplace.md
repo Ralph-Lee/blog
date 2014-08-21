@@ -1,4 +1,4 @@
-<!--{Title:"How To Pick Your Reaction To Offensive Things In A Professional Environment", Intro:"I received an email with mildly sexist content, and I debated how to react to it carefully.", PublishedOn:"22-Aug-2014 08:00"}-->
+<!--{Title:"How To Pick Your Reaction To Offensive Things In A Professional Environment", Intro:"I received an email with mildly sexist content, and I debated how to react to it carefully.", PublishedOn:"22-Aug-2014"}-->
 
 <img src="http://i.imgur.com/vOYCEuw.png" style="float:right" />
 *This isn't about laying blame or shaming anyone. It's about feelings and **choosing your reaction**.*
