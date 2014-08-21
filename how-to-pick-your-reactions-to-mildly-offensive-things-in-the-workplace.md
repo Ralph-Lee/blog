@@ -11,6 +11,7 @@ I've noticed a handful of sexism-in-tech stories recently:
 - Aug 2014 [On sexual harassment in the tech industry](http://thenextweb.com/voice/2014/08/20/sexual-harrassment-tech-industry/)
 - Aug 2014 [Sexism at a hackathon - "who are the hottest girls at the hackathon?"](https://medium.com/hackers-and-hacking/a-hacking-hiatus-4844ae073d4)
 - GoDaddy. 
+<div style="clear:both;"/>
 
 All of these items had actions and reactions, and the results mixed. Above all, they all can serve as a lesson or at least a data point on how we should treat each other. 
 
