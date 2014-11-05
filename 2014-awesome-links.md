@@ -42,10 +42,10 @@ These are awesome things I found during the year. Learning, watching, etc. These
 - Video: [The Talk Show Live From WWDC 2014](http://vimeo.com/101856655)
 - Overcast launches. The best podcast app for iPhone. http://overcast.fm
 
-** August **
+**August**
 
 - [Erik Dietrich's ChessTDD series](http://www.daedtech.com/tag/chesstdd). He screencasts the process of writing unit tests and refactoring an app.
 
-** Nov **
+**Nov**
 
 - Erik Dietrich's blog post [Help, My Boss Sucks!](http://www.daedtech.com/help-my-boss-sucks)
