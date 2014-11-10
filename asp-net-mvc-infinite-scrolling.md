@@ -1,4 +1,4 @@
-<!--{Title:"ASP.NET MVC Infinite Scrolling - Lazy loading data onto your MVC view.", CreatedOn:"10-Nov-2014", Description:"If you've got a large set of data that you want lazy loaded, here's one solution."}-->
+<!--{Title:"ASP.NET MVC Infinite Scrolling - Lazy loading data onto your MVC view.", CreatedOn:"09-Nov-2014", Description:"If you've got a large set of data that you want lazy loaded, here's one solution."}-->
 
 Sometimes you've got a page/view where you need to present a lot of data. I shudder when developing large pages full of data that the user won't need; it's wasteful, and lots of data creates confusion and data overload for the user.
 
@@ -22,6 +22,8 @@ I've created a NuGet package for MVC applications that will add infinite scrolli
 It created a better user experience: the user to retrieves a smaller page initially, decreases the user's clicks, and to provides quick responses when asking to see more data.
 
 [![install package mvc infinite scroll](http://i.imgur.com/Kdwax5q.jpg)](https://www.nuget.org/packages/MVC-Infinite-Scroll)
+
+    Install-Package MVC-Infinite-Scroll
 
 The package will install the necessary bits for infinite scrolling, and a full demo controller+view example. 
 
