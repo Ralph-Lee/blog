@@ -1,4 +1,4 @@
-<!--{Title:"ASP.NET MVC Infinite Scrolling - Lazy loading data onto your MVC view.", PublishedOn:"09-Nov-2014", Description:"If you've got a large set of data that you want lazy loaded, here's one solution."}-->
+<!--{Title:"ASP.NET MVC Infinite Scrolling - Lazy loading data onto your MVC view.", PublishedOn:"09-Nov-2014", Intro:"If you've got a large set of data that you want lazy loaded, here's one solution."}-->
 
 Sometimes you've got a page/view where you need to present a lot of data. I shudder when developing large pages full of data that the user won't need; it's wasteful, and lots of data creates confusion and data overload for the user.
 
