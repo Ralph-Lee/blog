@@ -19,6 +19,7 @@ These are awesome things I found during the year. Learning, watching, etc. These
 
 - [A pull request template to make code reviews easier](http://quickleft.com/blog/pull-request-templates-make-code-review-easier?utm_content=bufferc3d4b)
 - [Clear Sans](https://01.org/clear-sans) typeface
+- [CSS Diner: learning CSS selectors in a really fun way. It starts easy and gets complicated.](http://flukeout.github.io/)
 
 **April**
 - Video: [Brian Williams raps](https://www.youtube.com/watch?v=jidziKYG9jk)
