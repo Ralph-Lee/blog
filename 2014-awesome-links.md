@@ -23,6 +23,7 @@ These are awesome things I found during the year. Learning, watching, etc. These
 
 **April**
 - Video: [Brian Williams raps](https://www.youtube.com/watch?v=jidziKYG9jk)
+- Mads Kristensen's blogpost on [cache busting static file - images, CSS, JS, etc.](http://madskristensen.net/post/cache-busting-in-aspnet). His fingerprint technique is awesome. I'll use it forever more. Check out his video demo at [TechEd 2014 - Performance Optimize Your ASP.NET Web App](http://channel9.msdn.com/events/TechEd/NorthAmerica/2014/DEV-B418) for more.
 
 **May**
 
