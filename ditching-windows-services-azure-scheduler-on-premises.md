@@ -41,9 +41,8 @@ The problem is that there's no easy webby replacement for Windows Services. Ther
 2. On-premises [Azure Scheduler](http://azure.microsoft.com/en-us/documentation/services/scheduler/) that can call an HTTP endpoint on a schedule. You put your tasks in a web service that's callable via HTTP and boom, it's another web app that you can scale as much as you need.
 
 <div class="imgs">
-
-![job action](http://i.imgur.com/XY52bZJ.png)
-![schedule](http://i.imgur.com/Ig94OJ3.png)
+<img alt="job action" src="http://i.imgur.com/XY52bZJ.png"/>
+<img alt="schedule" src="http://i.imgur.com/Ig94OJ3.png"/>
 </div>
 
 <div style="clear:all;"></div><p></p>
