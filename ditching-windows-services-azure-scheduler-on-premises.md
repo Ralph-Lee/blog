@@ -31,7 +31,7 @@ The problem is that there's no easy webby replacement for Windows Services. Ther
 
 ### Ideal Replacements
 
-<img alt="schedule" src="http://i.imgur.com/Ig94OJ3.png" style="float:right;" />
+<img alt="schedule" src="http://i.imgur.com/Ig94OJ3m.png" style="float:right;" />
 
 1. WebAPI enhancements to allow service methods within to be scheduled. Imagine a way to configure or write your WebAPI methods to be called automatically themselves.
 
