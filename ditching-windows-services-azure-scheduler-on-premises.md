@@ -1,14 +1,16 @@
-<!--{Title:"Replacing Windows Services with....? Where Are Azure Web Jobs For On-Premises?",Intro:"Moving ",PublishedOn:"05-March-2015 10:56"}-->
+<!--{Title:"Replacing Windows Services with....? I Want Azure Scheduler For On-Premises.",Intro:"There isn't a clear path leading developers away from Windows Services ",PublishedOn:"06-March-2015 10:56"}-->
 
-![Windows Services](http://i.imgur.com/N7BYdJy.png)
 
-Currently I use local Windows Services to check or poll for items to process on a set schedule. Typically this includes things like:
 
-- any emails to send?
+Currently I use local Windows Services to check or poll for items to process on a set schedule. Typically this includes picking up items that are queued or in a status in some kind of a workflow like:
+
+- check for emails to send
 - give me the top *n* waiting orders to be processed
 - check for waiting emails in an email account
 - check for waiting files in a directory
 - call a web service (or any URL) to kick off some work
+
+<img alt="Windows Services" src="http://i.imgur.com/N7BYdJy.png" style="float:right;" />
 
 I've **chosen Windows Services** in the past because:
 
