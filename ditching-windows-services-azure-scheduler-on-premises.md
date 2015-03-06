@@ -1,6 +1,8 @@
 <!--{Title:"Replacing Windows Services with....? I Want Azure Scheduler For On-Premises.",Intro:"There isn't a clear path leading developers away from Windows Services ",PublishedOn:"06-March-2015 10:56"}-->
 
-
+<style type="text/css">
+  img{float:right;  display: inline-block;}      
+</style>
 
 Currently I use local Windows Services to check or poll for items to process on a set schedule. Typically this includes picking up items that are queued or in a status in some kind of a workflow like:
 
@@ -10,7 +12,7 @@ Currently I use local Windows Services to check or poll for items to process on 
 - check for waiting files in a directory
 - call a web service (or any URL) to kick off some work
 
-<img alt="Windows Services" src="http://i.imgur.com/N7BYdJy.png" style="float:right;" />
+<img alt="Windows Services" src="http://i.imgur.com/N7BYdJy.png" />
 
 I've **chosen Windows Services** in the past because:
 
@@ -29,10 +31,6 @@ I'm ready to **ditch Windows Services** because:
 
 The problem is that there's no easy webby replacement for Windows Services. There's no pit of success that .NET devs are starting to expect. Seeing the incredible pace and volume of awesomeness from .NET vNext and continuous features in Azure is starting to raise my expectations.
 
-<style type="text/css">
-  .imgs{float:left;  display: inline-block;}
-  .imgs img {vertical-align: top}    
-</style>
 
 **Ideal Replacements**
 
@@ -40,10 +38,10 @@ The problem is that there's no easy webby replacement for Windows Services. Ther
 
 2. On-premises [Azure Scheduler](http://azure.microsoft.com/en-us/documentation/services/scheduler/) that can call an HTTP endpoint on a schedule. You put your tasks in a web service that's callable via HTTP and boom, it's another web app that you can scale as much as you need.
 
-<div class="imgs">
-<img alt="job action" src="http://i.imgur.com/XY52bZJ.png"/>
-<img alt="schedule" src="http://i.imgur.com/Ig94OJ3.png"/>
-</div>
+
+![job action](http://i.imgur.com/XY52bZJ.png)
+![schedule](http://i.imgur.com/Ig94OJ3.png)
+
 
 <div style="clear:all;"></div><p></p>
 
