@@ -9,7 +9,7 @@ Currently I use local Windows Services to check or poll for items to process on 
 - call a web service (or any URL) to kick off some work
 
 <img alt="Windows Services" src="http://i.imgur.com/N7BYdJy.png" style="float:right" />
-
+### Why Windows Services?### 
 I've **chosen Windows Services** in the past because:
 
 - they've been stable and durable for me
@@ -23,12 +23,12 @@ I'm ready to **ditch Windows Services** because:
 - initial development is more difficult than other apps
 - I've been spoiled by using Azure Scheduler.
 
-**No Obvious Replacement**
+### No Obvious Replacement ### 
 
 The problem is that there's no easy webby replacement for Windows Services. There's no pit of success that .NET devs are starting to expect. Seeing the incredible pace and volume of awesomeness from .NET vNext and continuous features in Azure is starting to raise my expectations.
 
 
-**Ideal Replacements**
+### Ideal Replacements ### 
 
 <img alt="schedule" src="http://i.imgur.com/Ig94OJ3.png" style="float:right;" />
 
@@ -40,16 +40,16 @@ The problem is that there's no easy webby replacement for Windows Services. Ther
 
 4. [**Hangfire**](http://hangfire.io/) - An "easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications. No Windows Service required". Looks easy to integrate, and comes with a dashboard.
 
-![hangfire](http://i.imgur.com/rYgNNIY.png)  
-
 5. Write your own. Why bother though? - Hangfire is already miles ahead.
 
-**Alternatives I'm Not Crazy About**
+![hangfire](http://i.imgur.com/rYgNNIY.png)
+
+###Alternatives I'm Not Crazy About### 
 
 - Windows Task Scheduler - this ties the job to a machine. Not as portable as I'd like. I like that you can set all attributes via PowerShell, but a web interface feels more natural. 
  
 - SQL Server Agent jobs - doesn't fit the bill in most scenarios, especially if you want to write complex logic, and perform tasks outside of your RDBMS. SQL Mail? - um, no.
 
-**I Dunno**
+###I Dunno### 
 
-I'm still stuck. I can't see a clear winner on how to schedule repeated calls to an on-prem web service. 
+I'm still stuck. I can't see a clear winner on how to schedule repeated calls to an on-prem web service.
