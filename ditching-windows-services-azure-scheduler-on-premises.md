@@ -29,7 +29,6 @@ I'm ready to **ditch Windows Services** because:
 
 The problem is that there's no easy webby replacement for Windows Services. There's no pit of success that .NET devs are starting to expect. Seeing the incredible pace and volume of awesomeness from .NET vNext and continuous features in Azure is starting to raise my expectations.
 
-
 ### Ideal Replacements
 
 <img alt="schedule" src="http://i.imgur.com/Ig94OJ3.png" style="float:right;" />
@@ -43,6 +42,10 @@ The problem is that there's no easy webby replacement for Windows Services. Ther
 4. [**Hangfire**](http://hangfire.io/) - An "easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications. No Windows Service required". Looks easy to integrate, and comes with a dashboard.
 
 5. Write your own. Why bother though? - Hangfire is already miles ahead.
+<div style="clear:all"/></div>
+
+### Hangfire - Scheduling and Monitoring
+Looks like a great choice. Open source, on [NuGet](https://www.nuget.org/packages/HangFire), comes with a dashboard. I'm impressed. 
 
 ![hangfire](http://i.imgur.com/rYgNNIY.png)
 
