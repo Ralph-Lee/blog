@@ -1,9 +1,5 @@
 <!--{Title:"Replacing Windows Services with....? I Want Azure Scheduler For On-Premises.",Intro:"There isn't a clear path leading developers away from Windows Services ",PublishedOn:"06-March-2015 10:56"}-->
 
-<style type="text/css">
-  img{float:right;  display: inline-block;}      
-</style>
-
 Currently I use local Windows Services to check or poll for items to process on a set schedule. Typically this includes picking up items that are queued or in a status in some kind of a workflow like:
 
 - check for emails to send
@@ -12,7 +8,7 @@ Currently I use local Windows Services to check or poll for items to process on 
 - check for waiting files in a directory
 - call a web service (or any URL) to kick off some work
 
-<img alt="Windows Services" src="http://i.imgur.com/N7BYdJy.png" />
+<img alt="Windows Services" src="http://i.imgur.com/N7BYdJy.png" style="float:right" />
 
 I've **chosen Windows Services** in the past because:
 
@@ -34,22 +30,17 @@ The problem is that there's no easy webby replacement for Windows Services. Ther
 
 **Ideal Replacements**
 
+<img alt="schedule" src="http://i.imgur.com/Ig94OJ3.png" style="float:right;" />
+
 1. WebAPI enhancements to allow service methods within to be scheduled. Imagine a way to configure or write your WebAPI methods to be called automatically themselves.
 
-2. On-premises [Azure Scheduler](http://azure.microsoft.com/en-us/documentation/services/scheduler/) that can call an HTTP endpoint on a schedule. You put your tasks in a web service that's callable via HTTP and boom, it's another web app that you can scale as much as you need.
-
-
-![job action](http://i.imgur.com/XY52bZJ.png)
-![schedule](http://i.imgur.com/Ig94OJ3.png)
-
-
-<div style="clear:all;"></div><p></p>
+2. On-premises [Azure Scheduler](http://azure.microsoft.com/en-us/documentation/services/scheduler/) that can [call an HTTP endpoint](http://i.imgur.com/XY52bZJ.png) on a [schedule of your choosing](http://i.imgur.com/Ig94OJ3.png). You put your tasks in a web service that's callable via HTTP. It's another web app that you can scale as much as you need, and the scheduled calls occurs in the Scheduler.
 
 3. On-premises [Azure Web Jobs](http://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jobs/) that can run PowerShell, JavaScript, etc.
 
 4. [**Hangfire**](http://hangfire.io/) - An "easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications. No Windows Service required". Looks easy to integrate, and comes with a dashboard.
 
-![hangfire](http://i.imgur.com/rYgNNIY.png) 
+![hangfire](http://i.imgur.com/rYgNNIY.png)  
 
 5. Write your own. Why bother though? - Hangfire is already miles ahead.
 
