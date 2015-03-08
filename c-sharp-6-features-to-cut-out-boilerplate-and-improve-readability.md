@@ -1,4 +1,4 @@
-<!--{Title:"Using C# 6 nameof Makes Config Properties Easier to Read",Intro:"Combining 3 new features of C# 6 to makes a configuration class easier to read and maintain.",PublishedOn:"07-Mar-2015 16:42"}-->
+<!--{Title:"Using C# 6 Features To Cut Out Boilerplate And Improve Readability",Intro:"Combining 3 new features of C# 6 to makes a configuration class easier to read and maintain.",PublishedOn:"07-Mar-2015 16:42"}-->
 
 <!--<img style="float:right;" src="http://i.imgur.com/yn5wrZD.png" /><div style="clear:both;"></div>-->
 
@@ -6,7 +6,7 @@ If you have a class in your .NET application that reads configuration values fro
 
 - the `nameof` expression - this produces a string literal of the name of a property or parameter.
 - `using static` clause - this helps us be more DRY and not have to repeat `ConfigurationManager` each time we call out to the config file.
-- Expression bodied properties - saving the boiler place of the [full syntax ceremony](http://i.imgur.com/lPWVNPm.png) of a `get` accessor and `return` statement.
+- Expression bodied properties - saving the boiler place of the [full syntax ceremony](http://i.imgur.com/lPWVNPm.png) of a `get` accessor and `return` statement. Repeat this multiple times, and it's a significant boost in readability.
 
 ### Put It Together
 
