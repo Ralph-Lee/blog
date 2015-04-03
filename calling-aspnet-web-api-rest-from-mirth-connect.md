@@ -93,18 +93,17 @@ The key here is that:
 - the JSON has keys that map exactly to the properties on `CustomerFile`. `FileName` and `FileContentsBase64`.
 - the channel variables are put within quotes. The engine will substitute their values within the quotes.
 
+<!--code-->
 
     {  
       "FileName":"${fileName}", 
       "FileContentsBase64":"${fileBase64Contents}"
     }
 
-the endpoint of your web serv
-
 **Destination Properties**
 
 - Channel Type: HTTP Sender
-- URL: `http://localhost:1982/api/documents` where documents is the name of your Web API controller
+- URL: `http://localhost:1982/api/documents` where `documents` is the class name of your Web API controller.
 - Method: `POST` - choose the right method for your scenario. I upvoted [POST vs PUT](http://stackoverflow.com/questions/630453/put-vs-post-in-rest)
 - Content Type: `application/json`
 - Content: your JSON with channel variables within (as above)
