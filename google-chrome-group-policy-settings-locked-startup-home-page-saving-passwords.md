@@ -32,7 +32,7 @@ A group policy setting can force Chrome to offer the user to save the credential
 
 ![](http://i.imgur.com/JynVU24.jpg)
 
-Locking this setting is annoying. *I already have a (password manager)[https://www.lastpass.com]* that manages this functionality for me. For those who don't use a password manager, this is setting/suggestion is benefical. 
+Locking this setting is annoying. <em>I already have a <a href="https://www.lastpass.com">password manager</a></em> that manages this functionality for me. For those who don't use a password manager, this is setting/suggestion is benefical. 
 
 The result is a constant nag everytime you authenticate with a new site.
 
