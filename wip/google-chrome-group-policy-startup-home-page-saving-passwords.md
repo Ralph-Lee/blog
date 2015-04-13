@@ -18,6 +18,7 @@ There's a Group Policy for Chrome's:
 - *startup pages*: which URLs should load on browser startup.
 - *bookmark bar*: whether the bookmark bar can be hidden from underneath the address bar.
 - *home button*: whether the home button appears to the left of the address bar.
+
 <!-- break -->
 ![](http://i.imgur.com/U2ngOt5.png)
 
