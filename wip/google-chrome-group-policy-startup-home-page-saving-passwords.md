@@ -9,28 +9,32 @@ The issue is that the geniuses in IT think they know the best settings for every
 
 ### That's Our Policy 
 
+I am not complaining here about group policy settings themselves. The issues is that those settings are chosen without consideration to users, and locked without override by the user.
+
 #### Pages
 
 There's a Group Policy for Chrome's:
 
-- startup pages
-- bookmark bar
-- home button 
-
+- *startup pages*: which URLs should load on browser startup.
+- *bookmark bar*: whether the bookmark bar can be hidden from underneath the address bar.
+- *home button*: whether the home button appears to the left of the address bar.
+<!-- break -->
 ![](http://i.imgur.com/U2ngOt5.png)
 
-Additionally, the group policy setting can set and lock the Home button's location.
+Additionally, the group policy setting can set and lock the URL that the Home button will load.
 
 ![](http://i.imgur.com/7a6d8ny.png)
 
 #### Passwords
 
+A group policy setting can force Chrome to offer the user to save the credentials in Chrome's credential store.
+
 ![](http://i.imgur.com/JynVU24.jpg)
 
-Locking this setting is annoying. I already have a password manager that manages this functionality for me. For those who don't use a password manager, this is fine. 
+Locking this setting is annoying. *I already have a (password manager)[https://www.lastpass.com]* that manages this functionality for me. For those who don't use a password manager, this is setting/suggestion is benefical. 
 
 The result is a constant nag everytime you authenticate with a new site.
 
-I cannot find a reason that an IT admin would choose to *lock* this functionality to save. It seems to be a reasonable suggestion as a default setting. The locking users into nag screens is the problem.
-
 ![](http://i.imgur.com/8mi9A7H.png)
+
+I cannot find a reason that an IT admin would choose to *lock* this functionality to save. It seems to be a reasonable suggestion as a default setting. The locking users into nag screens is the problem.
