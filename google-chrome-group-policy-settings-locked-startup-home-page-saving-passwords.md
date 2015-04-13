@@ -1,4 +1,4 @@
-<!--{Title:"A Group Policy Locks Startup Home Pages and Password Saving in Google Chrome",Intro:"You might find your Windows machine's Chrome settings set and locked by Windows Group Policy.",PublishedOn:"13-Apr-2015", Tags:["google-chrome","group-policy","registry","windows"]} -->
+<!--{Title:"Windows Group Policy Annoyances: Locking Google Chrome Startup Pages and Password Saving",Intro:"You might find your Windows machine's Chrome settings set and locked by Windows Group Policy.",PublishedOn:"13-Apr-2015", Tags:["google-chrome","group-policy","registry","windows"]} -->
 
 ![](http://i.imgur.com/oUSrnwC.png)
 
@@ -13,7 +13,7 @@ I am not complaining here about group policy settings themselves. The issues is 
 
 #### Pages
 
-There's a Group Policy for Chrome's:
+There's a handul of  Group Policies for Chrome settings:
 
 - *startup pages*: which URLs should load on browser startup.
 - *home button*: whether the home button appears to the left of the address bar.
