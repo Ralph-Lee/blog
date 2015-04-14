@@ -1,4 +1,4 @@
-<!--{Title:"Working Around Group Policy Settings For Chrome Passwords and Start Pages",Intro:"Use these work-arounds to fix/override Chrome locked settings.",PublishedOn:"2015-Apr-15",Tags:["chrome","google-chrome","group-policy"]}-->
+<!--{Title:"Working Around Group Policy Settings For Chrome Passwords and Start Pages",Intro:"Use these work-arounds to fix/override Chrome locked settings.",PublishedOn:"2015-Apr-15",Tags:["google-chrome","group-policy","powershell","registry","windows"]}-->
 
 Previously I wrote about how [Windows Group Policies related to Google Chrome](http://www.devtxt.com/blog/google-chrome-group-policy-settings-locked-startup-home-page-saving-passwords) that can set and lock down settings that you might want to change: password saving in Chrome, home button URL, and start-up URLs.
 
