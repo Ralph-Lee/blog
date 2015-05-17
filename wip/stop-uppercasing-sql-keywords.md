@@ -1,8 +1,10 @@
-<!--{Title:"Stop Uppercasing your SQL keywords",Intro:"Your IDE/editor already makes it readable.",Keywords:["sql","software-development","habits"],PublishedOn:"16-May-2015"} -->
+<!--{Title:"Stop Uppercasing your SQL keywords",Intro:"Your IDE/editor already makes it readable.",Keywords:["sql","software-development","habits"],PublishedOn:"17-May-2015"} -->
 
-One day I caught myself doing what I've always done - capitalizing SQL keywords as I'm writing code: `SELECT`, `FROM`, `WHERE`, etc.
+One day I caught myself doing what I've always done - capitalizing SQL keywords as I'm writing code: `SELECT`, `FROM`, `WHERE`, `COLLATE`, `ALTER`, `INDEX`, etc. I noticed that it felt a bit awkward because I kept correcting my own typos, and acknowledged to myself that there is more friction than required - capitalizing these keywords does nothing for me at development-time, but obviously is there for the readability benefit for future devs.
 
 Why is it engrained as SQL writers that we uppercase SQL keywords in our DML and DDL statements?
+
+Neither ANSI SQL nor any modern RDBMS requires DML or DDL statements to have keywords in caps.
 
 For as long as I've been a developer, I've seen:
 
@@ -10,11 +12,13 @@ For as long as I've been a developer, I've seen:
 - [samples](https://msdn.microsoft.com/en-us/library/ms187731.aspx), [documentation](http://dev.mysql.com/doc/refman/5.6/en/delete.html), [examples](http://docs.oracle.com/cd/B10501_01/server.920/a96540/statements_103a.htm#2066379) from all the vendors using uppercase.
 - developers have followed suit. [Questions and answers online](http://stackoverflow.com/questions/292026/is-there-a-good-reason-to-use-upper-case-for-sql-keywords) largely follow this practice, in my observation.
 
-### It's Not *More* Readable
+### It's Not *More* Readable ###
 
-Having [SQL keywords](https://en.wikipedia.org/wiki/SQL#Queries) `SELEC
+Having [SQL keywords](https://en.wikipedia.org/wiki/SQL#Queries) doesn't automatically make it more readable. It's more distinguishable, but at some mental cost of being shouted at.
 
 ![](http://i.imgur.com/zTk975X.png)
+
+IMO, the colorization does far more for readability than upper case does. Your editor probably already does this for you.
 
 **SQL in a designer**
 
@@ -26,7 +30,7 @@ Atom, Notepad++, Sublime Text, Visual Studio Code, Eclipse, SQL Server Managemen
 
 If SQL DML and DDL statements are native/hardcoded/inline strings in an application language, then there are readability problems that uppercase SQL keywords can solve: layout, testing/debugging, code brittleness, separation of concerns, etc.
 
-### Why Are Samples & Documentation Capitalized Anyway?
+### Why Are Samples & Documentation Capitalized Anyway? ###
 
 It's not a coding style choice with rationale, but a technical documentation style choice.
 
