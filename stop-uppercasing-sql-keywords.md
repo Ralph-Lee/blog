@@ -38,7 +38,7 @@ Vendor *documentation* has its own style guide. Keywords are capitalized as a ru
 
 I suspect that developers see the technical documentation styles and copy+pasted (cargo-culted) those styles into their code. The practice snowballed into dev culture and has become the seemingly default coding style. 
 
-<a href="https://technet.microsoft.com/en-us/library/ms177563(v=sql.90).aspx"><img src="http://i.imgur.com/i24BuVu.png" /></a>
+<a href="https://technet.microsoft.com/en-us/library/ms177563(v=sql.90).aspx" ><img src="http://i.imgur.com/i24BuVu.png" style="border:1px solid black;" /></a>
 
 ### Intertia ###
 
