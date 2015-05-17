@@ -10,7 +10,7 @@ For as long as I've been a developer, I've seen:
 
 - my various teams' *Official Documented Recommended Best Practice Coding Standards.doc* has included a section stating thou shalt uppercase your SQL keywords because that's how it's always been done. The justification is some variation of uppercase being **easier to read**.
 - [samples](https://msdn.microsoft.com/en-us/library/ms187731.aspx), [documentation](http://dev.mysql.com/doc/refman/5.6/en/delete.html), [examples](http://docs.oracle.com/cd/B10501_01/server.920/a96540/statements_103a.htm#2066379) from all the vendors using uppercase.
-- developers have follow suit. [Questions and answers online](http://stackoverflow.com/questions/292026/is-there-a-good-reason-to-use-upper-case-for-sql-keywords) largely follow this practice, in my observation.
+- developers follow suit. [Questions and answers online](http://stackoverflow.com/questions/292026/is-there-a-good-reason-to-use-upper-case-for-sql-keywords) largely follow this practice.
 
 ### It's Not *More* Readable ###
 
