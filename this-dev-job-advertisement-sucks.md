@@ -2,7 +2,7 @@
 
 Stack Overflow does a great job of showing its users relevant jobs from its Stack Overflow Careers site. This one had the right skill/technology tags for me.
 
-This [job advertistement](http://careers.stackoverflow.com/jobs/88613/chuck-norris-developer-ayuda-media-systems) has some problems, though.
+This [job advertisement](http://careers.stackoverflow.com/jobs/88613/chuck-norris-developer-ayuda-media-systems) has some problems, though.
 
 <a href="http://careers.stackoverflow.com/jobs/88613/chuck-norris-developer-ayuda-media-systems"><img src="http://i.imgur.com/Cn0d7Jel.png"/></a>
 
@@ -20,11 +20,11 @@ To me, it shows that the employer has a sense of humour, but distracts from a le
 
 The problem is that **I don't want to be a know-it-all**. I want to continuously learn and help level up people around me. I want to be able to admit that I don't know technology xyz and for that to be OK.
 
-So did the HR dept sign off on this, or was this filed by the dev team manager? 
+So did the H.R. department sign off on this, or was this filed by the dev team manager? 
 
 **Strike 1**: the job title doesn't jibe with my values.
 
-### Dude-bro Culture Poster
+### Dude-Bro Culture Poster
 
 <a href="http://i.imgur.com/ap0JETT.png"><img src="http://i.imgur.com/ap0JETTl.png"/></a>
 
@@ -32,12 +32,12 @@ The company's poster's message conveys:
 
 - male swagger (sunglasses, half shaven, popped collar)
 - females fawn
-- don't be nerdy (ew, yuck, what a loser, right!?)
+- don't be nerdy (eww, yuck, what a loser, right!?)
 - cash money (USD too)
 
 What if I don't fit the attributes shown in the poster?
 
-I'm trying to find an excuse for this poster. It doesn't come across self-deprecating or in jest. It leads me to believe that *they want to hire dude-bro self-aggrandizing blowhard know-it-alls*.
+I'm trying to find an excuse for this poster. It doesn't come across self-deprecating or in jest. It leads me to believe that *they want to hire dude-bro self-aggrandizing smug know-it-alls*.
 
 **Strike 2**: diverse candidates (females, non-white dude bros) are instantly turned off. This advert has failed in recruiting diverse people with new viewpoints and experiences, and has helped in reinforcing more of the same old Caucasian male. A company should *want* more diversity. 
 
@@ -63,6 +63,7 @@ I care about:
 
 - productivity and few interruptions
 - remote working options
+- company stability
 - solid team members
 - how many steps and time it takes to deploy to production
 - how you hate waterfall as much as I do
@@ -79,6 +80,6 @@ I'm not saying the company's culture is dude-bro; only that it appears so, based
 
 ### How To Fix This Mess
 
-- publish a video of your dev team. Include short interview snippets with devs, shots of a code review, action shots of devs deploying to production, your quiet office space, your standup meetings, etc.
-- show me your company's diversity and/or why you value diversity.
-- learn what devs want. Market those things to devs in your job adverts. 
+- Publish a video of your dev team. Include short interview snippets with devs, shots of a code review, action shots of devs deploying to production, your quiet office space, your standup meetings, etc.
+- Show me your company's diversity and/or why you value diversity.
+- Learn what devs want. Market those things to devs in your job adverts. 
