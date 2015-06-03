@@ -2,11 +2,9 @@
 
 Stack Overflow does a great job of showing its users relevant jobs from its Stack Overflow Careers site. This one had the right skill/technology tags for me.
 
-<a href="http://careers.stackoverflow.com/jobs/88613/chuck-norris-developer-ayuda-media-systems">http://careers.stackoverflow.com/jobs/88613/chuck-norris-developer-ayuda-media-systems</a>
+This [job advertistement](http://careers.stackoverflow.com/jobs/88613/chuck-norris-developer-ayuda-media-systems) has some problems, though.
 
-This job advertistement has some problems, though.
-
-![](http://i.imgur.com/Cn0d7Jel.png)
+<a href="http://careers.stackoverflow.com/jobs/88613/chuck-norris-developer-ayuda-media-systems"><img src="http://i.imgur.com/Cn0d7Jel.png"/></a>
 
 ### Juvenile Blowhard Job Title
 
