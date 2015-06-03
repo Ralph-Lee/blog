@@ -28,10 +28,10 @@ So did the H.R. department sign off on this, or was this filed by the dev team m
 
 <a href="http://i.imgur.com/ap0JETT.png"><img src="http://i.imgur.com/ap0JETTl.png"/></a>
 
-The company's poster's message conveys:
+The company's poster's message conveys or reinforces some poor attributes:
 
 - male swagger (sunglasses, half shaven, popped collar)
-- females fawn
+- female fawning (giving it a slightly sexist tone)
 - don't be nerdy (eww, yuck, what a loser, right!?)
 - cash money (USD too)
 
