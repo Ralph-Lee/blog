@@ -57,7 +57,7 @@ At the top of the [company description](http://www.ayudasystems.com/Jobs):
 
 They blew it in the first 2 paragraphs. This is where the company is supposed to distill the most important information. Candidates know that you need to pay attention to the message you send out to potential employers. This employer hasn't taken the same approach here.
 
-Those *are not valuable differentiators**. For me, I don't care about free snacks, foosball, break rooms. 
+Those **are not valuable differentiators**. For me, I don't care about free snacks, foosball, break rooms. 
 
 I care about:
 
@@ -71,9 +71,11 @@ I care about:
 
 ### My Takeaway
 
-The company's hiring message is loud and obnoxious because they are desperate. Their dude-bro culture appearance limits the candidates they can attract, so they double down on that attribute of their company. The message is necessarily loud because there is little substance behind the bluster.
+I get the feeling that the company's hiring message is loud and obnoxious because they are desperate. Their dude-bro culture appearance limits the candidates they can attract, so they double down on that attribute of their company. 
 
-I'm not saying the company's culture is dude-bro; only that it appears so based on the messaging they use.
+I wonder why the message is loud and blustery. Does their job advert show that the role has *a lot*, or rather *little* career and company culture value to offer to candidates?
+
+I'm not saying the company's culture is dude-bro; only that it appears so, based on the messaging they use.
 
 ### How To Fix This Mess
 
