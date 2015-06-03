@@ -85,6 +85,4 @@ At around 15:00 he talks about different kinds of code reviews: formal (scary an
 
 <iframe src="//player.vimeo.com/video/97505680" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/97505680">Enrico Campidoglio - Why no code reviews?</a> from <a href="http://vimeo.com/ndcoslo">NDC Conferences</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-Remember again - you are not your code. You are always improving, and your code can improve too.
-
-1. [Erik Dietrich](https://twitter.com/daedtech) has a great post on code reviews- [Code Reviews Should Be about Incremental Improvement](http://www.daedtech.com/code-reviews-should-be-about-incremental-improvement). My takeaway was that you don't need to hit a home run on your code reviews. Review within your team more frequently, and you'll improve subtly in tiny steps.
+2. [Erik Dietrich](https://twitter.com/daedtech) has a great post on code reviews- [Code Reviews Should Be about Incremental Improvement](http://www.daedtech.com/code-reviews-should-be-about-incremental-improvement). My takeaway was that you don't need to hit a home run on your code reviews. Review within your team more frequently, and you'll improve subtly in tiny steps.
