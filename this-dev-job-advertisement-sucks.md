@@ -1,4 +1,4 @@
-<!-- {PublishedOn:"03 Jun 2015",Tags:["dev-culture"],Title:"This Dev Job Advertisement Sucks",Intro:"It's great though because it displays signs of poor company culture."} -->
+<!-- {PublishedOn:"03 Jun 2015",Tags:["dev-culture"],Title:"This Dev Job Advertisement Sucks",Intro:"It's great though because it immediately displays warning signs of poor company culture."} -->
 
 Stack Overflow does a great job of showing its users relevant jobs from its Stack Overflow Careers site. This one had the right skill/technology tags for me.
 
