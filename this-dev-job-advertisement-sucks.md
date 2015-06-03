@@ -6,7 +6,7 @@ Stack Overflow does a great job of showing its users relevant jobs from its Stac
 
 This job advertistement has some problems, though.
 
-![](http://i.imgur.com/Cn0d7Je.png)
+![](http://i.imgur.com/Cn0d7Jel.png)
 
 ### Juvenile Blowhard Job Title
 
