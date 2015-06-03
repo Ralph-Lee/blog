@@ -64,7 +64,7 @@ I care about:
 - productivity and few interruptions
 - remote working options
 - solid team members
-- how we deploy to production
+- how many steps and time it takes to deploy to production
 - how you hate waterfall as much as I do
 
 **Strike 3**: we don't share the same values.
