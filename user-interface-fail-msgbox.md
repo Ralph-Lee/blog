@@ -1,10 +1,10 @@
-<!--{Title:"User Interface Fail: Message Boxes With Zero Useful Information",PublishedOn:"Feb 4 2014",Intro:"Rant about message boxes and how they should at least contain good information."}-->
+<!--{Title:"User Interface Fail: Message Boxes With Zero Useful Information",PublishedOn:"Feb 4 2014",Intro:"Message box alerts are a UI fail usually containing poor info.", Tags:["ui"]}-->
 
 ###Quick Rant On Message Boxes###
 
 Message Boxes are so full of fail. Here's one from an application that thousands of people use.  
 
-![](img/user-messaging-fail.png)
+![](http://i.imgur.com/ZC6Oaxf.png)
 
 
 ####1. Using A Message Box####
@@ -52,4 +52,4 @@ I want to improve in this aspect myself, so here's my new list for creating mess
 
 ###Bonus Alert###
 
-![](img/user-messaging-fail-functional.png)
+![](http://i.imgur.com/H2A34hi.png)
