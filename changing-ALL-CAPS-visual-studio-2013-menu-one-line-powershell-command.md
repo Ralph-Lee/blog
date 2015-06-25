@@ -1,8 +1,8 @@
-<!-- {PublishedOn:"Oct 17 2013 20:45", Title:"Changing ALL CAPS Visual Studio 2013 Menu With A One Line Command", Intro:"Change the Visual Studio 2013 menu from ALL CAPS to Title Case with ONE command."}-->
+<!-- {PublishedOn:"Oct 17 2013 20:45", Title:"Changing ALL CAPS Visual Studio 2013 Menu With A One Line Command", Intro:"Change the Visual Studio 2013 menu from ALL CAPS to Title Case with ONE command.", Tags:["visual-studio"]}-->
 
 Visual Studio 2013 was released to the web today, and like its Release Candidate and VS 2012 predecessors, its menu bar is presented in ALL CAPS.
 
-![](img/vs-2013-all-caps.png)
+![](http://i.imgur.com/JNWra0B.png)
 
 The [new revamped Options dialog](http://blogs.msdn.com/b/zainnab/archive/2013/07/03/visual-studio-2013-preview-options-dialog-changes.aspx) is nice, but it does not contain an option for users to revert the menu to Title Case.
 
@@ -16,11 +16,11 @@ Don't waste time on a VS extension to fix. Just use this **one-line** command on
 
 You can't Ctrl-V unfortunately, you must right-click and select Paste.
 
-![](img/vs-2013-all-caps-cmd.png)
+![](http://i.imgur.com/6p2nJPn.png)
 
-Relaunch VS. Boom. Done.
+Relaunch Visual Studio. Boom. Done.
 
-![](img/vs-2013-title-case.png)
+![](http://i.imgur.com/Ta8FE2r.png)
 
 
 
