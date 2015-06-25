@@ -1,4 +1,4 @@
-<!--{Title:"Using System.Reflection to output your POCO object's property names + values", PublishedOn:"2009-08-09T00:29:40", Intro:"On two recent projects, I've had the need to write out the properties of multiple custom entities. T" }-->
+<!--{Title:"Using System.Reflection to output your POCO object's property names + values", PublishedOn:"2009-08-09T00:29:40", Intro:"On two recent projects, I've had the need to write out the properties of multiple custom entities.", Tags:["c#","reflection"] }-->
 
 On two recent projects, I've had the need to write out the properties of multiple custom entities. The example here will be around the venerable `Customer class. Let's pretend that a requirement would be to send an email each time a customer makes an order to a support rep in your company. Yes, we'll be logging the order to the database, but the value-add here is that the recipient of the email will receive a link to the order, plus all the details of the customer and order included in the email.
 So we need to take an object, iterate through its properties and their values, and put into a string for the body of an email. 
@@ -47,7 +47,6 @@ The `Customer` class needs its own `ToString()` method overridden. Here's the cl
     */  
 
 ###Consider###
-There are a few things to consider with this implementation:
 
 * collections aren't handled well. 
 * complex datatypes aren't either.
