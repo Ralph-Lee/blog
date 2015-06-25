@@ -1,4 +1,4 @@
-<!--{Title:"Great Stuff From 2014",PublishedOn:"20-Dec-2014 05:00",Intro:"All the great articles I found and reshared throughout 2014 that deserve another look at year's end. Developer related and some funny."}-->
+<!--{Title:"Great Stuff From 2014",PublishedOn:"20-Dec-2014 05:00",Intro:"All the great articles I found and reshared throughout 2014 that deserve another look at year's end. Developer related and some funny.", Tags:["good-stuff"] } -->
 Awesome Links 2014
 ============
 
