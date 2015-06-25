@@ -13,9 +13,3 @@
 
 A month ago, I took the [Bing 1 Month Challenge](http://devtxt.com/blog/post/Bing-Switchover-One-Month-or-More.aspx). There were a handful of times that I felt I might be able to do better in Google, and about half those times, I found what I was looking for in Google. The majority of searches though, Bing provided me with the results that I need. Basically it never left me hangin'. Who would have thought that a rebranded, remixed and Ajax'd MSN Search would have turned out so well?
 The guys on the [Herding Code Podcast](herdingcode.com) pretty much panned it a month ago on [Herding Code Episode 49](herdingcode.com/?p=186) . I am much more optimistic for Bing's future. I'll be keeping it as my default search engine.
-
-###Celebrate Good Times###
-Great job,  Bing Team! Kudos!
-
-[![](http://i.imgur.com/hB0Rppw.jpg)](http://bing.com)
-
