@@ -1,4 +1,4 @@
-<!--{Title:"Code Reviews: Pain Points And Some Solutions", Intro:"Code review more. Be nice. Level up together. Videos and more good reading.", PublishedOn:"05 Jun 2015"}-->
+<!--{Title:"Code Reviews: Pain Points And Some Solutions", Intro:"Code review more. Be nice. Level up together. Videos and more good reading.", PublishedOn:"05 Jun 2015", Tags:["code-review"]}-->
 
 I attended a user group recently, and a bunch of JavaScript and .NET developers were sharing stories about code reviews at their workplaces. The group had a few good experiences to share, but a lot of common complaints or shared negative experiences.
 The discussion was around the longer formal code reviews, and the team dynamics that are exposed or surface within the review.
