@@ -1,6 +1,4 @@
-<!--{Title:"Using C# 6 Features To Cut Out Boilerplate And Improve Readability",Intro:"Combining 3 new features of C# 6 to makes a configuration class easier to read and maintain.",PublishedOn:"07-Mar-2015 16:42"}-->
-
-<!--<img style="float:right;" src="http://i.imgur.com/yn5wrZD.png" /><div style="clear:both;"></div>-->
+<!--{Title:"Using C# 6 Features To Cut Out Boilerplate And Improve Readability",Intro:"Combining 3 new features of C# 6 to makes a configuration class easier to read and maintain.",PublishedOn:"07-Mar-2015 16:42", Tags:["C#"]}-->
 
 If you have a class in your .NET application that reads configuration values from `app.Config` or `web.Config`, you can take advantage of three new C# 6 features.
 
