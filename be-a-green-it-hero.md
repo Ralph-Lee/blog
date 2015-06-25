@@ -1,19 +1,22 @@
-<!--{Title:"Be a Green IT Hero", PublishedOn:"2009-04-27T06:33:53", Intro:"Got wind of a great idea. Some organizations are making an effort to reduce printing, print devices "} -->
+<!--{Title:"Be a Green IT Hero", PublishedOn:"2009-04-27T06:33:53", Intro:"Got wind of a great idea. Some organizations are making an effort to reduce printing, print devices.", Tags:["green"]} -->
 
 
 Got wind of a great idea. Some organizations are making an effort to reduce printing, print devices and printing costs. Please note, this isn't my original idea, and [IANAEA](http://en.wikipedia.org/wiki/IANAL) (I am not an Exchange admin). I am just being loud about it, perhaps you'll turn out to be a green hero where you work. This will work for any SMB or large organization.
+
 Some organizations work like this: someone is assigned the fax machine, and part of their job is to take care of the incoming faxes. Holy [hum-drum](http://www.thefreedictionary.com/humdrum), Batman!
+
 ###Lessen the burden on those fax-gathering-folk###
 
 * Acquire a fax machine that will transform an incoming fax to an email with an attachment (pdf, tif or whatever). Obviously the smaller filesize the better. 
 * Have that incoming fax document emailed to an account that only deals with email. 
 * Be nice though. Setup their email client with a new folder and rule so that emails from fax@mycompany.org go to only one folder. 
-* Perhaps have that account checked only X times a day to limit the interruptions to the human. 
+* Perhaps have that account checked only _n_ times a day to limit the interruptions to the human. 
 * They can then filter and send to the recipients. 
 * This is a human-powered time-consuming spam filtering mechanism as well. Just imagine all the restaurants, travel agents, and sundry fax spammers whose hopes and dreams are crushed by this system. 
 * Encourage the end-recipients not to print that fax. 
 
 ###Level Up###
+
 Now that you are saving paper, go the extra step. Save some human time. Let's assume you are using Microsoft Exchange and Outlook. Any version will work.
 
 * [Create yourself a new Public Folder](http://support.gfi.com/manuals/en/fax12/fax12manual-1-037.html) - one per fax line that you have. Do you have 'private' fax lines for the HR types, or director types? [Lock it down with Active Directory permissions](http://www.msexchange.org/tutorials/Public-Folder-Basics-Part1.html)! Simple stuff! 
