@@ -1,10 +1,10 @@
-<!-- {Title:"Checking Whether A List of Numbers Is In Sequence In C# And LINQ", Intro:"I need to determine whether a list/array of integers was sequential.", PublishedOn:"Oct 23 2013"} -->
+<!-- {Title:"Checking Whether A List of Numbers Is In Sequence In C# And LINQ", Intro:"I need to determine whether a list/array of integers was sequential.", PublishedOn:"Oct 23 2013", Tags:["C#","linq"]} -->
 
 ###Checking Whether A List of Numbers Is In Sequence Using C# and LINQ###
 
 I had a situation where I needed to detect *server-side* whether the user has input numbers that would fall into a continuous sequence, starting at 1. The grid had a textbox named `Sequence`. The user could put anything in there, and not necessarily numeric. I need to determine whether my list/array of integers was sequential.
 
-![](img/linq-enumerable-sequence-equal-gridview.png)
+![](http://i.imgur.com/aSGwpwX.png)
 
 ###LINQ to the rescue, yet again.###
 
@@ -24,7 +24,7 @@ My searches didn't find any code on StackOverflow or other explicitly fitting my
     catch(Exception){return false;}
 
 The 2nd shortcut here is the `Enumerable.Range()`. It basically produces an ordered integer array from 1 to *n* to compare against the user's input. 
-![](img/linq-enumerable-sequence-equal-enumerable-range.png)
+![](http://i.imgur.com/FGfNA1X.png)
 
 ###Readability & Maintainability####
 
