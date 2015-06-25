@@ -1,9 +1,12 @@
-<!--{Title:"Bing: One Month of Success", PublishedOn:"2009-07-10T07:42:22", Intro:"Bing, You've Done Well.   I don't have any problems with Bing. That sounds like a backhanded complim"} -->
+<!--{Title:"Bing: One Month Away From Google", PublishedOn:"2009-07-10T07:42:22", Intro:"I don't have any problems after using Bing for a month..",Tags:["bing","search"]} -->
 
-###Cool With Bing.###
+###Cool With Bing###
+
  I don't have any problems with Bing. That sounds like a backhanded compliment, but it's definitely meant as a kudo. [For Bing, Dethroning the Big G is a Gargantuan task](http://blog.searchenginewatch.com/090709-160556). 
 
-[David Pogue at the New York Times has a great video review of Bing](http://bit.ly/7Ypbk). He talks a lot about the consumer-ish features, which I didn't really pay attention to. Yes, the Ajaxy previews are a great feature. The image searches feel a lot cleaner to me as well. I don't really care for all the text cruft when looking for an image. If I want a 'big'-ish image, I'll choose the size option from the left menu. Still, it's in Bing's interest to give value to the searches that most humans are doing: travel, local and consumery type things.
+![](http://i.imgur.com/mIurCKR.png)
+
+[David Pogue at the New York Times has a great video review of Bing](http://www.nytimes.com/video/technology/personaltech/1194841436468/microsoft-bing.html). He talks a lot about the consumer-ish features, which I didn't really pay attention to. Yes, the Ajaxy previews are a great feature. The image searches feel a lot cleaner to me as well. I don't really care for all the text cruft when looking for an image. If I want a 'big'-ish image, I'll choose the size option from the left menu. Still, it's in Bing's interest to give value to the searches that most humans are doing: travel, local and consumery type things.
 
 ###As a Developer...###
 ...all I really needed to know is why I was getting ['Cannot implicitly convert type 'System.Xml.XmlDocument' to 'System.Xml.XmlNode''](http://www.bing.com/search?q=Cannot+implicitly+convert+type+%27System.Xml.XmlDocument%27+to+%27System.Xml.XmlNode) when trying to pass `XmlDocument` back and forth between web services. (hey, I didn't specify XmlNode, but that's what gets auto-generated in your web service's  Reference.cs!) Oh look, first result!
@@ -14,5 +17,5 @@ The guys on the [Herding Code Podcast](herdingcode.com) pretty much panned it a 
 ###Celebrate Good Times###
 Great job,  Bing Team! Kudos!
 
-[![bing-logo_2](img/binglogo_2.jpg)](http://bing.com)
+[![](http://i.imgur.com/hB0Rppw.jpg)](http://bing.com)
 
