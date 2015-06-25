@@ -1,6 +1,7 @@
-<!--{Title:"Code Blowout", PublishedOn:"2009-04-26T01:23:48", Intro:"Taking the advice of Scott Hanselman today. It's a code garage sale. Everything of worth (you be the"} -->
+<!--{Title:"Code Blowout", PublishedOn:"2009-04-26T01:23:48", Intro:"Taking the advice of Scott Hanselman today. It's a code garage sale.",Tags:["C#"]} -->
 
 Taking the [advice of Scott Hanselman today](http://www.hanselman.com/blog/SocialNetworkingForDevelopersConferenceTalkVideo.aspx); it's a code garage sale. Everything of worth (you be the judge!) must be opened up and freed for WAY below cost. 
+
 ###SQL Server ADO Abstractor/Wrapper###
 
 *never write a line of ADO.NET setup code again!*
