@@ -1,6 +1,6 @@
-<!--{Title:"XML Literals in VB – Real World Usefulness?", PublishedOn:"2009-11-28T20:32:11", Intro:"Just a quick recent thought. As I am watching the PDC09 videos made available free online by Microso"} -->
+<!--{Title:"XML Literals in VB – Real World Usefulness?", PublishedOn:"2009-11-28T20:32:11", Intro:"Just a quick recent thought. As I am watching the PDC09 videos made available free online by Microso", Tags:["vb","c#","xml"]} -->
 
-Just a quick recent thought. As I am watching the [PDC09 videos made available free online by Microsoft](http://microsoftpdc.com/Videos), I got me thinking more about the recent changes/improvements in VB. A new feature for VB 9 in 2008 was [XML Literals](http://msdn.microsoft.com/en-us/library/bb384629.aspx). You know, writing/pasting plain old XML into your source code.  Like this simple example:
+While watching the [PDC09 videos made available free online by Microsoft](http://microsoftpdc.com/Videos), I realized the recent changes/improvements in VB. A new feature for VB 9 in 2008 was [XML Literals](http://msdn.microsoft.com/en-us/library/bb384629.aspx). You know, writing/pasting plain old XML into your source code.  Like this simple example:
 
     dim myXML = <custs>                
                    <cust id="5" name="Oscar"></cust>
@@ -19,7 +19,7 @@ The key task that lured me in was a fairly simple demo dealing with HTML replace
 * clicking an input button 
 * replacing the innerHTML of a div 
 
-![LucianInnerHTML_3.png](img/LucianInnerHTML_3.png)
+![](http://i.imgur.com/TzKHylQ.png)
 
 The great thing I like about this that you don't necessarily have to mess around with `string.Format()` or `string.Concat()` and all those other small speedbumps. i.e.
 
@@ -34,5 +34,7 @@ Of course, in the real world, you'd probably be loading something user-specific 
 Even if it was a simple replacement of XML, with some business logic around which snippet to insert, consider if you'd had externalized those snippet into an XML resource file(s), you could refer to them easily, although not as simple as strongly typed XML literals **compiled** in a resource file. There's that balance again - ease of coding vs. maintainability in production.
  
 I always like discovering new personalities at Microsoft. I'll be RSS'ing Lucian's blog, looking forward to seeing any great content he might share. 
+
 ###Real World Production Examples? ###
+
 Do you know of any examples in the real world of VB and XML Literals in a production app? If/when I find some, I'll post a link here!
