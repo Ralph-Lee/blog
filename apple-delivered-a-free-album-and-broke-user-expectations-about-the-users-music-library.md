@@ -1,4 +1,4 @@
-<!--{Title:"Apple Delivered A Free Album And Broke User Expectations About The User's Music Library",Intro:"Apple delivered/pushed free music to 500,000 iTunes accounts. Some people reacted negatively, and it's kind of understandable.", PublishedOn:"15-Sep-2014"}-->
+<!--{Title:"Apple Delivered A Free Album And Broke User Expectations About The User's Music Library",Intro:"Apple delivered/pushed free music to 500,000 iTunes accounts. Some people reacted negatively, and it's kind of understandable.", PublishedOn:"15-Sep-2014",Tags:["apple"]}-->
 
 <style type="text/css">img {border: 1px solid black}</style>
 
