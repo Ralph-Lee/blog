@@ -1,4 +1,4 @@
-<!--{Title:"Website Mockups Done Incredibly Easy", PublishedOn:"2009-12-12T07:08:56", Intro:"Recently I found myself with the desire to start a new site. Rather than jumping into Visual Studio "} -->
+<!--{Title:"Website Mockups Done Incredibly Easy", PublishedOn:"2009-12-12T07:08:56", Intro:"A web site sketching tool", Tags:["web-design", "tools"]} -->
 
 Recently I found myself with the desire to start a new site. Rather than jumping into Visual Studio headfirst, I sat down and thought about how to start. 
 
@@ -13,7 +13,7 @@ The typical process I go through when faced with a new idea and a fresh start is
 
 I found this site recommended a few times on StackOverflow. It's almost self explanatory to how the site works.
 
-[![mockingbird mockup of youtube](img/mainscreenshot1_thumb.png)](http://devtxt.com/blog/blogimg/WebsiteMockupstheIncrediblyEasyWay_118EF/mainscreenshot1.png)
+![mockingbird mockup of youtube](http://i.imgur.com/8J7JSgn.png)
 
 **Draggy, Droppy, Stretchy, Copy**
 There's a palette on the left, and a design surface on the right. Make a page for each of the user-goals. This isn't going to be set in stone, and things will change. Arrange the page elements on the design surface as you like.
@@ -24,10 +24,10 @@ Some neat features or user experiences I noticed:
 * Configuring a Linkbar was easy. Mockingbird really nailed this element.
 * You're able to associate links with pages that you've already defined. Just drag the Page on the left onto a form element.
 * Elements are very generic – no Windows or Mac bias. It's just a rounded rectangle representing a button.
-* There are lots of great elements that trigger new ideas. Seeing the Map and the Banner ad were great. Aside - tag clouds – meh... does anyone really like and use the tag cloud in the real world? I know StackOverflow has one, but I have never used it.
+* There are lots of great elements that trigger new ideas. Seeing the Map and the Banner ad were great. Aside - tag clouds – meh... does anyone really like and use the tag cloud in the real world? I know Stack Overflow has one, but I have never used it.
 * The overall feel or experience is very much like a sketch. Positioning elements is made easier thanks to the horizontal and vertical alignment bars. Nice touch!
 
-![mockingbird thumbnail grid](img/mockingbirdthumbnailgrid.png)
+![mockingbird thumbnail grid](http://i.imgur.com/F4PmAE9.png)
 
 **Go Try It**
 Just jump into mockingbird. You don't need to [create a mockingbird account](http://gomockingbird.com/mockingbird/) to try; only to save and retrieve your designs. It's free!
