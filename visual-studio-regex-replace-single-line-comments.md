@@ -1,4 +1,4 @@
-<!--{PublishedOn:"05-Mar-2015",Title:"Removing Single Line Comments Using Visual Studio Find/Replace RegEx",Intro:"I wanted to remove the entire comment line in a handful of unit test classes."}-->
+<!--{PublishedOn:"05-Mar-2015",Title:"Removing Single Line Comments Using Visual Studio Find/Replace RegEx",Intro:"Remove the entire comment line in a handful of unit test classes.", Tags:["visual-studio","regex"]}-->
 
 **Copypasta Everywhere**
 
