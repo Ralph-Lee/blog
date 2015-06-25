@@ -1,4 +1,4 @@
-<!--{Title:"Visual Studio Through the Years on Channel 9", PublishedOn:"2009-10-14T19:37:00", Intro:"Paul Thurrott posted something that I had missed on Channel 9: A documentary on the evolution of Vis"} -->
+<!--{Title:"Visual Studio Through the Years on Channel 9", PublishedOn:"2009-10-14T19:37:00", Intro:"A Channel 9 documentary on the evolution of Visual Studio.", Tags:["video","visual-studio"]} -->
 
 [Paul Thurrott posted](http://community.winsupersite.com/blogs/paul/archive/2009/10/09/visual-studio-documentary.aspx) something that I had missed on Channel 9: A documentary on the evolution of Visual Studio. I took the time on a Sunday night to watch both parts ([Part 1](http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-One/) and [Part 2](http://channel9.msdn.com/shows/VisualStudioDocumentary/The-Visual-Studio-Documentary-Part-Two/))
 
