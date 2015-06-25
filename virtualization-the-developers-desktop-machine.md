@@ -1,4 +1,4 @@
-<!--{Title:"Virtualization – The Developer’s Desktop Machine", PublishedOn:"2009-10-26T02:24:11", Intro:"As developers, we usually have these things (file most of these under 'duh!'):            well power"} -->
+<!--{Title:"Virtualization – The Developer's Desktop Machine", PublishedOn:"2009-10-26 02:24:11", Intro:"Considering desktop VM applications", Tags:["virtualization"]} -->
 
 As developers, we usually have these things (file most of these under 'duh!'):
 
@@ -8,7 +8,7 @@ As developers, we usually have these things (file most of these under 'duh!'):
 
 In the last 4 years, I've usually run into something dev-related that I really wanted to get my hands dirty with. Yes, the [shiny-object developer syndrome](http://www.codinghorror.com/blog/archives/000916.html). The old way was to install that piece on your Dev machine. Months would go by, and you'd (theoretically) dirty up your registry, and contribute to the eventual slowdown of your Windows install. The logical solution at that point would be to format and repave your Dev machine. Looking forward, and a bit contrary to the point I was just making, I don't get the sense that Windows 7 will succumb to the bloat and eventual slowdown. That said, it doesn't invalidate the need &amp; convenience of virtualization.
 
-###Free &amp; Many Options###
+###Free Options###
 Enter the full on assault of free options for virtualizing operating environments. We really have an embarrassment of riches. Perhaps I am late to the party, but the *freeness* of the VM solutions is jolting:
 
 * [Microsoft Virtual PC](http://www.microsoft.com/windows/virtual-pc/support/virtual-pc-2007.aspx)
@@ -21,7 +21,7 @@ Enter the full on assault of free options for virtualizing operating environment
     
 
 ###My Fave Virtualization Platforms###
-Doubtless you know the benefits of running VMs. Lower TCO in terms of number of physical metal boxes, lower cost of electricity to power and cool, etc. For me, it's the ability to pop (uh, Remote Desktop) into a new machine on the 'network' and install/configure/test whatever I am working on. The ability to mount ISOs for OS and app installation is just another kick ass speed benefit. Even better are the instances where you can download a pre-configured VM. Check out [ALMWorks' turnkey Bugzilla](http://almworks.com/vbs/overview.html) and [Subversion virtual machines](http://www.bing.com/search?q=free+subversion+virtual+machine).
+Doubtless you know the benefits of running VMs. Lower TCO in terms of number of physical metal boxes, lower cost of electricity to power and cool, etc. For me, it's the ability to RDP into a new machine on the 'network' and install/configure/test whatever I am working on. The ability to mount ISOs for OS and app installation is just another kick ass speed benefit. Even better are the instances where you can download a pre-configured VM. Check out [ALMWorks' turnkey Bugzilla](http://almworks.com/vbs/overview.html) and [Subversion virtual machines](http://www.bing.com/search?q=free+subversion+virtual+machine).
 
 ####[Sun VirtualBox](http://www.virtualbox.org/)####
 
@@ -31,7 +31,7 @@ My big want out of VirtualBox is the ability to run headless. It's the one big f
 ####[VMWare Server](www.vmware.com/products/server)####
 
 [![vmware-server](img/vmwareserver_thumb.png)](http://devtxt.com/blog/blogimg/VirtualizationTheDevelopersDesktopMachin_DDA9/vmwareserver.png) I first got into VMWare Server as I was encouraged to run Windows 2003 on the job. Previously I had only used the Microsoft Virtual PC products, which were decent. The killer bit that won me over on VMWare Server was that it is HEADLESS. The machines can startup and shutdown in parallel with your host OS. Excellent feature for those who would expect those services to be up 100% of the time that your dev machine is (Dev or Test SQL Server, Active Directory services, build machine, etc). This is basically gives you the Ron Popeil method of running additional machines: set it, and forget it (curse you, 90's infomercials).
-The kicker for me today is that VMWare does NOT make Windows 7 64-bit signed drivers. Absolute killer for me during the Release Candidate of Windows 7, and still today at Win7's release. Reading the forums and related searches, it appears there were hacks for Vista 64, but the important part here is that Microsoft REQUIRES signed drivers for 64 bit systems today, starting with windows 7. *VMWare, please*! Get those signed drivers out! 
+The kicker for me today is that VMWare does NOT make Windows 7 64-bit signed drivers. Absolute killer for me during the Release Candidate of Windows 7, and still today at Win 7's release. Reading the forums and related searches, it appears there were hacks for Vista 64, but the important part here is that Microsoft REQUIRES signed drivers for 64 bit systems today, starting with windows 7. *VMWare, please*! Get those signed drivers out! 
 There's one thing about the latest releases of VMWare Server that gets me. The 1.x versions all had built in console on the host where you defined/configured/started/stopped your VMs. It was a nice presentation with console UI elements coming in an .exe. The 2.x releases have moved to a web-based console. I much preferred the 1.x presentation.
 I'm still using in on the job with Win7 32-bit, and it works well! **9/10**
 
