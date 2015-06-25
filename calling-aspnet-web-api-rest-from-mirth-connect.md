@@ -1,4 +1,4 @@
-<!--{Title:"Calling ASP.NET REST Web API From Mirth Connect",Intro:"Here's how I created a REST web service for consumption by a Mirth Connect interface. Spoiler: it's easy.",PublishedOn:"03-Apr-2015"}-->
+<!--{Title:"Calling ASP.NET REST Web API From Mirth Connect",Intro:"Here's how I created a REST web service for consumption by a Mirth Connect interface. Spoiler: it's easy.",PublishedOn:"03-Apr-2015", Tags:["Mirth", "web-services"]}-->
 
 I had a scenario given to/architected at me where a Mirth interface needed to call a .NET web service. The items to be sent were the name and contents of a file. In this case, Mirth isn't being used as it usually is (a health care HL7 integration engine), but used as a directory monitor. 
 
