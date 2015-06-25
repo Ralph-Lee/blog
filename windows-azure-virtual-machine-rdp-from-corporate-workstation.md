@@ -1,4 +1,4 @@
-<!--{PublishedOn:"Jan 2 2014",Title:"Connecting To Windows Azure Virtual Machine From Your Corporate Workstation",Intro:"Here are some tips to get you started RDPing to your new Windows Azure virtual machine. I had a few tweaks to make because I was trying to connect from from my corporate workstation."}-->
+<!--{PublishedOn:"Jan 2 2014",Title:"Connecting To Windows Azure Virtual Machine From Your Corporate Workstation",Intro:"Here are some tips to get you started RDPing to your new Windows Azure virtual machine. I had a few tweaks to make because I was trying to connect from from my corporate workstation.", Tags:["azure","remote-desktop"]}-->
 
 When you create a Windows Server virtual machine in Windows Azure, the public RDP service endpoint will be chosen at random. This recent one here is `49390`, but the provisioning service will choose one at random. 
 
