@@ -1,4 +1,4 @@
-<!--{Title:"Visualize Your Tweets In A Word Cloud",Intro:"Take a moment to see the words you've been writing.",PublishedOn:"8-Mar-2015 20:00"}-->
+<!--{Title:"Visualize Your Tweets In A Word Cloud",Intro:"Take a moment to see the words you've been writing.",PublishedOn:"8-Mar-2015 20:00", Tags:["twitter", "cool"]}-->
 
 ![alt_text](http://i.imgur.com/w2AZp7al.png) 
 
