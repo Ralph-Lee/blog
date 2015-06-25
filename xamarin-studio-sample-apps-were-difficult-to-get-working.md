@@ -1,4 +1,4 @@
-<!--{Title:"Xamarin Studio Sample Apps Have Some Problems",Intro:"I had some problems with the Xamarin sample apps in my first encounter with Xamarin Studio.",PublishedOn:"01-Jul-2014"}-->
+<!--{Title:"Xamarin Studio Sample Apps Have Some Problems",Intro:"I had some problems with the Xamarin sample apps in my first encounter with Xamarin Studio.",PublishedOn:"01-Jul-2014", Tags:["xamarin"]}-->
 <style>img{display: block;margin-left: auto;margin-right: auto}</style>
 Recently I had the desire and chance to dig into Xamarin. They're high profile in my field of view these days after [their excellent showing at Build 2014](http://channel9.msdn.com/Events/Build/2014/3-653) (ack Xamarin guys, I know I'm late to the game), and with mobile development growing so quickly, I want to get in the game. No matter what my personal choice of mobile platform, Xamarin's promise is to help you write your app for Android, iOS, and Windows Phone without having to go learn Objective-C. Swift, or Java. Write for them ALL in C#. *swoon*. 
 
@@ -49,7 +49,6 @@ I loaded the [F# Store Sample App](http://xamarin.com/f-sharp-shirt) and hit Bui
 
 ![](img/xamarin-fsharp-build-error.png) 
 
-
 > C:\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2,2): Error MSB4018: The "GenerateResourceDesigner" task failed unexpectedly.
 System.IO.FileNotFoundException: **Could not load file or assembly 'FSharp.Core, Version=4.3.0.0**, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
 File name: 'FSharp.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
@@ -68,7 +67,6 @@ I tried loading this solution in Visual Studio, but ended up in a quicksand pit 
 - multiple occurrences of removing project type GUIDs from the .csproj: 
 
 > There is a missing project subtype. Subtype: '{F278D4AB-4730-4720-B08E-FE5E31564D9E}' is unsupported by this installation.
-
 
 #### Notes / Lessons Learned
 
