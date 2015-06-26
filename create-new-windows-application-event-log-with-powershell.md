@@ -1,4 +1,4 @@
-<!--{Title:"Create A New Windows Application Event Log With PowerShell",Intro:"Stop writing to the Windows legacy Application event log. It's a nasty dumping ground.",PublishedOn:"15-Jul-2014", Tags:["windows","event-log","C#"]}-->
+<!--{Title:"Create A New Windows Application Event Log With PowerShell",Intro:"Stop writing to the Windows legacy Application event log. It's a nasty dumping ground.",PublishedOn:"15-Jul-2014", Tags:["windows","event-log","C#","powershell"]}-->
 
 ### Old Style Application Event Log
 
