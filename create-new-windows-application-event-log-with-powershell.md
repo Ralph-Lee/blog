@@ -1,22 +1,22 @@
-<!--{Title:"Create A New Windows Application Event Log With PowerShell",Intro:"Stop writing to the Windows legacy Application event log. It's a nasty dumping ground.",PublishedOn:"15-Jul-2014"}-->
+<!--{Title:"Create A New Windows Application Event Log With PowerShell",Intro:"Stop writing to the Windows legacy Application event log. It's a nasty dumping ground.",PublishedOn:"15-Jul-2014", Tags:["windows","event-log","C#"]}-->
 
 ### Old Style Application Event Log
 
 In the foggy dawn of time pre-Windows Server 2008 (OK fine, Vista), the Event Log was simpler. There were 4 logs, and it was a large scrolling list. You could filter for your source(i.e. your app), but you couldn't save that view. Your app dumped every message into the Application log along with everyone else.
 
-![](img/custom-event-log1.png)
+![](http://i.imgur.com/ANpErsN.png)
 
 
 ### Modern Windows Event Logs
 
 You *can* continue to have your application write to the Application log. When you do, though, you are in the same situation as before: a ridiculously large log that you need to hunt through. 
 
-![](img/custom-event-log2.png)
+![](http://i.imgur.com/y1lGIvt.png)
 
 
 ### Create Your Own Application Log
 
-<img src="img/custom-event-log3.png" style="float:right" />
+<img src="http://i.imgur.com/kMXe40O.png" style="float:right" />
 
 Keep your logs organized, keep them separate from everything else running on the box. Create your own event log for your application. 
 
@@ -36,7 +36,7 @@ Refresh Event Viewer. If your new log doesn't show up, then you should exit and 
 <div style="clear:both"></div>
 <script src="https://gist.github.com/philoushka/08d58dce415201ffabd1.js"></script>
 
-![](img/custom-event-log4.png)
+![](http://i.imgur.com/JNEHlIn.png)
 
 Then log away from your .NET client:
 
