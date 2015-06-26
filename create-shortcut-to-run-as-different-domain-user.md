@@ -1,4 +1,4 @@
-<!--{PublishedOn:"25 Aug 2014",Title:"Create A Windows Shortcut To Run As a Different Domain User",Intro:"I frequently need to run SSMS as a different domain user. Here's how to create a shortcut to run an application under different Active Directory credentials."}-->
+<!--{PublishedOn:"25 Aug 2014",Title:"Create A Windows Shortcut To Run As a Different Domain User",Intro:"I frequently need to run SSMS as a different domain user. Here's how to create a shortcut to run an application under different Active Directory credentials.", Tags:["powershell", "windows"]}-->
 
 <style>img{border:solid 1px black;}</style>
 
