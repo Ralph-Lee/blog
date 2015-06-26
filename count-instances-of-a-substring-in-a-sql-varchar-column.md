@@ -1,6 +1,7 @@
-<!--{Title:"Count Instances of a Substring in a SQL Varchar Column", PublishedOn:"2010-03-05T15:30:46", Intro:"The Problem  Recently I needed to count how many particular HL7 segments were in a given column. Rat"} -->
+<!--{Title:"Count Instances of a Substring in a SQL Varchar Column", PublishedOn:"2010-03-05T15:30:46", Intro:"How many particular HL7 segments were in a given column.", Tags:["sql", "sql-server"]} -->
 
 ###The Problem###
+
 Recently I needed to count how many particular HL7 segments were in a given column. Rather, I wanted to find those with 2+. I needed a solution to find how many occurrences of a substring were in a target column to be searched.
 I was about to post a question on StackOverflow on this, but found the answer myself bit a bit of help from a few SQL related questions that I found while searching ([How to count instances of a character in a SQL column](http://How-to-count-instances-of-character-in-sql-column/1860478#1860478)). Funny how SO's 'search' functionality doesn't show the questions related, but when you're composing the question's title, it does a MUCH better job. 
 
@@ -18,8 +19,7 @@ How would you write the algorithm in T-SQL for SQL 2005 and/or 2008?
 
 I would suggest that mostly you'd want to take this sort of task to a higher level language, rather than do it at the database level. Sometimes you have no choice, and a customer is asking for this kind of information in a short timeframe.
  
-### The Solution  ###
-The solution here is fairly easy. 
+### The Solution  ### 
 
 * define the substring you want to find. 
 * find the length of the original string 
@@ -48,6 +48,7 @@ It'd take a tiny bit of modification to convert the logic to perform the REPLACE
            / LEN(@mySubstring)) > 1 ;--where we want to find 2 or more occurrences
 
 ###Any better ways?###
+
 Having solved the problem in a fairly string-manipulative way, I wondered if there were any other ways to achieve this in the database layer. The other possibilities:
 
 * **Write a CLR stored procedure**. Here you could use your .NET Framework features to *easily* bust this out with a simple one-liner: `String.Split()` and `Array.Length()`. Better? Perhaps for maintainability or the abstraction of the logic. It's a bit heavy for my tastes. 
