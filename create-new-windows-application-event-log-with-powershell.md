@@ -34,6 +34,8 @@ For this script, you must **Run As Administrator**.
 
 Refresh Event Viewer. If your new log doesn't show up, then you should exit and re-open Event Viewer. 
 <div style="clear:both"></div>
+
+
 <script src="https://gist.github.com/philoushka/08d58dce415201ffabd1.js"></script>
 
 ![](http://i.imgur.com/JNEHlIn.png)
