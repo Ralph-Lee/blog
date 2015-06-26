@@ -16,9 +16,10 @@ Yes, it's a [nice story about Grace Hopper and the moth at Harvard](http://en.wi
 Of course, the term 'bug' is well engrained into our minds and language, and has even crept into the language of the non-programmer.
 
 ###Personal Software Process###
-[![](http://i.imgur.com/cY6LdcC.jpg)](http://www.amazon.ca/dp/0201548097/ref=cm_sw_r_tw_dp_2fDJvb1HE8ZKG)
 
 This reminds me of one of the textbooks at BCIT's CST program. It's the [Personal Software Process](http://en.wikipedia.org/wiki/Personal_Software_Process) by Watts S. Humphrey. Watts is incredibly focused on software quality. One distinct lesson I got from that particular course was the concept of constantly recording and measuring. Defects per 1000 lines of code (KLOC). The other theme, perhaps in the book, or with that particular instructor, was this idea of 'defects', and not 'bugs'.
+
+[![](http://i.imgur.com/cY6LdcC.jpg)](http://www.amazon.ca/dp/0201548097/ref=cm_sw_r_tw_dp_2fDJvb1HE8ZKG)
 
 ###Own Your Defects###
 
