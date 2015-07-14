@@ -20,7 +20,7 @@ All you have to do is run ONE command:
 
 1. Via [Chocolatey](https://chocolatey.org/packages?q=nartac)
 
-    choco install iiscrypto
+    `choco install iiscrypto`
     
 2. At the IIS Crypto site at [Nartac Software](https://www.nartac.com/Products/IISCrypto/Download)
 
