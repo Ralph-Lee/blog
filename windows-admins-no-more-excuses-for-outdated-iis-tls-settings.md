@@ -24,16 +24,16 @@ The tool is developed by [Nartac Software](https://www.nartac.com/Products/IISCr
 
 1. Via [Chocolatey](https://chocolatey.org/packages?q=nartac)
 
-   `choco install iiscrypto-cli`
+ `choco install iiscrypto-cli`
    
-   or
+ or
    
-   `choco install iiscrypto`
+ `choco install iiscrypto`
     
-2. At the IIS Crypto site at [Nartac Software](https://www.nartac.com/Products/IISCrypto/Download)
+2. Download it from the IIS Crypto site at [Nartac Software](https://www.nartac.com/Products/IISCrypto/Download)
 
 ###Confirm at SSL Labs
 
-Use IIS Crypto to launch an automatic diagnostic via [SSL Labs](https://www.ssllabs.com/ssltest/)
+Diagnose your server's new settings (after a machine restart) using [SSL Labs](https://www.ssllabs.com/ssltest/).
 
 <a href="https://www.ssllabs.com/ssltest/analyze.html?d=github.com&s=192.30.252.130"><img src="http://i.imgur.com/4wFzajQ.png" /></a>
