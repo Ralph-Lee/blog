@@ -14,7 +14,7 @@ The tool modifies all the necessary Registry keys to have the right values.
 
 ###Use The GUI
 
-Simply click the `Best Practices` button. The tool selects only the settings considered modern, and removes the outdated ones. Click Apply and restart the machine. 
+Simply click the <kbd>Best Practices</kbd> button. The tool selects only the settings considered modern, and removes the outdated ones. Click Apply and restart the machine. 
 
 ![](http://i.imgur.com/Gbx7wYQ.png)
 
