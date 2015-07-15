@@ -2,9 +2,9 @@
 
 ###IIS Crypto
 
-This tool removes all the hassle of modifying registry settings for TLS, its ciphers, cipher order, hashes, perfect forward secrecy, etc. 
+This tool removes all the hassle of modifying registry settings for TLS, its ciphers, cipher order, hashes, perfect forward secrecy, etc. Set all your Windows servers to use today's recommended TLS configuration. This tools works on Windows Server 2008 and newer.
 
-All you have to do is run ONE command:
+You just need to run ONE command:
 
     IISCryptoCli40 /best
 
@@ -19,6 +19,10 @@ All you have to do is run ONE command:
 ###Get It
 
 1. Via [Chocolatey](https://chocolatey.org/packages?q=nartac)
+
+    `choco install iiscrypto-cli`
+
+or
 
     `choco install iiscrypto`
     
