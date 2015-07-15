@@ -11,7 +11,8 @@ You just need to run ONE command:
 ![](http://i.imgur.com/dST3RDW.png)
 
 ###Use The GUI
-<sup>if you must</sup>
+
+Simply click the `Best Practices` button.
 
 ![](http://i.imgur.com/Gbx7wYQ.png)
 
@@ -20,11 +21,11 @@ You just need to run ONE command:
 
 1. Via [Chocolatey](https://chocolatey.org/packages?q=nartac)
 
-    `choco install iiscrypto-cli`
+    choco install iiscrypto-cli
 
 or
 
-    `choco install iiscrypto`
+    choco install iiscrypto
     
 2. At the IIS Crypto site at [Nartac Software](https://www.nartac.com/Products/IISCrypto/Download)
 
