@@ -22,9 +22,7 @@ Simply click the `Best Practices` button.
 1. Via [Chocolatey](https://chocolatey.org/packages?q=nartac)
 
    `choco install iiscrypto-cli`
-
-or
-
+   or
    `choco install iiscrypto`
     
 2. At the IIS Crypto site at [Nartac Software](https://www.nartac.com/Products/IISCrypto/Download)
