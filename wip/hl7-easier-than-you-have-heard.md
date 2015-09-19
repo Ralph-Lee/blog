@@ -15,4 +15,9 @@ HL7 v2 is mostly used today because it's legacy, and has massive inertia.
 
 #### HL7 Version 3 (v3)
 
-This is the modern format that uses XML. New integrations ought to be 
+This is the modern format that uses XML. This format was created/adopted in 2005, and v3 carries all the baggage that XML brings. Unfortunately th
+
+New integrations ought to be developed using the v3 format, but the format has problems.
+
+
+* XML is heavy, difficult to read
