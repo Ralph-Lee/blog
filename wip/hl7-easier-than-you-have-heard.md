@@ -54,14 +54,29 @@ Create a Z segment when you need to include or add data, and you cannot find a s
 
 Typically you keep the name of the segment to max length 3, so you end up with `ZIN` for an insurance Z segment, or `ZCD` to store communicable disease info.
 
+    ZIN|9043723478|Covered|20170915|7847^Vendor X^Ontario|
+
+Here's a segment containing insurance information. This example has:
+
+- `ZIN-1` some identifier
+- `ZIN-2` a status
+- `ZIN-3` a date
+- `ZIN-4` some vendor information (an id, a description/name, and a location) in components.
+
+These are all non-standard and tailor made for the specific application's needs.
 
 
 ## HL7 Version 3 (v3)
 
-This is the modern format that uses XML. This format was created/adopted in 2005, and v3 carries all the baggage that XML brings. Unfortunately the adoption by vendors has been slow.
+This is the modern format that uses XML. This format was created/adopted in 2005, and allows for fine-grain specifications.
 
 
-New integrations ought to be developed using the v3 format, but the format has problems.
+### Barriers to Adoption
+
+v3 carries all the baggage that XML brings. Unfortunately the adoption by vendors has been slow.
+
+
+New integrations ought to be developed using the v3 format when you have the choice, but the format has problems.
 
 
 - XML is heavy, and difficult to read
