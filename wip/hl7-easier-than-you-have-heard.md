@@ -24,13 +24,19 @@ HL7 v2 is mostly used today because it is legacy, and has massive inertia. Here'
 
 ###An List of Arrays
 
+An advantage of HL7 v2 is that it's readable. You can immediately grok where to find a piece of data you're looking for. Information is grouped into **segments**, and in discrete **fields**.
+
+Scan this line and see if you can pick out or guess at some information in this patient identifier segment:
+
     PID|0004721||CAMPBELL^PHIL^FOO^^^||19490228|M||B|254 MAIN ST^^ANYTOWN^NY^90210^US||216-123-4567|||M|NON|400003403|
 
 HL7 v2 is easy to understand because it lays out information in lines (segments) of plaintext. v2 uses a separator character, usually a pipe `|`, to separate fields in segments.
 
 Each segment encompasses an aspect of the message (patient information, lab order, observed result, message header). Segments are laid out in the message separated by a line break. The segment is referred to by its name. The name is the very field in the segment. The example above is a `PID` segment.
 
-Each field is separated by a pipe, and are referred to by the field's 0-based index in the segment. The example above has field `PID-1` value of `0004721`, and `PID-5` has a date value in format `yyyyMMdd`: `19490228`.
+Each field is separated by a pipe, and are referred to by the field's 0-based index in the segment. The segment name is always in the zeroth field.
+
+The example above has field `PID-1` value of `0004721`, and `PID-5` has a date value in format `yyyyMMdd`: `19490228`.
 
 Each field can have discrete values inside it; those are components. Ususally each discrete value is separated by a caret `^`. The example above has a patient name in `PID-3`. This field has 6 components: 
 
@@ -41,14 +47,16 @@ Each field can have discrete values inside it; those are components. Ususally ea
 
 v2 is easy to read and construct, and its segments are well defined. v2 has been versioned though the years, with each version improving on its predacessor. Some fields are added to segments, some renamed to clarify for intent, and some allowed to have components within. v2.3 has value `x`, and v2.3.5 allows for value `x^y`.
 
+v2 allows for fields to be defined with data types like `ST` and `NM`, for string and numeric, etc.
 
 ### Shortcomings
 
 v2 isn't so much of a standard, but a format with suggested components. This ends up meaning that you can place data in fields where the spec names it something completely different. Basically, as long as the sender and receiver agree which data should go in which specific location, you can do that. An outside observer might accept this message, without knowing of that customization, and interpret the data incorrectly.
 
+
 ### Customizations via Z Segments
 
-v2 defines a lot of segments, but allows you to add custom segments. You name these yourself, and prefix these with `Z`, and they're referred to as Z segments. 
+v2 defines a lot of segments, but allows you to add custom segments. You chose a name for these yourself, and prefix these with `Z`, and they're referred to as Z segments. 
 
 Create a Z segment when you need to include or add data, and you cannot find a suitable place in an existing component, or the vendor cannot change how it constructs the segments.
 
@@ -68,16 +76,17 @@ These are all non-standard and tailor made for the specific application's needs.
 
 ## HL7 Version 3 (v3)
 
-This is the modern format that uses XML. This format was created/adopted in 2005, and allows for fine-grain specifications.
+This is the modern format that uses XML. This format was created/adopted in 2005, and allows for fine-grain specifications. It's well-defined, and offers a fine-grained, and predicibly-structured schema.
 
+Schemas play a large role in enforcing data types, and allowing programmatic creation of messages. you can know at dev and compile time whether a value matches the expected type. you can then convert
 
-### Barriers to Adoption
+### Slow Industry Adoption
 
 v3 carries all the baggage that XML brings. Unfortunately the adoption by vendors has been slow.
 
 
-New integrations ought to be developed using the v3 format when you have the choice, but the format has problems.
+New integration apps ought to be developed using the v3 format when you have the choice, but the format has problems.
 
 
 - XML is heavy, and difficult to read
-- vendor
+- vendor 
