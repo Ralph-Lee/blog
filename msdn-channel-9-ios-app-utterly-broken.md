@@ -95,6 +95,7 @@ The textbox doesn't accept focus.
 
 Lest I look like a massive complainer, here's what I love about this app:
 
+- it plays videos
 - swipe back navigation
 - native AV player
 - share works perfectly
