@@ -1,6 +1,6 @@
 <!--{Title:"The MSDN Channel 9 iOS App is Utterly Broken",Description:"This app could be so useful, but is so badly broken.",Tags:["ios","microsoft","channel9"],PublishedOn:""}-->
 <style>
-img{margin:5px;}
+img{margin:5px;border: 1px solid black;}
 </style>
 ### A User-Hostile App
 <div style="float:right;"><img src="http://i.imgur.com/gBCnsxD.png"  /></div>
@@ -28,7 +28,9 @@ The subtle message here is:
 ### Black-Hole Blank Pages
 
 I tapped into Featured, and get a blank screen. There was no way to go back. The user must now force quit the app.
-The same blank screen + force quit scenario applies to 70% of those menu options. What an magnificent fail.
+The same blank screen + force quit scenario applies to 70% of those menu options. 
+
+What a magnificent fail.
 
 <img src="http://i.imgur.com/H2DNl5cl.jpg" />
 
@@ -54,26 +56,27 @@ _I'm pretty sure you can tell what I'm searching for here._
 
 ### Friction: Force Tap Focus in Search Box 
 
-<img src="http://i.imgur.com/y4QrIvkl.jpg" />
-
+<img src="http://i.imgur.com/m4DN0nLl.jpg" />
 
 When you tap the magnifying glass icon to search, the search box appears, but the focus/cursor isn't given to the search box.
-This forces me to tap into the box, which is friction. I *just* indicated to you that I wanted to search. You should put the focus on the textbox and get me searching as fast as possible.
 
+This forces me to tap into the box, which is friction. I *just* indicated that I wanted to search. The app should put the focus on the textbox and get me searching as fast as possible.
 
 ### Case Sensitive Search
 
-Confusing: you get no results for `Sql` or 'SQL' on a developer video site, yet lots for `sql`?
+Confusing: you get no results for `Sql` or `SQL` on a developer video site, yet lots for `sql`?
 Mobile devices typically capitalize the first letter in a textbox for your convenience. 
 Don't punish the user for this. The app forces friction on the user to get the search term correct.
 
 <div style="display:block; align:center">
 <img src="http://i.imgur.com/Wa6CLfNl.jpg" /><img src="http://i.imgur.com/J1iGDzol.jpg" />
-<img src="http://i.imgur.com/Oujqdytl.jpg" />
+<img src="http://i.imgur.com/oN9E3Hal.png" />
+
 </div>
 
-Best case: you waste the user's time in guessing how to capitalize my search token.  
-<BR>Worst case: you make the user think you have no relevant content for `SQL`.
+*Best case:* waste the user's time in guessing how to capitalize my search token.  
+<BR>
+*Worst case:* make the user think you have no relevant content for `SQL`.
 
 
 ### Search Results WTF
@@ -83,6 +86,11 @@ The search results count label isn't updated properly.
 
 <img src="http://i.imgur.com/1JnL2Ovl.jpg" />
 
+You cannot search within the Tags screen, regardless of that seemingly convenient-lloking `Search tags` textbox.
+The textbox doesn't accept focus.
+
+<img src="http://i.imgur.com/FPVpIRGl.png" />
+
 ## What The App Gets Right!
 
 Lest I look like a massive complainer, here's what I love about this app:
@@ -90,6 +98,6 @@ Lest I look like a massive complainer, here's what I love about this app:
 - swipe back navigation
 - native AV player
 - share works perfectly
-- local downloads in the quality I specify - yet useless because it black-holes you when you visit your downloads
+- local downloads in the quality I specify - yet this is useless because it black-holes you when you visit your downloads
 - video queue
 - inline show notes
