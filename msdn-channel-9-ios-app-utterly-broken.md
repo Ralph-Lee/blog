@@ -1,4 +1,4 @@
-<!--{Title:"The MSDN Channel 9 iOS App is Utterly Broken",Description:"This app could be so useful, but is so badly broken.",Tags:["ios","microsoft","channel9"],PublishedOn:""}-->
+<!--{Title:"The MSDN Channel 9 iOS App is Utterly Broken",Description:"This app could be so useful, but is so badly broken.",Tags:["ios","microsoft","channel9"],PublishedOn:"Nov 1 2015"}-->
 <style>
 img{margin:5px;border: 1px solid black;}
 </style>
