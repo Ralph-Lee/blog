@@ -1,13 +1,15 @@
-<!--{Title:"The MSDN Channel 9 iOS App is Utterly Broken",Description:"This app could be so useful, but is so badly broken.",Tags:["ios","microsoft","channel9"],PublishedOn:"Nov 1 2015"}-->
+<!--{Title:"The MSDN Channel 9 iOS App is Utterly Broken",Description:"This app could be so useful, but is so badly broken.",Tags:["ios","microsoft","channel9"],PublishedOn:"01 Nov 2015"}-->
 <style>
 img{margin:5px;border: 1px solid black;}
 </style>
 ### A User-Hostile App
+
 <div style="float:right;"><img src="http://i.imgur.com/gBCnsxD.png"  /></div>
 I used the [Channel 9 iOS app](https://itunes.apple.com/us/app/microsoft-channel-9/id994423736?mt=8) for a bit, but can't shake its poor implementation. 
 It's so badly broken.
 
 ### Enter Its Black-Hole. Press Any Menu Button
+
 It's user-hostile because 70% of its features shows you a blank/empty screen with no nav. You're black-holed and forced to quit the app. You're better off uninstalling the app and [telling the Channel 9 team](https://twitter.com/ch9) about why.
 
 ### Not Updated For iPhone 6 
@@ -45,7 +47,6 @@ Modal dialogs are for situations where the choice is/should be difficult to undo
 
 If the user taps 'add to queue', then turn the button into 'remove from queue'.
 
-
 ### No Look-ahead Keyword Search
 
 Don't make me type out my full search token. Look ahead, please.
@@ -71,7 +72,6 @@ Don't punish the user for this. The app forces friction on the user to get the s
 <div style="display:block; align:center">
 <img src="http://i.imgur.com/Wa6CLfNl.jpg" /><img src="http://i.imgur.com/J1iGDzol.jpg" />
 <img src="http://i.imgur.com/oN9E3Hal.png" />
-
 </div>
 
 *Best case:* waste the user's time in guessing how to capitalize my search token.  
