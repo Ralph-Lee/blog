@@ -93,7 +93,7 @@ You cannot search within the Tags screen, regardless of that seemingly convenien
 The textbox doesn't accept focus.
 
 <img src="http://i.imgur.com/FPVpIRGl.png" />
-
+<div style="clear:all;"></div>
 <iframe width="480" height="360" src="https://www.youtube.com/embed/I0gDTDJALv0" frameborder="0" allowfullscreen></iframe>
 
 ## What The App Gets Right!
