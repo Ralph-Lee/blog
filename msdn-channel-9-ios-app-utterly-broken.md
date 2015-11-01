@@ -16,9 +16,6 @@ You're better off uninstalling the app and [telling the Channel 9 team](https://
 
 ### Not Updated For iPhone 6 
 
-<div style="display:block; align:center">
-<img src="http://i.imgur.com/PlXtQNgl.jpg" /><img src="http://i.imgur.com/wfFJ1ocl.jpg" />
-</div>
 The app isn't complied for larger display iOS devices. This results in:
 
 - the menu bar shows 2x as it should
@@ -28,6 +25,10 @@ The subtle message here is:
 
 - we're poor stewards of our app. We haven't cared to update this app for devices circa Sep 2014.
 - hey user: your experience doesn't matter.
+
+<div style="display:block;">
+<img src="http://i.imgur.com/PlXtQNgl.jpg" /><img src="http://i.imgur.com/wfFJ1ocl.jpg" />
+</div>
 
 ### Black-Hole Blank Pages
 
@@ -49,7 +50,7 @@ Modal dialogs are for situations where the choice is/should be difficult to undo
 
 If the user taps 'add to queue', then turn the button into 'remove from queue'.
 
-### No Look-ahead Keyword Search
+### No Look-Ahead Keyword Search
 
 Don't make me type out my full search token. Look ahead, please.
 
