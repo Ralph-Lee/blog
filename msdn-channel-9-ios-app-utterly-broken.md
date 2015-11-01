@@ -1,6 +1,6 @@
 <!--{Title:"The MSDN Channel 9 iOS App is Utterly Broken",Description:"This app could be so useful, but is so badly broken.",Tags:["ios","microsoft","channel9"],PublishedOn:"01 Nov 2015"}-->
 <style>
-img{margin:5px;border: 1px solid black;}
+img{margin:5px;}
 </style>
 ### A User-Hostile App
 
@@ -10,7 +10,9 @@ It's so badly broken.
 
 ### Enter Its Black-Hole. Press Any Menu Button
 
-It's user-hostile because 70% of its features shows you a blank/empty screen with no nav. You're black-holed and forced to quit the app. You're better off uninstalling the app and [telling the Channel 9 team](https://twitter.com/ch9) about why.
+It's user-hostile because 70% of its features shows you a blank/empty screen with no nav. You're black-holed and forced to quit the app. 
+
+You're better off uninstalling the app and [telling the Channel 9 team](https://twitter.com/ch9) why.
 
 ### Not Updated For iPhone 6 
 
