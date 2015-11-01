@@ -87,12 +87,14 @@ Don't punish the user for this. The app forces friction on the user to get the s
 When you correct your search to be all lowercase, the search results are as expected.
 The search results count label isn't updated properly.
 
-<img src="http://i.imgur.com/1JnL2Ovl.jpg" />
+<img src="http://i.imgur.com/1JnL2Ovm.jpg" />
 
 You cannot search within the Tags screen, regardless of that seemingly convenient-lloking `Search tags` textbox.
 The textbox doesn't accept focus.
 
 <img src="http://i.imgur.com/FPVpIRGl.png" />
+
+<iframe width="480" height="360" src="https://www.youtube.com/embed/I0gDTDJALv0" frameborder="0" allowfullscreen></iframe>
 
 ## What The App Gets Right!
 
