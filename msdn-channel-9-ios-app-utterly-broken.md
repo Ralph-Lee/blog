@@ -10,7 +10,7 @@ img{margin:5px;
 
 ###A User-Hostile App
 
-<div style="float:right;"><img src="http://i.imgur.com/gBCnsxD.png"  /></div>
+<div style="float:right;"><img src="http://i.imgur.com/gBCnsxD.png" style="border:0;" /></div>
 I used the [Channel 9 iOS app](https://itunes.apple.com/us/app/microsoft-channel-9/id994423736?mt=8) for a bit, but can't shake its poor implementation. 
 It's so badly broken.
 
