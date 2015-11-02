@@ -1,6 +1,10 @@
 <!--{Title:"The MSDN Channel 9 iOS App is Utterly Broken",Description:"This app could be so useful, but is so badly broken.",Tags:["ios","microsoft","channel9"],PublishedOn:"01 Nov 2015"}-->
 <style>
-img{margin:5px;}
+img{margin:5px;
+   display: block;
+   height: auto;
+   max-width: 100%;
+}
 </style>
 ### A User-Hostile App
 
